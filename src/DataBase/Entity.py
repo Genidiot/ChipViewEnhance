@@ -1,11 +1,13 @@
-from Item import Item
+from src.DataBase.Item import Item
 from typing import List
 
 
 class Entity:
-    def __init__(self, entity_name, level_, id_):
+    def __init__(self, entity_name):
         self.entityName = entity_name
-        self.level = level_
-        self.id = id_
+        self.level = 0
+        self.id = 0
         self.vecItems: List[Item] = []
-        
+
+    def add_item(self, item: Item):
+        self.vecItems.append(item)
