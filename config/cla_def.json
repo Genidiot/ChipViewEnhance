@@ -1,0 +1,99 @@
+{
+    "elemType":"CLA",
+    "graphic": "POLYGON",
+    "width": 4,
+    "height": 32,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "polygonNodes": [
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 10,
+            "y": 0
+        },
+        {
+            "x": 10,
+            "y": 32
+        },
+        {
+            "x": 0,
+            "y": 32
+        }
+    ],
+    "pinLayout": {
+        "block": "pin_def.json",
+        "position":[
+            {
+                "pinName": "P",
+                "pinType":"leftPin",
+                "direction": 1,
+                "num": 4,
+                "space": 8,
+                "startPos": {
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            {
+                "pinName": "G",
+                "pinType":"leftPin",
+                "direction": 1,
+                "num": 4,
+                "space": 8,
+                "startPos": {
+                    "x": 0,
+                    "y": 6
+                }
+            },
+            {
+                "pinName": "CO",
+                "pinType":"rightPin",
+                "direction": 1,
+                "num": 4,
+                "space": 8,
+                "startPos": {
+                    "x": 10,
+                    "y": 2
+                }
+            },
+            {
+                "pinName": "SUM",
+                "pinType":"rightPin",
+                "direction": 1,
+                "num": 4,
+                "space": 8,
+                "startPos": {
+                    "x": 10,
+                    "y": 6
+                }
+            },
+            {
+                "pinName": "I[7]",
+                "pinType":"upPin",
+                "direction": 1,
+                "num": 1,
+                "space": 0,
+                "pos": {
+                    "x": 5,
+                    "y": 32
+                }
+            },
+            {
+                "pinName": "CAS_IN",
+                "pinType":"downPin",
+                "direction": 1,
+                "num": 1,
+                "space": 0,
+                "pos": {
+                    "x": 5,
+                    "y": 0
+                }
+            }
+        ]
+    }
+}

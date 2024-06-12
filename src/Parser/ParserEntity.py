@@ -1,8 +1,14 @@
 import json
-from src.DataBase.Graphic import Graphic
+from src.DataBase.PointF import PointF
+from src.DataBase.Item import PolygonItem
 from src.DataBase.Entity import Entity
+from src.DataBase.Graphic import Graphic
 
-class ConfigParser:
+from src.DataBase.EntityLib import EntityLib
+import src.DataBase.EntityLib as EntityLib_module
+
+
+class EntityParser:
     def __init__(self, filename):
         self.filename = filename
         self.graphic = Graphic()
@@ -30,7 +36,20 @@ class ConfigParser:
         elif graphic_type == "CIRCLE":
             pass
         elif graphic_type == "POLYGON":
-            entity.add_item()
+            self.item_list.append(self.create_polygon(configuration["polygonNodes"]))
+            entity.add_item(self.item_list[-1])
         else:
             pass
+
+        self.entity_list.append(entity)
+        entity_lib = EntityLib_module.entity_lib
+        entity_lib.add_entity(entity_type, entity)
+
+    def create_polygon(self, polygon_nodes):
+        polygon_item = PolygonItem()
+        for node in polygon_nodes:
+            point = PointF(node["x"], node["y"])
+            polygon_item.add_point(point)
+        return polygon_item
+
 

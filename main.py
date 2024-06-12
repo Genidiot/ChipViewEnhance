@@ -1,16 +1,18 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+from src.Parser import ParserEntity
+from src.Parser import ParserLayout
+from src.Draw import DrawChipView
 
 
-# Press the green button in the gutter to run the script.
+def create_tc():
+    config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
+    ParserEntity.EntityParser(f"./config/SWHL.json")
+    ParserEntity.EntityParser(f"./config/CLCL.json")
+    chip_view = DrawChipView.DxfChipView(config_chip_view)
+    chip_view.add_tile_refs()
+    chip_view.save_sa(f"./result_dxf/test.dxf")
+
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    create_tc()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

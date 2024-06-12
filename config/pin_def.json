@@ -1,0 +1,28 @@
+{
+    "itemType":"PIN",
+    "graphic":"line",
+    "width":0,
+    "length":1,
+    "basicPoint":{
+        "x":0,
+        "y":1
+    },
+    "connectPoint":{
+        "leftPin":{
+            "x":0,
+            "y":1
+        },
+        "rightPin":{
+            "x":2,
+            "y":1
+        },
+        "upPin":{
+            "x":1,
+            "y":2
+        },
+        "downPin":{
+            "x":1,
+            "y":0
+        }
+    }
+}

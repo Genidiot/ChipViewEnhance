@@ -1,0 +1,12 @@
+{
+    "graphic":"CIRCLE",
+    "radius":1,
+    "basicPoint":{
+        "x":0,
+        "y":0
+    },
+    "connectPoint":{
+        "x":0,
+        "y":0
+    }
+}
