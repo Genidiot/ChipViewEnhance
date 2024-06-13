@@ -1,6 +1,6 @@
  {
-    "siteType":"SLABL",
-    "graphic":"polygon",
+    "tileType":"SLABL",
+    "graphic":"POLYGON",
     "width":150,
     "height":150,
     "basicPoint":{
@@ -53,78 +53,78 @@
         ]
     },
     "insideLayout":{
-        "elemLayout":[
+        "Layout":[
             {
-                "siteBlock":"lutl_def.json",
+                "siteBlock":"LUT",
                 "direction":1,
                 "num":4,
                 "space":5,
-                "startPos":[
+                "pos":
                     {
                         "x":10,
                         "y":15
                     }
-                ]
+
             },
             {
-                "siteBlock":"lutl_def.json",
+                "siteBlock":"LUT",
                 "direction":1,
                 "num":4,
                 "space":5,
-                "startPos":[
+                "pos":
                     {
                         "x":10,
                         "y":80
                     }
-                ]
+
             },
             {
-                "siteBlock":"mux2_def.json",
+                "siteBlock":"MUX2",
                 "direction":1,
                 "num":4,
                 "space":30,
-                "startPos":[
+                "pos":
                     {
                         "x":30,
                         "y":25
                     }
-                ]
+
             },
             {
-                "siteBlock":"mux2_def.json",
+                "siteBlock":"MUX2",
                 "direction":1,
                 "num":2,
                 "space":65,
-                "startPos":[
+                "pos":
                     {
                         "x":45,
                         "y":40
                     }
-                ]
+
             },
             {
-                "siteBlock":"mux2_def.json",
+                "siteBlock":"MUX2",
                 "direction":1,
                 "num":1,
                 "space":0,
-                "startPos":[
+                "pos":
                     {
                         "x":60,
                         "y":73
                     }
-                ]
+
             },
             {
-                "siteBlock":"cla_def.json",
+                "siteBlock":"CLA",
                 "direction":1,
                 "num":2,
                 "space":40,
-                "startPos":[
+                "pos":
                     {
                         "x":80,
                         "y":25
                     }
-                ]
+
             }
 
         ]

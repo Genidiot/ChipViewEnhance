@@ -1,5 +1,5 @@
 {
-    "elemType":"MUX2",
+    "tileType":"MUX2",
     "graphic":"POLYGON",
     "height":5,
     "width":4,

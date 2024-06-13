@@ -3,6 +3,7 @@ from src.DataBase.Entity import Entity
 from ezdxf import filemanagement
 from src.DataBase.Item import Item
 from src.DataBase.Item import PolygonItem
+from src.DataBase.Item import EntityInst
 
 
 def draw_entity(dwg, entity_name):
@@ -10,14 +11,18 @@ def draw_entity(dwg, entity_name):
     entity: Entity = entity_lib.get_entity_lib().get(entity_name)
     if entity is None:
         return
+    if dwg.blocks.get(entity.entityName) is not None:
+        return
     block = dwg.blocks.new(name=entity.entityName)
     for item in entity.vecItems:
-        draw_item(block, item)
+        draw_item(dwg, block, item)
 
 
-def draw_item(block, item):
+def draw_item(dwg, block, item):
     if isinstance(item, PolygonItem):
         draw_polygon(item, block)
+    elif isinstance(item, EntityInst):
+        draw_insert(item, block, dwg)
     else:
         pass
 
@@ -27,3 +32,11 @@ def draw_polygon(item: PolygonItem, block):
     for point in item.vecPoints:
         points.append((point.x, point.y))
     block.add_lwpolyline(points, close=True)
+
+
+def draw_insert(item: EntityInst, block, dwg):
+    ref_name = item.refEntityName
+    point_x = item.position.x
+    point_y = item.position.y
+    draw_entity(dwg, ref_name)
+    block.add_blockref(ref_name, (point_x, point_y))

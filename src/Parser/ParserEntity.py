@@ -3,6 +3,7 @@ from src.DataBase.PointF import PointF
 from src.DataBase.Item import PolygonItem
 from src.DataBase.Entity import Entity
 from src.DataBase.Graphic import Graphic
+from src.DataBase.Item import EntityInst
 
 from src.DataBase.EntityLib import EntityLib
 import src.DataBase.EntityLib as EntityLib_module
@@ -41,6 +42,11 @@ class EntityParser:
         else:
             pass
 
+        if configuration.get("insideLayout"):
+            for insert_item in configuration["insideLayout"]["Layout"]:
+                self.item_list.append(self.create_insert(insert_item["siteBlock"], insert_item["pos"]))
+                entity.add_item(self.item_list[-1])
+
         self.entity_list.append(entity)
         entity_lib = EntityLib_module.entity_lib
         entity_lib.add_entity(entity_type, entity)
@@ -51,5 +57,11 @@ class EntityParser:
             point = PointF(node["x"], node["y"])
             polygon_item.add_point(point)
         return polygon_item
+
+    def create_insert(self, ref_name, position):
+        point = PointF(position["x"], position["y"])
+        entity_inst = EntityInst(ref_name, point)
+        return entity_inst
+
 
 

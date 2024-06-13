@@ -1,4 +1,5 @@
 {
+    "tileType": "LUT",
     "graphic":"POLYGON",
     "height":10,
     "width":6,
@@ -72,5 +73,5 @@
                 }
             }
        ]
-    },
+    }
 }

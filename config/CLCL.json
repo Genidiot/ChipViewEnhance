@@ -53,28 +53,14 @@
         ]
     },
     "insideLayout":{
-        "siteLayout":[
+        "Layout":[
             {
-                "siteBlock":"SLABL_def.json",
-                "pos":[
-                    {
+                "siteBlock":"SLABL",
+                "pos":{
                         "x":25,
                         "y":25
                     }
-                ]
-            },
-            {
-                "siteBlock":"otherSite_def.json",
-                "pos":[
-                    {
-                        "x":50,
-                        "y":50
-                    },
-                    {
-                        "x":100,
-                        "y":100
-                    }
-                ]
+
             }
         ]
     }

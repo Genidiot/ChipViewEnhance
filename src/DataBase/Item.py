@@ -33,3 +33,13 @@ class PolygonLineItem(Item):
     def __init__(self):
         super().__init__()
         self.vecPoints: List[PointF] = []
+
+
+class EntityInst:
+    def __init__(self, ref_entity_name, position_):
+        super().__init__()
+        self.refEntityName = ref_entity_name
+        self.id = 0
+        self.logic_x = 0
+        self.logic_y = 0
+        self.position: PointF = position_
