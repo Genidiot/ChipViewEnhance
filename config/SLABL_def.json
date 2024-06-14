@@ -74,7 +74,79 @@
                 "pos":
                     {
                         "x":10,
+                        "y":30
+                    }
+
+            },
+            {
+                "siteBlock":"LUT",
+                "direction":1,
+                "num":4,
+                "space":5,
+                "pos":
+                    {
+                        "x":10,
+                        "y":45
+                    }
+
+            },
+            {
+                "siteBlock":"LUT",
+                "direction":1,
+                "num":4,
+                "space":5,
+                "pos":
+                    {
+                        "x":10,
+                        "y":60
+                    }
+
+            },
+            {
+                "siteBlock":"LUT",
+                "direction":1,
+                "num":4,
+                "space":5,
+                "pos":
+                    {
+                        "x":10,
                         "y":80
+                    }
+
+            },
+            {
+                "siteBlock":"LUT",
+                "direction":1,
+                "num":4,
+                "space":5,
+                "pos":
+                    {
+                        "x":10,
+                        "y":95
+                    }
+
+            },
+            {
+                "siteBlock":"LUT",
+                "direction":1,
+                "num":4,
+                "space":5,
+                "pos":
+                    {
+                        "x":10,
+                        "y":110
+                    }
+
+            },
+            {
+                "siteBlock":"LUT",
+                "direction":1,
+                "num":4,
+                "space":5,
+                "pos":
+                    {
+                        "x":10,
+                        "y":125
                     }
 
             },
@@ -93,12 +165,60 @@
             {
                 "siteBlock":"MUX2",
                 "direction":1,
+                "num":4,
+                "space":30,
+                "pos":
+                    {
+                        "x":30,
+                        "y":60
+                    }
+
+            },
+            {
+                "siteBlock":"MUX2",
+                "direction":1,
+                "num":4,
+                "space":30,
+                "pos":
+                    {
+                        "x":30,
+                        "y":95
+                    }
+
+            },
+            {
+                "siteBlock":"MUX2",
+                "direction":1,
+                "num":4,
+                "space":30,
+                "pos":
+                    {
+                        "x":30,
+                        "y":130
+                    }
+
+            },
+            {
+                "siteBlock":"MUX2",
+                "direction":1,
                 "num":2,
                 "space":65,
                 "pos":
                     {
                         "x":45,
                         "y":40
+                    }
+
+            },
+            {
+                "siteBlock":"MUX2",
+                "direction":1,
+                "num":4,
+                "space":30,
+                "pos":
+                    {
+                        "x":45,
+                        "y":110
                     }
 
             },
@@ -125,8 +245,19 @@
                         "y":25
                     }
 
-            }
+            },
+            {
+                "siteBlock":"CLA",
+                "direction":1,
+                "num":2,
+                "space":40,
+                "pos":
+                    {
+                        "x":80,
+                        "y":97
+                    }
 
+            }
         ]
     }
  }

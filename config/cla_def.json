@@ -1,7 +1,7 @@
 {
     "tileType":"CLA",
     "graphic": "POLYGON",
-    "width": 4,
+    "width": 10,
     "height": 32,
     "basicPoint": {
         "x": 0,
