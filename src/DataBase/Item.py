@@ -12,6 +12,21 @@ class CircleItem(Item):
         self.centerPoint = center_point
         self.radius = radius
 
+    def set_center_point(self, center_point):
+        self.centerPoint = center_point
+
+    def get_center_point(self):
+        return self.centerPoint
+
+    def set_radius(self, radius):
+        self.radius = radius
+
+    def get_radius(self):
+        return self.radius
+
+    def get_type(self):
+        pass
+
 
 class LineItem(Item):
     def __init__(self, point_start: PointF, point_end: PointF):

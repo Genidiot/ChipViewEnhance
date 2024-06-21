@@ -27,9 +27,9 @@
     ],
     "muxLayout":{
         "block":"swh_mux_def.json",
-        "positon":[
+        "position":[
             {
-                "pinName":"A",
+                "pinName":"pin_mux",
                 "direction":1,
                 "num":4,
                 "space":2,
@@ -39,7 +39,37 @@
                 }
             },
             {
-                "pinName":"B",
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":4
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":6
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":8
+                }
+            },
+            {
+                "pinName":"pin_mux",
                 "direction":1,
                 "num":6,
                 "space":2,
@@ -49,7 +79,37 @@
                 }
             },
             {
-                "pinName":"C",
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":14
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":16
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":18
+                }
+            },
+            {
+                "pinName":"pin_mux",
                 "direction":-1,
                 "num":4,
                 "space":2,
@@ -59,7 +119,37 @@
                 }
             },
             {
-                "pinName":"D",
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":196
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":194
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":192
+                }
+            },
+            {
+                "pinName":"pin_mux",
                 "direction":-1,
                 "num":12,
                 "space":2,
@@ -69,7 +159,57 @@
                 }
             },
             {
-                "pinName":"E",
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":186
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":184
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":182
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":180
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":0,
+                    "y":178
+                }
+            },
+            {
+                "pinName":"pin_mux",
                 "direction":1,
                 "num":4,
                 "space":2,
@@ -79,7 +219,37 @@
                 }
             },
             {
-                "pinName":"F",
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":200,
+                    "y":22
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":200,
+                    "y":24
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":4,
+                "space":2,
+                "startPos":{
+                    "x":200,
+                    "y":28
+                }
+            },
+            {
+                "pinName":"pin_mux",
                 "direction":1,
                 "num":6,
                 "space":2,
@@ -89,7 +259,37 @@
                 }
             },
             {
-                "pinName":"G",
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":6,
+                "space":2,
+                "startPos":{
+                    "x":200,
+                    "y":102
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":6,
+                "space":2,
+                "startPos":{
+                    "x":200,
+                    "y":104
+                }
+            },
+            {
+                "pinName":"pin_mux",
+                "direction":1,
+                "num":6,
+                "space":2,
+                "startPos":{
+                    "x":200,
+                    "y":106
+                }
+            },
+            {
+                "pinName":"pin_mux",
                 "direction":-1,
                 "num":4,
                 "space":2,
@@ -99,7 +299,7 @@
                 }
             },
             {
-                "pinName":"H",
+                "pinName":"pin_mux",
                 "direction":-1,
                 "num":4,
                 "space":2,
@@ -109,7 +309,7 @@
                 }
             },
             {
-                "pinName":"I",
+                "pinName":"pin_mux",
                 "direction":1,
                 "num":12,
                 "space":2,
@@ -119,7 +319,7 @@
                 }
             },
             {
-                "pinName":"J",
+                "pinName":"pin_mux",
                 "direction":1,
                 "num":12,
                 "space":2,

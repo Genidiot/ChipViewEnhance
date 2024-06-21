@@ -4,6 +4,7 @@ from ezdxf import filemanagement
 from src.DataBase.Item import Item
 from src.DataBase.Item import PolygonItem
 from src.DataBase.Item import EntityInst
+from src.DataBase.Item import CircleItem
 
 
 def draw_entity(dwg, entity_name):
@@ -23,6 +24,8 @@ def draw_item(dwg, block, item):
         draw_polygon(item, block)
     elif isinstance(item, EntityInst):
         draw_insert(item, block, dwg)
+    elif isinstance(item, CircleItem):
+        draw_circle(item, block)
     else:
         pass
 
@@ -40,3 +43,9 @@ def draw_insert(item: EntityInst, block, dwg):
     point_y = item.position.y
     draw_entity(dwg, ref_name)
     block.add_blockref(ref_name, (point_x, point_y))
+
+
+def draw_circle(item: CircleItem, block):
+    center_point = item.get_center_point()
+    radius = item.get_radius()
+    block.add_circle((center_point.x, center_point.y), radius)

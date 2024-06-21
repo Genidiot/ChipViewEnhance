@@ -1,6 +1,6 @@
 {
-    "itemType":"PIN",
-    "graphic":"line",
+    "tileType":"PIN",
+    "graphic":"LINE",
     "width":0,
     "length":1,
     "basicPoint":{
