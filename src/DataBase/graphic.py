@@ -1,5 +1,5 @@
 from typing import List
-from src.DataBase.Item import EntityInst
+from src.DataBase.item import EntityInst
 
 
 class Graphic:

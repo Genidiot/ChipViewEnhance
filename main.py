@@ -21,3 +21,11 @@ if __name__ == '__main__':
     create_tc()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+# 规则
+# class name        PascalCase
+# module/file name  snake_case
+# function          snake_case
+# 私有变量            snake_case
+# 函数参数            snake_case

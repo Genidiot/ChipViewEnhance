@@ -1,13 +1,13 @@
 import json
-from src.DataBase.PointF import PointF
-from src.DataBase.Item import PolygonItem
-from src.DataBase.Entity import Entity
-from src.DataBase.Graphic import Graphic
-from src.DataBase.Item import EntityInst
-from src.DataBase.Item import CircleItem
+from src.DataBase.point import PointF
+from src.DataBase.item import PolygonItem
+from src.DataBase.entity import Entity
+from src.DataBase.graphic import Graphic
+from src.DataBase.item import EntityInst
+from src.DataBase.item import CircleItem
 
-from src.DataBase.EntityLib import EntityLib
-import src.DataBase.EntityLib as EntityLib_module
+from src.DataBase.entity_lib import EntityLib
+import src.DataBase.entity_lib as EntityLib_module
 
 
 class EntityParser:

@@ -1,10 +1,10 @@
-from src.DataBase import EntityLib as EntityLib_module
-from src.DataBase.Entity import Entity
+from src.DataBase import entity_lib as EntityLib_module
+from src.DataBase.entity import Entity
 from ezdxf import filemanagement
-from src.DataBase.Item import Item
-from src.DataBase.Item import PolygonItem
-from src.DataBase.Item import EntityInst
-from src.DataBase.Item import CircleItem
+from src.DataBase.item import Item
+from src.DataBase.item import PolygonItem
+from src.DataBase.item import EntityInst
+from src.DataBase.item import CircleItem
 
 
 def draw_entity(dwg, entity_name):

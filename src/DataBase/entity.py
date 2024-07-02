@@ -1,5 +1,5 @@
 from typing import List
-from src.DataBase.Item import Item
+from src.DataBase.item import Item
 
 
 class Entity:

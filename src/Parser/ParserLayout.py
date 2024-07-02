@@ -1,5 +1,5 @@
 import json
-from src.DataBase.PointF import PointF
+from src.DataBase.point import PointF
 
 
 class LogicRegion:
