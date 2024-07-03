@@ -6,6 +6,8 @@ from src.Parser.ParserLayout import ChipViewLayout
 
 import src.Draw.DrawEntity as Draw_entity
 
+from typing import cast
+
 
 class DxfChipView:
     def __init__(self, config: ChipViewLayout):
@@ -13,6 +15,9 @@ class DxfChipView:
         ezdxf.setup_linetypes(self.dwg)
         self.msp = self.dwg.modelspace()
         self.config = config
+
+    def get_dwg(self):
+        return self.dwg
 
     def add_tile_refs(self):
         region_width = 500
@@ -35,6 +40,20 @@ class DxfChipView:
                             insert_y
                         )
                     )
+
+    def add_segment(self, pins, line_list):
+        for entity in self.msp:
+            if entity.dxftype() == 'INSERT':
+                block_ref = cast("Insert", entity)
+                if block_ref.dxf.name == "SWHL":
+                    logic_column = block_ref.dxf.insert[0]/200
+                    logic_row = block_ref.dxf.insert[1]/200
+                    for segment in line_list:
+                        terms = segment.split("-")
+                        start_term = terms[0]
+                        pinpoint = pins[start_term]
+                        line_ref = self.msp.add_blockref(segment, block_ref.dxf.insert + pinpoint)
+
 
     def save_sa(self, filename: str):
         self.dwg.saveas(filename=filename)

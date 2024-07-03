@@ -485,7 +485,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2460483.4474768518
+2460495.7203819444
   9
 $TDUCREATE
  40
@@ -493,7 +493,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2460483.4474768518
+2460495.7203819444
   9
 $TDUUPDATE
  40
@@ -545,7 +545,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-D2
+6CB
   9
 $SURFTAB1
  70
@@ -925,11 +925,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{09CE4B9B-8540-4608-B24A-E30833DD7F64}
+{6DB7B4C9-786C-42D2-B8D1-E503E61C2E42}
   9
 $VERSIONGUID
   2
-{B2820039-253D-46A2-A616-DD0297078DE4}
+{0603AAF2-5A26-41CD-9CFD-DC38984BDCFE}
   9
 $EXTNAMES
 290
@@ -2381,7 +2381,7 @@ ACAD
   0
 APPID
   5
-CF
+6C8
 330
 3
 100
@@ -2395,7 +2395,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-D0
+6C9
 330
 3
 100
@@ -2571,7 +2571,7 @@ BLOCK_RECORD
 100
 AcDbSymbolTable
  70
-4
+264
   0
 BLOCK_RECORD
   5
@@ -2635,7 +2635,5127 @@ SWHL
   0
 BLOCK_RECORD
   5
-B1
+48
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+54
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+60
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+66
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+6C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+72
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+78
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[8]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+7E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[9]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+84
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[10]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+8A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[11]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+90
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[12]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+96
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[13]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+9C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[14]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+A2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_end[15]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+A8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+AE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+B4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+BA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+C0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+C6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+CC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+D2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+D8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+DE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+E4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+EA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+F0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+F6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+FC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+102
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+108
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+10E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+114
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+11A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+120
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+126
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+12C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+132
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+138
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[8]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+13E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[9]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+144
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[10]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+14A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[11]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+150
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[12]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+156
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[13]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+15C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[14]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+162
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee1_beg[15]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+168
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+16E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+174
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+17A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+180
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+186
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+18C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+192
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee2_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+198
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+19E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1A4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1AA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1B0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1B6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1BC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1C2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ee4_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1C8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1CE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1D4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1DA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1E0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1E6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1EC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1F2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1F8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[8]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1FE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[9]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+204
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[10]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+20A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[11]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+210
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[12]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+216
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[13]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+21C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[14]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+222
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_beg[15]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+228
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+22E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+234
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+23A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+240
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+246
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+24C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+252
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+258
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+25E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+264
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+26A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+270
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+276
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+27C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+282
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+288
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+28E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+294
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+29A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2A0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2A6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2AC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2B2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2B8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[8]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2BE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[9]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2C4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[10]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2CA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[11]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2D0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[12]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2D6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[13]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2DC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[14]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2E2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww1_end[15]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2E8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2EE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2F4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2FA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+300
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+306
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+30C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+312
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww2_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+318
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+31E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+324
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+32A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+330
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+336
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+33C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+342
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ww4_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+348
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+34E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+354
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+35A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+360
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+366
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+36C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+372
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+378
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[8]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+37E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[9]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+384
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[10]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+38A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[11]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+390
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[12]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+396
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[13]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+39C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[14]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3A2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_end[15]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3A8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3AE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3B4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3BA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3C0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3C6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3CC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3D2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3D8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3DE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3E4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3EA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3F0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3F6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3FC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+402
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+408
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+40E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+414
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+41A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+420
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+426
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+42C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+432
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+438
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[8]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+43E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[9]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+444
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[10]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+44A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[11]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+450
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[12]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+456
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[13]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+45C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[14]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+462
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn1_beg[15]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+468
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+46E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+474
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+47A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+480
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+486
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+48C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+492
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn2_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+498
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+49E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4A4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4AA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4B0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4B6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4BC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4C2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+nn4_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4C8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4CE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4D4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4DA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4E0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4E6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4EC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4F2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4F8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[8]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4FE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[9]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+504
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[10]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+50A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[11]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+510
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[12]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+516
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[13]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+51C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[14]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+522
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_beg[15]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+528
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+52E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+534
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+53A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+540
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+546
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+54C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+552
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+558
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_beg[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+55E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_beg[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+564
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_beg[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+56A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_beg[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+570
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_beg[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+576
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_beg[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+57C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_beg[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+582
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_beg[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+588
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+58E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+594
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+59A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5A0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5A6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5AC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5B2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5B8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[8]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5BE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[9]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5C4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[10]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5CA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[11]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5D0
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[12]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5D6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[13]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5DC
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[14]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5E2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss1_end[15]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5E8
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5EE
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5F4
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5FA
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+600
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+606
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+60C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+612
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss2_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+618
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_end[0]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+61E
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_end[1]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+624
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_end[2]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+62A
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_end[3]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+630
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_end[4]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+636
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_end[5]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+63C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_end[6]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+642
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ss4_end[7]
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+678
 330
 9
 100
@@ -2644,6 +7764,86 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
   2
 CLCL
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+67C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+SLABL
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+680
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+LUT
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+694
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+MUX2
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+6A6
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+CLA
 340
 0
  70
@@ -2763,7 +7963,7 @@ SWHL
   1
 
   0
-LWPOLYLINE
+LINE
   5
 44
 330
@@ -2773,29 +7973,21 @@ AcDbEntity
   8
 0
 100
-AcDbPolyline
- 90
-4
- 70
-1
+AcDbLine
  10
 0.0
  20
 0.0
- 10
-200.0
- 20
+ 30
 0.0
- 10
+ 11
 200.0
- 20
-200.0
- 10
+ 21
 0.0
- 20
-200.0
+ 31
+0.0
   0
-INSERT
+LINE
   5
 45
 330
@@ -2805,17 +7997,45 @@ AcDbEntity
   8
 0
 100
-AcDbBlockReference
-  2
-pin_mux
+AcDbLine
  10
-0.0
+200.0
  20
-2.0
+0.0
  30
 0.0
+ 11
+200.0
+ 21
+200.0
+ 31
+0.0
   0
-INSERT
+LINE
+  5
+46
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+200.0
+ 20
+200.0
+ 30
+0.0
+ 11
+0.0
+ 21
+200.0
+ 31
+0.0
+  0
+LINE
   5
 47
 330
@@ -2825,359 +8045,23 @@ AcDbEntity
   8
 0
 100
-AcDbBlockReference
-  2
-pin_mux
+AcDbLine
  10
 0.0
  20
-4.0
- 30
-0.0
-  0
-INSERT
-  5
-49
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-6.0
- 30
-0.0
-  0
-INSERT
-  5
-4B
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-8.0
- 30
-0.0
-  0
-INSERT
-  5
-4D
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-12.0
- 30
-0.0
-  0
-INSERT
-  5
-4F
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-14.0
- 30
-0.0
-  0
-INSERT
-  5
-51
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-16.0
- 30
-0.0
-  0
-INSERT
-  5
-53
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-18.0
- 30
-0.0
-  0
-INSERT
-  5
-55
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-198.0
- 30
-0.0
-  0
-INSERT
-  5
-57
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-196.0
- 30
-0.0
-  0
-INSERT
-  5
-59
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-194.0
- 30
-0.0
-  0
-INSERT
-  5
-5B
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-192.0
- 30
-0.0
-  0
-INSERT
-  5
-5D
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-188.0
- 30
-0.0
-  0
-INSERT
-  5
-5F
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-186.0
- 30
-0.0
-  0
-INSERT
-  5
-61
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-184.0
- 30
-0.0
-  0
-INSERT
-  5
-63
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-182.0
- 30
-0.0
-  0
-INSERT
-  5
-65
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-180.0
- 30
-0.0
-  0
-INSERT
-  5
-67
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-0.0
- 20
-178.0
- 30
-0.0
-  0
-INSERT
-  5
-69
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
 200.0
- 20
-20.0
  30
+0.0
+ 11
+0.0
+ 21
+0.0
+ 31
 0.0
   0
 INSERT
   5
-6B
+4C
 330
 41
 100
@@ -3187,17 +8071,17 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[0]
  10
-200.0
- 20
 22.0
+ 20
+0.0
  30
 0.0
   0
 INSERT
   5
-6D
+52
 330
 41
 100
@@ -3207,17 +8091,17 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[1]
  10
-200.0
- 20
 24.0
+ 20
+0.0
  30
 0.0
   0
 INSERT
   5
-6F
+58
 330
 41
 100
@@ -3227,37 +8111,37 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[2]
  10
-200.0
+26.0
  20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+5E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_end[3]
+ 10
 28.0
- 30
-0.0
-  0
-INSERT
-  5
-71
-330
-41
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockReference
-  2
-pin_mux
- 10
-200.0
  20
-100.0
+0.0
  30
 0.0
   0
 INSERT
   5
-73
+64
 330
 41
 100
@@ -3267,17 +8151,17 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[4]
  10
-200.0
+30.0
  20
-102.0
+0.0
  30
 0.0
   0
 INSERT
   5
-75
+6A
 330
 41
 100
@@ -3287,17 +8171,17 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[5]
  10
-200.0
+32.0
  20
-104.0
+0.0
  30
 0.0
   0
 INSERT
   5
-77
+70
 330
 41
 100
@@ -3307,17 +8191,17 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[6]
  10
-200.0
+34.0
  20
-106.0
+0.0
  30
 0.0
   0
 INSERT
   5
-79
+76
 330
 41
 100
@@ -3327,17 +8211,17 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[7]
  10
-200.0
+36.0
  20
-190.0
+0.0
  30
 0.0
   0
 INSERT
   5
-7B
+7C
 330
 41
 100
@@ -3347,17 +8231,17 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[8]
  10
-200.0
+38.0
  20
-180.0
+0.0
  30
 0.0
   0
 INSERT
   5
-7D
+82
 330
 41
 100
@@ -3367,7 +8251,2027 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ee1_end[9]
+ 10
+40.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+88
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_end[10]
+ 10
+42.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+8E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_end[11]
+ 10
+44.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+94
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_end[12]
+ 10
+46.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+9A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_end[13]
+ 10
+48.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+A0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_end[14]
+ 10
+50.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+A6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_end[15]
+ 10
+52.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+AC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_end[0]
+ 10
+58.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+B2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_end[1]
+ 10
+60.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+B8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_end[2]
+ 10
+62.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+BE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_end[3]
+ 10
+64.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+C4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_end[4]
+ 10
+66.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+CA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_end[5]
+ 10
+68.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+D0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_end[6]
+ 10
+70.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+D6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_end[7]
+ 10
+72.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+DC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_end[0]
+ 10
+78.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+E2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_end[1]
+ 10
+80.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+E8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_end[2]
+ 10
+82.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+EE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_end[3]
+ 10
+84.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+F4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_end[4]
+ 10
+86.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+FA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_end[5]
+ 10
+88.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+100
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_end[6]
+ 10
+90.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+106
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_end[7]
+ 10
+92.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+10C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[0]
+ 10
+178.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+112
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[1]
+ 10
+176.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+118
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[2]
+ 10
+174.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+11E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[3]
+ 10
+172.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+124
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[4]
+ 10
+170.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+12A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[5]
+ 10
+168.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+130
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[6]
+ 10
+166.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+136
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[7]
+ 10
+164.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+13C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[8]
+ 10
+162.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+142
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[9]
+ 10
+160.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+148
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[10]
+ 10
+158.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+14E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[11]
+ 10
+156.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+154
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[12]
+ 10
+154.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+15A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[13]
+ 10
+152.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+160
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[14]
+ 10
+150.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+166
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee1_beg[15]
+ 10
+148.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+16C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_beg[0]
+ 10
+142.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+172
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_beg[1]
+ 10
+140.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+178
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_beg[2]
+ 10
+138.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+17E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_beg[3]
+ 10
+136.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+184
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_beg[4]
+ 10
+134.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+18A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_beg[5]
+ 10
+132.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+190
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_beg[6]
+ 10
+130.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+196
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee2_beg[7]
+ 10
+128.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+19C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_beg[0]
+ 10
+122.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+1A2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_beg[1]
+ 10
+120.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+1A8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_beg[2]
+ 10
+118.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+1AE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_beg[3]
+ 10
+116.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+1B4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_beg[4]
+ 10
+114.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+1BA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_beg[5]
+ 10
+112.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+1C0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_beg[6]
+ 10
+110.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+1C6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ee4_beg[7]
+ 10
+108.0
+ 20
+0.0
+ 30
+0.0
+  0
+INSERT
+  5
+1CC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[0]
+ 10
+22.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+1D2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[1]
+ 10
+24.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+1D8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[2]
+ 10
+26.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+1DE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[3]
+ 10
+28.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+1E4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[4]
+ 10
+30.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+1EA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[5]
+ 10
+32.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+1F0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[6]
+ 10
+34.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+1F6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[7]
+ 10
+36.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+1FC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[8]
+ 10
+38.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+202
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[9]
+ 10
+40.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+208
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[10]
+ 10
+42.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+20E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[11]
+ 10
+44.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+214
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[12]
+ 10
+46.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+21A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[13]
+ 10
+48.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+220
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[14]
+ 10
+50.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+226
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_beg[15]
+ 10
+52.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+22C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_beg[0]
+ 10
+58.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+232
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_beg[1]
+ 10
+60.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+238
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_beg[2]
+ 10
+62.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+23E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_beg[3]
+ 10
+64.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+244
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_beg[4]
+ 10
+66.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+24A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_beg[5]
+ 10
+68.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+250
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_beg[6]
+ 10
+70.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+256
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_beg[7]
+ 10
+72.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+25C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_beg[0]
+ 10
+78.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+262
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_beg[1]
+ 10
+80.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+268
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_beg[2]
+ 10
+82.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+26E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_beg[3]
+ 10
+84.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+274
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_beg[4]
+ 10
+86.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+27A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_beg[5]
+ 10
+88.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+280
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_beg[6]
+ 10
+90.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+286
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_beg[7]
+ 10
+92.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+28C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[0]
+ 10
+178.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+292
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[1]
+ 10
+176.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+298
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[2]
+ 10
+174.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+29E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[3]
+ 10
+172.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2A4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[4]
+ 10
+170.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2AA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[5]
+ 10
+168.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2B0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[6]
+ 10
+166.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2B6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[7]
+ 10
+164.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2BC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[8]
+ 10
+162.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2C2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[9]
+ 10
+160.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2C8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[10]
+ 10
+158.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2CE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[11]
+ 10
+156.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2D4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[12]
+ 10
+154.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2DA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[13]
+ 10
+152.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2E0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww1_end[14]
  10
 150.0
  20
@@ -3377,7 +10281,7 @@ pin_mux
   0
 INSERT
   5
-7F
+2E6
 330
 41
 100
@@ -3387,11 +10291,2891 @@ AcDbEntity
 100
 AcDbBlockReference
   2
-pin_mux
+ww1_end[15]
  10
-100.0
+148.0
  20
+200.0
+ 30
 0.0
+  0
+INSERT
+  5
+2EC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_end[0]
+ 10
+142.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2F2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_end[1]
+ 10
+140.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2F8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_end[2]
+ 10
+138.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+2FE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_end[3]
+ 10
+136.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+304
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_end[4]
+ 10
+134.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+30A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_end[5]
+ 10
+132.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+310
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_end[6]
+ 10
+130.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+316
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww2_end[7]
+ 10
+128.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+31C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_end[0]
+ 10
+122.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+322
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_end[1]
+ 10
+120.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+328
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_end[2]
+ 10
+118.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+32E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_end[3]
+ 10
+116.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+334
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_end[4]
+ 10
+114.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+33A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_end[5]
+ 10
+112.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+340
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_end[6]
+ 10
+110.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+346
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ww4_end[7]
+ 10
+108.0
+ 20
+200.0
+ 30
+0.0
+  0
+INSERT
+  5
+34C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[0]
+ 10
+0.0
+ 20
+22.0
+ 30
+0.0
+  0
+INSERT
+  5
+352
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[1]
+ 10
+0.0
+ 20
+24.0
+ 30
+0.0
+  0
+INSERT
+  5
+358
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[2]
+ 10
+0.0
+ 20
+26.0
+ 30
+0.0
+  0
+INSERT
+  5
+35E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[3]
+ 10
+0.0
+ 20
+28.0
+ 30
+0.0
+  0
+INSERT
+  5
+364
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[4]
+ 10
+0.0
+ 20
+30.0
+ 30
+0.0
+  0
+INSERT
+  5
+36A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[5]
+ 10
+0.0
+ 20
+32.0
+ 30
+0.0
+  0
+INSERT
+  5
+370
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[6]
+ 10
+0.0
+ 20
+34.0
+ 30
+0.0
+  0
+INSERT
+  5
+376
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[7]
+ 10
+0.0
+ 20
+36.0
+ 30
+0.0
+  0
+INSERT
+  5
+37C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[8]
+ 10
+0.0
+ 20
+38.0
+ 30
+0.0
+  0
+INSERT
+  5
+382
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[9]
+ 10
+0.0
+ 20
+40.0
+ 30
+0.0
+  0
+INSERT
+  5
+388
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[10]
+ 10
+0.0
+ 20
+42.0
+ 30
+0.0
+  0
+INSERT
+  5
+38E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[11]
+ 10
+0.0
+ 20
+44.0
+ 30
+0.0
+  0
+INSERT
+  5
+394
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[12]
+ 10
+0.0
+ 20
+46.0
+ 30
+0.0
+  0
+INSERT
+  5
+39A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[13]
+ 10
+0.0
+ 20
+48.0
+ 30
+0.0
+  0
+INSERT
+  5
+3A0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[14]
+ 10
+0.0
+ 20
+50.0
+ 30
+0.0
+  0
+INSERT
+  5
+3A6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_end[15]
+ 10
+0.0
+ 20
+52.0
+ 30
+0.0
+  0
+INSERT
+  5
+3AC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_end[0]
+ 10
+0.0
+ 20
+58.0
+ 30
+0.0
+  0
+INSERT
+  5
+3B2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_end[1]
+ 10
+0.0
+ 20
+60.0
+ 30
+0.0
+  0
+INSERT
+  5
+3B8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_end[2]
+ 10
+0.0
+ 20
+62.0
+ 30
+0.0
+  0
+INSERT
+  5
+3BE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_end[3]
+ 10
+0.0
+ 20
+64.0
+ 30
+0.0
+  0
+INSERT
+  5
+3C4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_end[4]
+ 10
+0.0
+ 20
+66.0
+ 30
+0.0
+  0
+INSERT
+  5
+3CA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_end[5]
+ 10
+0.0
+ 20
+68.0
+ 30
+0.0
+  0
+INSERT
+  5
+3D0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_end[6]
+ 10
+0.0
+ 20
+70.0
+ 30
+0.0
+  0
+INSERT
+  5
+3D6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_end[7]
+ 10
+0.0
+ 20
+72.0
+ 30
+0.0
+  0
+INSERT
+  5
+3DC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_end[0]
+ 10
+0.0
+ 20
+78.0
+ 30
+0.0
+  0
+INSERT
+  5
+3E2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_end[1]
+ 10
+0.0
+ 20
+80.0
+ 30
+0.0
+  0
+INSERT
+  5
+3E8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_end[2]
+ 10
+0.0
+ 20
+82.0
+ 30
+0.0
+  0
+INSERT
+  5
+3EE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_end[3]
+ 10
+0.0
+ 20
+84.0
+ 30
+0.0
+  0
+INSERT
+  5
+3F4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_end[4]
+ 10
+0.0
+ 20
+86.0
+ 30
+0.0
+  0
+INSERT
+  5
+3FA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_end[5]
+ 10
+0.0
+ 20
+88.0
+ 30
+0.0
+  0
+INSERT
+  5
+400
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_end[6]
+ 10
+0.0
+ 20
+90.0
+ 30
+0.0
+  0
+INSERT
+  5
+406
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_end[7]
+ 10
+0.0
+ 20
+92.0
+ 30
+0.0
+  0
+INSERT
+  5
+40C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[0]
+ 10
+0.0
+ 20
+178.0
+ 30
+0.0
+  0
+INSERT
+  5
+412
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[1]
+ 10
+0.0
+ 20
+176.0
+ 30
+0.0
+  0
+INSERT
+  5
+418
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[2]
+ 10
+0.0
+ 20
+174.0
+ 30
+0.0
+  0
+INSERT
+  5
+41E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[3]
+ 10
+0.0
+ 20
+172.0
+ 30
+0.0
+  0
+INSERT
+  5
+424
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[4]
+ 10
+0.0
+ 20
+170.0
+ 30
+0.0
+  0
+INSERT
+  5
+42A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[5]
+ 10
+0.0
+ 20
+168.0
+ 30
+0.0
+  0
+INSERT
+  5
+430
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[6]
+ 10
+0.0
+ 20
+166.0
+ 30
+0.0
+  0
+INSERT
+  5
+436
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[7]
+ 10
+0.0
+ 20
+164.0
+ 30
+0.0
+  0
+INSERT
+  5
+43C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[8]
+ 10
+0.0
+ 20
+162.0
+ 30
+0.0
+  0
+INSERT
+  5
+442
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[9]
+ 10
+0.0
+ 20
+160.0
+ 30
+0.0
+  0
+INSERT
+  5
+448
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[10]
+ 10
+0.0
+ 20
+158.0
+ 30
+0.0
+  0
+INSERT
+  5
+44E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[11]
+ 10
+0.0
+ 20
+156.0
+ 30
+0.0
+  0
+INSERT
+  5
+454
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[12]
+ 10
+0.0
+ 20
+154.0
+ 30
+0.0
+  0
+INSERT
+  5
+45A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[13]
+ 10
+0.0
+ 20
+152.0
+ 30
+0.0
+  0
+INSERT
+  5
+460
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[14]
+ 10
+0.0
+ 20
+150.0
+ 30
+0.0
+  0
+INSERT
+  5
+466
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn1_beg[15]
+ 10
+0.0
+ 20
+148.0
+ 30
+0.0
+  0
+INSERT
+  5
+46C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_beg[0]
+ 10
+0.0
+ 20
+142.0
+ 30
+0.0
+  0
+INSERT
+  5
+472
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_beg[1]
+ 10
+0.0
+ 20
+140.0
+ 30
+0.0
+  0
+INSERT
+  5
+478
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_beg[2]
+ 10
+0.0
+ 20
+138.0
+ 30
+0.0
+  0
+INSERT
+  5
+47E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_beg[3]
+ 10
+0.0
+ 20
+136.0
+ 30
+0.0
+  0
+INSERT
+  5
+484
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_beg[4]
+ 10
+0.0
+ 20
+134.0
+ 30
+0.0
+  0
+INSERT
+  5
+48A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_beg[5]
+ 10
+0.0
+ 20
+132.0
+ 30
+0.0
+  0
+INSERT
+  5
+490
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_beg[6]
+ 10
+0.0
+ 20
+130.0
+ 30
+0.0
+  0
+INSERT
+  5
+496
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn2_beg[7]
+ 10
+0.0
+ 20
+128.0
+ 30
+0.0
+  0
+INSERT
+  5
+49C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_beg[0]
+ 10
+0.0
+ 20
+122.0
+ 30
+0.0
+  0
+INSERT
+  5
+4A2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_beg[1]
+ 10
+0.0
+ 20
+120.0
+ 30
+0.0
+  0
+INSERT
+  5
+4A8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_beg[2]
+ 10
+0.0
+ 20
+118.0
+ 30
+0.0
+  0
+INSERT
+  5
+4AE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_beg[3]
+ 10
+0.0
+ 20
+116.0
+ 30
+0.0
+  0
+INSERT
+  5
+4B4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_beg[4]
+ 10
+0.0
+ 20
+114.0
+ 30
+0.0
+  0
+INSERT
+  5
+4BA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_beg[5]
+ 10
+0.0
+ 20
+112.0
+ 30
+0.0
+  0
+INSERT
+  5
+4C0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_beg[6]
+ 10
+0.0
+ 20
+110.0
+ 30
+0.0
+  0
+INSERT
+  5
+4C6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+nn4_beg[7]
+ 10
+0.0
+ 20
+108.0
+ 30
+0.0
+  0
+INSERT
+  5
+4CC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[0]
+ 10
+200.0
+ 20
+22.0
+ 30
+0.0
+  0
+INSERT
+  5
+4D2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[1]
+ 10
+200.0
+ 20
+24.0
+ 30
+0.0
+  0
+INSERT
+  5
+4D8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[2]
+ 10
+200.0
+ 20
+26.0
+ 30
+0.0
+  0
+INSERT
+  5
+4DE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[3]
+ 10
+200.0
+ 20
+28.0
+ 30
+0.0
+  0
+INSERT
+  5
+4E4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[4]
+ 10
+200.0
+ 20
+30.0
+ 30
+0.0
+  0
+INSERT
+  5
+4EA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[5]
+ 10
+200.0
+ 20
+32.0
+ 30
+0.0
+  0
+INSERT
+  5
+4F0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[6]
+ 10
+200.0
+ 20
+34.0
+ 30
+0.0
+  0
+INSERT
+  5
+4F6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[7]
+ 10
+200.0
+ 20
+36.0
+ 30
+0.0
+  0
+INSERT
+  5
+4FC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[8]
+ 10
+200.0
+ 20
+38.0
+ 30
+0.0
+  0
+INSERT
+  5
+502
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[9]
+ 10
+200.0
+ 20
+40.0
+ 30
+0.0
+  0
+INSERT
+  5
+508
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[10]
+ 10
+200.0
+ 20
+42.0
+ 30
+0.0
+  0
+INSERT
+  5
+50E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[11]
+ 10
+200.0
+ 20
+44.0
+ 30
+0.0
+  0
+INSERT
+  5
+514
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[12]
+ 10
+200.0
+ 20
+46.0
+ 30
+0.0
+  0
+INSERT
+  5
+51A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[13]
+ 10
+200.0
+ 20
+48.0
+ 30
+0.0
+  0
+INSERT
+  5
+520
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[14]
+ 10
+200.0
+ 20
+50.0
+ 30
+0.0
+  0
+INSERT
+  5
+526
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_beg[15]
+ 10
+200.0
+ 20
+52.0
+ 30
+0.0
+  0
+INSERT
+  5
+52C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_beg[0]
+ 10
+200.0
+ 20
+58.0
+ 30
+0.0
+  0
+INSERT
+  5
+532
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_beg[1]
+ 10
+200.0
+ 20
+60.0
+ 30
+0.0
+  0
+INSERT
+  5
+538
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_beg[2]
+ 10
+200.0
+ 20
+62.0
+ 30
+0.0
+  0
+INSERT
+  5
+53E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_beg[3]
+ 10
+200.0
+ 20
+64.0
+ 30
+0.0
+  0
+INSERT
+  5
+544
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_beg[4]
+ 10
+200.0
+ 20
+66.0
+ 30
+0.0
+  0
+INSERT
+  5
+54A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_beg[5]
+ 10
+200.0
+ 20
+68.0
+ 30
+0.0
+  0
+INSERT
+  5
+550
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_beg[6]
+ 10
+200.0
+ 20
+70.0
+ 30
+0.0
+  0
+INSERT
+  5
+556
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_beg[7]
+ 10
+200.0
+ 20
+72.0
+ 30
+0.0
+  0
+INSERT
+  5
+55C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_beg[0]
+ 10
+200.0
+ 20
+78.0
+ 30
+0.0
+  0
+INSERT
+  5
+562
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_beg[1]
+ 10
+200.0
+ 20
+80.0
+ 30
+0.0
+  0
+INSERT
+  5
+568
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_beg[2]
+ 10
+200.0
+ 20
+82.0
+ 30
+0.0
+  0
+INSERT
+  5
+56E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_beg[3]
+ 10
+200.0
+ 20
+84.0
+ 30
+0.0
+  0
+INSERT
+  5
+574
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_beg[4]
+ 10
+200.0
+ 20
+86.0
+ 30
+0.0
+  0
+INSERT
+  5
+57A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_beg[5]
+ 10
+200.0
+ 20
+88.0
+ 30
+0.0
+  0
+INSERT
+  5
+580
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_beg[6]
+ 10
+200.0
+ 20
+90.0
+ 30
+0.0
+  0
+INSERT
+  5
+586
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_beg[7]
+ 10
+200.0
+ 20
+92.0
+ 30
+0.0
+  0
+INSERT
+  5
+58C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[0]
+ 10
+200.0
+ 20
+178.0
+ 30
+0.0
+  0
+INSERT
+  5
+592
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[1]
+ 10
+200.0
+ 20
+176.0
+ 30
+0.0
+  0
+INSERT
+  5
+598
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[2]
+ 10
+200.0
+ 20
+174.0
+ 30
+0.0
+  0
+INSERT
+  5
+59E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[3]
+ 10
+200.0
+ 20
+172.0
+ 30
+0.0
+  0
+INSERT
+  5
+5A4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[4]
+ 10
+200.0
+ 20
+170.0
+ 30
+0.0
+  0
+INSERT
+  5
+5AA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[5]
+ 10
+200.0
+ 20
+168.0
+ 30
+0.0
+  0
+INSERT
+  5
+5B0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[6]
+ 10
+200.0
+ 20
+166.0
+ 30
+0.0
+  0
+INSERT
+  5
+5B6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[7]
+ 10
+200.0
+ 20
+164.0
+ 30
+0.0
+  0
+INSERT
+  5
+5BC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[8]
+ 10
+200.0
+ 20
+162.0
+ 30
+0.0
+  0
+INSERT
+  5
+5C2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[9]
+ 10
+200.0
+ 20
+160.0
+ 30
+0.0
+  0
+INSERT
+  5
+5C8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[10]
+ 10
+200.0
+ 20
+158.0
+ 30
+0.0
+  0
+INSERT
+  5
+5CE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[11]
+ 10
+200.0
+ 20
+156.0
+ 30
+0.0
+  0
+INSERT
+  5
+5D4
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[12]
+ 10
+200.0
+ 20
+154.0
+ 30
+0.0
+  0
+INSERT
+  5
+5DA
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[13]
+ 10
+200.0
+ 20
+152.0
+ 30
+0.0
+  0
+INSERT
+  5
+5E0
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[14]
+ 10
+200.0
+ 20
+150.0
+ 30
+0.0
+  0
+INSERT
+  5
+5E6
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss1_end[15]
+ 10
+200.0
+ 20
+148.0
+ 30
+0.0
+  0
+INSERT
+  5
+5EC
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_end[0]
+ 10
+200.0
+ 20
+142.0
+ 30
+0.0
+  0
+INSERT
+  5
+5F2
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_end[1]
+ 10
+200.0
+ 20
+140.0
+ 30
+0.0
+  0
+INSERT
+  5
+5F8
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_end[2]
+ 10
+200.0
+ 20
+138.0
+ 30
+0.0
+  0
+INSERT
+  5
+5FE
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_end[3]
+ 10
+200.0
+ 20
+136.0
+ 30
+0.0
+  0
+INSERT
+  5
+604
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_end[4]
+ 10
+200.0
+ 20
+134.0
+ 30
+0.0
+  0
+INSERT
+  5
+60A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_end[5]
+ 10
+200.0
+ 20
+132.0
+ 30
+0.0
+  0
+INSERT
+  5
+610
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_end[6]
+ 10
+200.0
+ 20
+130.0
+ 30
+0.0
+  0
+INSERT
+  5
+616
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss2_end[7]
+ 10
+200.0
+ 20
+128.0
+ 30
+0.0
+  0
+INSERT
+  5
+61C
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_end[0]
+ 10
+200.0
+ 20
+122.0
+ 30
+0.0
+  0
+INSERT
+  5
+622
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_end[1]
+ 10
+200.0
+ 20
+120.0
+ 30
+0.0
+  0
+INSERT
+  5
+628
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_end[2]
+ 10
+200.0
+ 20
+118.0
+ 30
+0.0
+  0
+INSERT
+  5
+62E
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_end[3]
+ 10
+200.0
+ 20
+116.0
+ 30
+0.0
+  0
+INSERT
+  5
+634
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_end[4]
+ 10
+200.0
+ 20
+114.0
+ 30
+0.0
+  0
+INSERT
+  5
+63A
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_end[5]
+ 10
+200.0
+ 20
+112.0
+ 30
+0.0
+  0
+INSERT
+  5
+640
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_end[6]
+ 10
+200.0
+ 20
+110.0
+ 30
+0.0
+  0
+INSERT
+  5
+646
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+ss4_end[7]
+ 10
+200.0
+ 20
+108.0
  30
 0.0
   0
@@ -3409,9 +13193,14857 @@ AcDbBlockEnd
   0
 BLOCK
   5
-B2
+49
 330
+48
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[0]
+  1
+
+  0
+CIRCLE
+  5
+4B
+330
+48
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4A
+330
+48
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4F
+330
+4E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[1]
+  1
+
+  0
+CIRCLE
+  5
+51
+330
+4E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+50
+330
+4E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+55
+330
+54
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[2]
+  1
+
+  0
+CIRCLE
+  5
+57
+330
+54
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+56
+330
+54
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5B
+330
+5A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[3]
+  1
+
+  0
+CIRCLE
+  5
+5D
+330
+5A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5C
+330
+5A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+61
+330
+60
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[4]
+  1
+
+  0
+CIRCLE
+  5
+63
+330
+60
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+62
+330
+60
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+67
+330
+66
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[5]
+  1
+
+  0
+CIRCLE
+  5
+69
+330
+66
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+68
+330
+66
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+6D
+330
+6C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[6]
+  1
+
+  0
+CIRCLE
+  5
+6F
+330
+6C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+6E
+330
+6C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+73
+330
+72
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[7]
+  1
+
+  0
+CIRCLE
+  5
+75
+330
+72
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+74
+330
+72
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+79
+330
+78
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[8]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[8]
+  1
+
+  0
+CIRCLE
+  5
+7B
+330
+78
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+7A
+330
+78
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+7F
+330
+7E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[9]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[9]
+  1
+
+  0
+CIRCLE
+  5
+81
+330
+7E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+80
+330
+7E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+85
+330
+84
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[10]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[10]
+  1
+
+  0
+CIRCLE
+  5
+87
+330
+84
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+86
+330
+84
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+8B
+330
+8A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[11]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[11]
+  1
+
+  0
+CIRCLE
+  5
+8D
+330
+8A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+8C
+330
+8A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+91
+330
+90
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[12]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[12]
+  1
+
+  0
+CIRCLE
+  5
+93
+330
+90
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+92
+330
+90
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+97
+330
+96
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[13]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[13]
+  1
+
+  0
+CIRCLE
+  5
+99
+330
+96
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+98
+330
+96
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+9D
+330
+9C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[14]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[14]
+  1
+
+  0
+CIRCLE
+  5
+9F
+330
+9C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+9E
+330
+9C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+A3
+330
+A2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_end[15]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_end[15]
+  1
+
+  0
+CIRCLE
+  5
+A5
+330
+A2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+A4
+330
+A2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+A9
+330
+A8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_end[0]
+  1
+
+  0
+CIRCLE
+  5
+AB
+330
+A8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+AA
+330
+A8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+AF
+330
+AE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_end[1]
+  1
+
+  0
+CIRCLE
+  5
 B1
+330
+AE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+B0
+330
+AE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+B5
+330
+B4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_end[2]
+  1
+
+  0
+CIRCLE
+  5
+B7
+330
+B4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+B6
+330
+B4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+BB
+330
+BA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_end[3]
+  1
+
+  0
+CIRCLE
+  5
+BD
+330
+BA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+BC
+330
+BA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+C1
+330
+C0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_end[4]
+  1
+
+  0
+CIRCLE
+  5
+C3
+330
+C0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+C2
+330
+C0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+C7
+330
+C6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_end[5]
+  1
+
+  0
+CIRCLE
+  5
+C9
+330
+C6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+C8
+330
+C6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+CD
+330
+CC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_end[6]
+  1
+
+  0
+CIRCLE
+  5
+CF
+330
+CC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+CE
+330
+CC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+D3
+330
+D2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_end[7]
+  1
+
+  0
+CIRCLE
+  5
+D5
+330
+D2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+D4
+330
+D2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+D9
+330
+D8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_end[0]
+  1
+
+  0
+CIRCLE
+  5
+DB
+330
+D8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+DA
+330
+D8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+DF
+330
+DE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_end[1]
+  1
+
+  0
+CIRCLE
+  5
+E1
+330
+DE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+E0
+330
+DE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+E5
+330
+E4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_end[2]
+  1
+
+  0
+CIRCLE
+  5
+E7
+330
+E4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+E6
+330
+E4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+EB
+330
+EA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_end[3]
+  1
+
+  0
+CIRCLE
+  5
+ED
+330
+EA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+EC
+330
+EA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+F1
+330
+F0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_end[4]
+  1
+
+  0
+CIRCLE
+  5
+F3
+330
+F0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+F2
+330
+F0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+F7
+330
+F6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_end[5]
+  1
+
+  0
+CIRCLE
+  5
+F9
+330
+F6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+F8
+330
+F6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+FD
+330
+FC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_end[6]
+  1
+
+  0
+CIRCLE
+  5
+FF
+330
+FC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+FE
+330
+FC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+103
+330
+102
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_end[7]
+  1
+
+  0
+CIRCLE
+  5
+105
+330
+102
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+104
+330
+102
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+109
+330
+108
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+10B
+330
+108
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+10A
+330
+108
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+10F
+330
+10E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+111
+330
+10E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+110
+330
+10E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+115
+330
+114
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+117
+330
+114
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+116
+330
+114
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+11B
+330
+11A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+11D
+330
+11A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+11C
+330
+11A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+121
+330
+120
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+123
+330
+120
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+122
+330
+120
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+127
+330
+126
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+129
+330
+126
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+128
+330
+126
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+12D
+330
+12C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+12F
+330
+12C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+12E
+330
+12C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+133
+330
+132
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+135
+330
+132
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+134
+330
+132
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+139
+330
+138
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[8]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[8]
+  1
+
+  0
+CIRCLE
+  5
+13B
+330
+138
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+13A
+330
+138
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+13F
+330
+13E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[9]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[9]
+  1
+
+  0
+CIRCLE
+  5
+141
+330
+13E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+140
+330
+13E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+145
+330
+144
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[10]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[10]
+  1
+
+  0
+CIRCLE
+  5
+147
+330
+144
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+146
+330
+144
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+14B
+330
+14A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[11]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[11]
+  1
+
+  0
+CIRCLE
+  5
+14D
+330
+14A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+14C
+330
+14A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+151
+330
+150
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[12]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[12]
+  1
+
+  0
+CIRCLE
+  5
+153
+330
+150
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+152
+330
+150
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+157
+330
+156
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[13]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[13]
+  1
+
+  0
+CIRCLE
+  5
+159
+330
+156
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+158
+330
+156
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+15D
+330
+15C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[14]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[14]
+  1
+
+  0
+CIRCLE
+  5
+15F
+330
+15C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+15E
+330
+15C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+163
+330
+162
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee1_beg[15]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee1_beg[15]
+  1
+
+  0
+CIRCLE
+  5
+165
+330
+162
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+164
+330
+162
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+169
+330
+168
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+16B
+330
+168
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+16A
+330
+168
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+16F
+330
+16E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+171
+330
+16E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+170
+330
+16E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+175
+330
+174
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+177
+330
+174
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+176
+330
+174
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+17B
+330
+17A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+17D
+330
+17A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+17C
+330
+17A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+181
+330
+180
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+183
+330
+180
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+182
+330
+180
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+187
+330
+186
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+189
+330
+186
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+188
+330
+186
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+18D
+330
+18C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+18F
+330
+18C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+18E
+330
+18C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+193
+330
+192
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee2_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee2_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+195
+330
+192
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+194
+330
+192
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+199
+330
+198
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+19B
+330
+198
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+19A
+330
+198
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+19F
+330
+19E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+1A1
+330
+19E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1A0
+330
+19E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1A5
+330
+1A4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+1A7
+330
+1A4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1A6
+330
+1A4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1AB
+330
+1AA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+1AD
+330
+1AA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1AC
+330
+1AA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1B1
+330
+1B0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+1B3
+330
+1B0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1B2
+330
+1B0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1B7
+330
+1B6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+1B9
+330
+1B6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1B8
+330
+1B6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1BD
+330
+1BC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+1BF
+330
+1BC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1BE
+330
+1BC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1C3
+330
+1C2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ee4_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ee4_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+1C5
+330
+1C2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1C4
+330
+1C2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1C9
+330
+1C8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+1CB
+330
+1C8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1CA
+330
+1C8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1CF
+330
+1CE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+1D1
+330
+1CE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1D0
+330
+1CE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1D5
+330
+1D4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+1D7
+330
+1D4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1D6
+330
+1D4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1DB
+330
+1DA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+1DD
+330
+1DA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1DC
+330
+1DA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1E1
+330
+1E0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+1E3
+330
+1E0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1E2
+330
+1E0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1E7
+330
+1E6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+1E9
+330
+1E6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1E8
+330
+1E6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1ED
+330
+1EC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+1EF
+330
+1EC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1EE
+330
+1EC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1F3
+330
+1F2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+1F5
+330
+1F2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1F4
+330
+1F2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1F9
+330
+1F8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[8]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[8]
+  1
+
+  0
+CIRCLE
+  5
+1FB
+330
+1F8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+1FA
+330
+1F8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1FF
+330
+1FE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[9]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[9]
+  1
+
+  0
+CIRCLE
+  5
+201
+330
+1FE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+200
+330
+1FE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+205
+330
+204
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[10]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[10]
+  1
+
+  0
+CIRCLE
+  5
+207
+330
+204
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+206
+330
+204
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+20B
+330
+20A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[11]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[11]
+  1
+
+  0
+CIRCLE
+  5
+20D
+330
+20A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+20C
+330
+20A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+211
+330
+210
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[12]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[12]
+  1
+
+  0
+CIRCLE
+  5
+213
+330
+210
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+212
+330
+210
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+217
+330
+216
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[13]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[13]
+  1
+
+  0
+CIRCLE
+  5
+219
+330
+216
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+218
+330
+216
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+21D
+330
+21C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[14]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[14]
+  1
+
+  0
+CIRCLE
+  5
+21F
+330
+21C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+21E
+330
+21C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+223
+330
+222
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_beg[15]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_beg[15]
+  1
+
+  0
+CIRCLE
+  5
+225
+330
+222
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+224
+330
+222
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+229
+330
+228
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+22B
+330
+228
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+22A
+330
+228
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+22F
+330
+22E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+231
+330
+22E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+230
+330
+22E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+235
+330
+234
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+237
+330
+234
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+236
+330
+234
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+23B
+330
+23A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+23D
+330
+23A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+23C
+330
+23A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+241
+330
+240
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+243
+330
+240
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+242
+330
+240
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+247
+330
+246
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+249
+330
+246
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+248
+330
+246
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+24D
+330
+24C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+24F
+330
+24C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+24E
+330
+24C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+253
+330
+252
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+255
+330
+252
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+254
+330
+252
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+259
+330
+258
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+25B
+330
+258
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+25A
+330
+258
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+25F
+330
+25E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+261
+330
+25E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+260
+330
+25E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+265
+330
+264
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+267
+330
+264
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+266
+330
+264
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+26B
+330
+26A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+26D
+330
+26A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+26C
+330
+26A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+271
+330
+270
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+273
+330
+270
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+272
+330
+270
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+277
+330
+276
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+279
+330
+276
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+278
+330
+276
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+27D
+330
+27C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+27F
+330
+27C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+27E
+330
+27C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+283
+330
+282
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+285
+330
+282
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+284
+330
+282
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+289
+330
+288
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[0]
+  1
+
+  0
+CIRCLE
+  5
+28B
+330
+288
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+28A
+330
+288
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+28F
+330
+28E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[1]
+  1
+
+  0
+CIRCLE
+  5
+291
+330
+28E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+290
+330
+28E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+295
+330
+294
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[2]
+  1
+
+  0
+CIRCLE
+  5
+297
+330
+294
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+296
+330
+294
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+29B
+330
+29A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[3]
+  1
+
+  0
+CIRCLE
+  5
+29D
+330
+29A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+29C
+330
+29A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2A1
+330
+2A0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[4]
+  1
+
+  0
+CIRCLE
+  5
+2A3
+330
+2A0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2A2
+330
+2A0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2A7
+330
+2A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[5]
+  1
+
+  0
+CIRCLE
+  5
+2A9
+330
+2A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2A8
+330
+2A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2AD
+330
+2AC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[6]
+  1
+
+  0
+CIRCLE
+  5
+2AF
+330
+2AC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2AE
+330
+2AC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2B3
+330
+2B2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[7]
+  1
+
+  0
+CIRCLE
+  5
+2B5
+330
+2B2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2B4
+330
+2B2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2B9
+330
+2B8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[8]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[8]
+  1
+
+  0
+CIRCLE
+  5
+2BB
+330
+2B8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2BA
+330
+2B8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2BF
+330
+2BE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[9]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[9]
+  1
+
+  0
+CIRCLE
+  5
+2C1
+330
+2BE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2C0
+330
+2BE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2C5
+330
+2C4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[10]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[10]
+  1
+
+  0
+CIRCLE
+  5
+2C7
+330
+2C4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2C6
+330
+2C4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2CB
+330
+2CA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[11]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[11]
+  1
+
+  0
+CIRCLE
+  5
+2CD
+330
+2CA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2CC
+330
+2CA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2D1
+330
+2D0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[12]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[12]
+  1
+
+  0
+CIRCLE
+  5
+2D3
+330
+2D0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2D2
+330
+2D0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2D7
+330
+2D6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[13]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[13]
+  1
+
+  0
+CIRCLE
+  5
+2D9
+330
+2D6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2D8
+330
+2D6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2DD
+330
+2DC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[14]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[14]
+  1
+
+  0
+CIRCLE
+  5
+2DF
+330
+2DC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2DE
+330
+2DC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2E3
+330
+2E2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww1_end[15]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww1_end[15]
+  1
+
+  0
+CIRCLE
+  5
+2E5
+330
+2E2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2E4
+330
+2E2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2E9
+330
+2E8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_end[0]
+  1
+
+  0
+CIRCLE
+  5
+2EB
+330
+2E8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2EA
+330
+2E8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2EF
+330
+2EE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_end[1]
+  1
+
+  0
+CIRCLE
+  5
+2F1
+330
+2EE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2F0
+330
+2EE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2F5
+330
+2F4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_end[2]
+  1
+
+  0
+CIRCLE
+  5
+2F7
+330
+2F4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2F6
+330
+2F4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+2FB
+330
+2FA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_end[3]
+  1
+
+  0
+CIRCLE
+  5
+2FD
+330
+2FA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+2FC
+330
+2FA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+301
+330
+300
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_end[4]
+  1
+
+  0
+CIRCLE
+  5
+303
+330
+300
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+302
+330
+300
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+307
+330
+306
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_end[5]
+  1
+
+  0
+CIRCLE
+  5
+309
+330
+306
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+308
+330
+306
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+30D
+330
+30C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_end[6]
+  1
+
+  0
+CIRCLE
+  5
+30F
+330
+30C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+30E
+330
+30C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+313
+330
+312
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww2_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww2_end[7]
+  1
+
+  0
+CIRCLE
+  5
+315
+330
+312
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+314
+330
+312
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+319
+330
+318
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_end[0]
+  1
+
+  0
+CIRCLE
+  5
+31B
+330
+318
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+31A
+330
+318
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+31F
+330
+31E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_end[1]
+  1
+
+  0
+CIRCLE
+  5
+321
+330
+31E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+320
+330
+31E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+325
+330
+324
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_end[2]
+  1
+
+  0
+CIRCLE
+  5
+327
+330
+324
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+326
+330
+324
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+32B
+330
+32A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_end[3]
+  1
+
+  0
+CIRCLE
+  5
+32D
+330
+32A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+32C
+330
+32A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+331
+330
+330
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_end[4]
+  1
+
+  0
+CIRCLE
+  5
+333
+330
+330
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+332
+330
+330
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+337
+330
+336
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_end[5]
+  1
+
+  0
+CIRCLE
+  5
+339
+330
+336
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+338
+330
+336
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+33D
+330
+33C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_end[6]
+  1
+
+  0
+CIRCLE
+  5
+33F
+330
+33C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+33E
+330
+33C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+343
+330
+342
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ww4_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ww4_end[7]
+  1
+
+  0
+CIRCLE
+  5
+345
+330
+342
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+344
+330
+342
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+349
+330
+348
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[0]
+  1
+
+  0
+CIRCLE
+  5
+34B
+330
+348
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+34A
+330
+348
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+34F
+330
+34E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[1]
+  1
+
+  0
+CIRCLE
+  5
+351
+330
+34E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+350
+330
+34E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+355
+330
+354
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[2]
+  1
+
+  0
+CIRCLE
+  5
+357
+330
+354
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+356
+330
+354
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+35B
+330
+35A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[3]
+  1
+
+  0
+CIRCLE
+  5
+35D
+330
+35A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+35C
+330
+35A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+361
+330
+360
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[4]
+  1
+
+  0
+CIRCLE
+  5
+363
+330
+360
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+362
+330
+360
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+367
+330
+366
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[5]
+  1
+
+  0
+CIRCLE
+  5
+369
+330
+366
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+368
+330
+366
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+36D
+330
+36C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[6]
+  1
+
+  0
+CIRCLE
+  5
+36F
+330
+36C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+36E
+330
+36C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+373
+330
+372
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[7]
+  1
+
+  0
+CIRCLE
+  5
+375
+330
+372
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+374
+330
+372
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+379
+330
+378
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[8]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[8]
+  1
+
+  0
+CIRCLE
+  5
+37B
+330
+378
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+37A
+330
+378
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+37F
+330
+37E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[9]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[9]
+  1
+
+  0
+CIRCLE
+  5
+381
+330
+37E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+380
+330
+37E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+385
+330
+384
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[10]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[10]
+  1
+
+  0
+CIRCLE
+  5
+387
+330
+384
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+386
+330
+384
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+38B
+330
+38A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[11]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[11]
+  1
+
+  0
+CIRCLE
+  5
+38D
+330
+38A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+38C
+330
+38A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+391
+330
+390
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[12]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[12]
+  1
+
+  0
+CIRCLE
+  5
+393
+330
+390
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+392
+330
+390
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+397
+330
+396
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[13]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[13]
+  1
+
+  0
+CIRCLE
+  5
+399
+330
+396
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+398
+330
+396
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+39D
+330
+39C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[14]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[14]
+  1
+
+  0
+CIRCLE
+  5
+39F
+330
+39C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+39E
+330
+39C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3A3
+330
+3A2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_end[15]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_end[15]
+  1
+
+  0
+CIRCLE
+  5
+3A5
+330
+3A2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3A4
+330
+3A2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3A9
+330
+3A8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_end[0]
+  1
+
+  0
+CIRCLE
+  5
+3AB
+330
+3A8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3AA
+330
+3A8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3AF
+330
+3AE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_end[1]
+  1
+
+  0
+CIRCLE
+  5
+3B1
+330
+3AE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3B0
+330
+3AE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3B5
+330
+3B4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_end[2]
+  1
+
+  0
+CIRCLE
+  5
+3B7
+330
+3B4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3B6
+330
+3B4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3BB
+330
+3BA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_end[3]
+  1
+
+  0
+CIRCLE
+  5
+3BD
+330
+3BA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3BC
+330
+3BA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3C1
+330
+3C0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_end[4]
+  1
+
+  0
+CIRCLE
+  5
+3C3
+330
+3C0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3C2
+330
+3C0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3C7
+330
+3C6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_end[5]
+  1
+
+  0
+CIRCLE
+  5
+3C9
+330
+3C6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3C8
+330
+3C6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3CD
+330
+3CC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_end[6]
+  1
+
+  0
+CIRCLE
+  5
+3CF
+330
+3CC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3CE
+330
+3CC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3D3
+330
+3D2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_end[7]
+  1
+
+  0
+CIRCLE
+  5
+3D5
+330
+3D2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3D4
+330
+3D2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3D9
+330
+3D8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_end[0]
+  1
+
+  0
+CIRCLE
+  5
+3DB
+330
+3D8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3DA
+330
+3D8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3DF
+330
+3DE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_end[1]
+  1
+
+  0
+CIRCLE
+  5
+3E1
+330
+3DE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3E0
+330
+3DE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3E5
+330
+3E4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_end[2]
+  1
+
+  0
+CIRCLE
+  5
+3E7
+330
+3E4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3E6
+330
+3E4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3EB
+330
+3EA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_end[3]
+  1
+
+  0
+CIRCLE
+  5
+3ED
+330
+3EA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3EC
+330
+3EA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3F1
+330
+3F0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_end[4]
+  1
+
+  0
+CIRCLE
+  5
+3F3
+330
+3F0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3F2
+330
+3F0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3F7
+330
+3F6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_end[5]
+  1
+
+  0
+CIRCLE
+  5
+3F9
+330
+3F6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3F8
+330
+3F6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3FD
+330
+3FC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_end[6]
+  1
+
+  0
+CIRCLE
+  5
+3FF
+330
+3FC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+3FE
+330
+3FC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+403
+330
+402
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_end[7]
+  1
+
+  0
+CIRCLE
+  5
+405
+330
+402
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+404
+330
+402
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+409
+330
+408
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+40B
+330
+408
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+40A
+330
+408
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+40F
+330
+40E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+411
+330
+40E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+410
+330
+40E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+415
+330
+414
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+417
+330
+414
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+416
+330
+414
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+41B
+330
+41A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+41D
+330
+41A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+41C
+330
+41A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+421
+330
+420
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+423
+330
+420
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+422
+330
+420
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+427
+330
+426
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+429
+330
+426
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+428
+330
+426
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+42D
+330
+42C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+42F
+330
+42C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+42E
+330
+42C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+433
+330
+432
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+435
+330
+432
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+434
+330
+432
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+439
+330
+438
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[8]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[8]
+  1
+
+  0
+CIRCLE
+  5
+43B
+330
+438
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+43A
+330
+438
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+43F
+330
+43E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[9]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[9]
+  1
+
+  0
+CIRCLE
+  5
+441
+330
+43E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+440
+330
+43E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+445
+330
+444
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[10]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[10]
+  1
+
+  0
+CIRCLE
+  5
+447
+330
+444
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+446
+330
+444
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+44B
+330
+44A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[11]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[11]
+  1
+
+  0
+CIRCLE
+  5
+44D
+330
+44A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+44C
+330
+44A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+451
+330
+450
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[12]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[12]
+  1
+
+  0
+CIRCLE
+  5
+453
+330
+450
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+452
+330
+450
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+457
+330
+456
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[13]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[13]
+  1
+
+  0
+CIRCLE
+  5
+459
+330
+456
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+458
+330
+456
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+45D
+330
+45C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[14]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[14]
+  1
+
+  0
+CIRCLE
+  5
+45F
+330
+45C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+45E
+330
+45C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+463
+330
+462
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn1_beg[15]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn1_beg[15]
+  1
+
+  0
+CIRCLE
+  5
+465
+330
+462
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+464
+330
+462
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+469
+330
+468
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+46B
+330
+468
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+46A
+330
+468
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+46F
+330
+46E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+471
+330
+46E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+470
+330
+46E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+475
+330
+474
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+477
+330
+474
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+476
+330
+474
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+47B
+330
+47A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+47D
+330
+47A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+47C
+330
+47A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+481
+330
+480
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+483
+330
+480
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+482
+330
+480
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+487
+330
+486
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+489
+330
+486
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+488
+330
+486
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+48D
+330
+48C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+48F
+330
+48C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+48E
+330
+48C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+493
+330
+492
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn2_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn2_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+495
+330
+492
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+494
+330
+492
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+499
+330
+498
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+49B
+330
+498
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+49A
+330
+498
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+49F
+330
+49E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+4A1
+330
+49E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4A0
+330
+49E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4A5
+330
+4A4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+4A7
+330
+4A4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4A6
+330
+4A4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4AB
+330
+4AA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+4AD
+330
+4AA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4AC
+330
+4AA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4B1
+330
+4B0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+4B3
+330
+4B0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4B2
+330
+4B0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4B7
+330
+4B6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+4B9
+330
+4B6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4B8
+330
+4B6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4BD
+330
+4BC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+4BF
+330
+4BC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4BE
+330
+4BC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4C3
+330
+4C2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+nn4_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+nn4_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+4C5
+330
+4C2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4C4
+330
+4C2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4C9
+330
+4C8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+4CB
+330
+4C8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4CA
+330
+4C8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4CF
+330
+4CE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+4D1
+330
+4CE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4D0
+330
+4CE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4D5
+330
+4D4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+4D7
+330
+4D4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4D6
+330
+4D4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4DB
+330
+4DA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+4DD
+330
+4DA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4DC
+330
+4DA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4E1
+330
+4E0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+4E3
+330
+4E0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4E2
+330
+4E0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4E7
+330
+4E6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+4E9
+330
+4E6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4E8
+330
+4E6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4ED
+330
+4EC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+4EF
+330
+4EC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4EE
+330
+4EC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4F3
+330
+4F2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+4F5
+330
+4F2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4F4
+330
+4F2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4F9
+330
+4F8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[8]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[8]
+  1
+
+  0
+CIRCLE
+  5
+4FB
+330
+4F8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+4FA
+330
+4F8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4FF
+330
+4FE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[9]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[9]
+  1
+
+  0
+CIRCLE
+  5
+501
+330
+4FE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+500
+330
+4FE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+505
+330
+504
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[10]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[10]
+  1
+
+  0
+CIRCLE
+  5
+507
+330
+504
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+506
+330
+504
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+50B
+330
+50A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[11]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[11]
+  1
+
+  0
+CIRCLE
+  5
+50D
+330
+50A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+50C
+330
+50A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+511
+330
+510
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[12]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[12]
+  1
+
+  0
+CIRCLE
+  5
+513
+330
+510
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+512
+330
+510
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+517
+330
+516
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[13]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[13]
+  1
+
+  0
+CIRCLE
+  5
+519
+330
+516
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+518
+330
+516
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+51D
+330
+51C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[14]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[14]
+  1
+
+  0
+CIRCLE
+  5
+51F
+330
+51C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+51E
+330
+51C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+523
+330
+522
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_beg[15]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_beg[15]
+  1
+
+  0
+CIRCLE
+  5
+525
+330
+522
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+524
+330
+522
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+529
+330
+528
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+52B
+330
+528
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+52A
+330
+528
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+52F
+330
+52E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+531
+330
+52E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+530
+330
+52E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+535
+330
+534
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+537
+330
+534
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+536
+330
+534
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+53B
+330
+53A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+53D
+330
+53A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+53C
+330
+53A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+541
+330
+540
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+543
+330
+540
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+542
+330
+540
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+547
+330
+546
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+549
+330
+546
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+548
+330
+546
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+54D
+330
+54C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+54F
+330
+54C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+54E
+330
+54C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+553
+330
+552
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+555
+330
+552
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+554
+330
+552
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+559
+330
+558
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_beg[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_beg[0]
+  1
+
+  0
+CIRCLE
+  5
+55B
+330
+558
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+55A
+330
+558
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+55F
+330
+55E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_beg[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_beg[1]
+  1
+
+  0
+CIRCLE
+  5
+561
+330
+55E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+560
+330
+55E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+565
+330
+564
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_beg[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_beg[2]
+  1
+
+  0
+CIRCLE
+  5
+567
+330
+564
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+566
+330
+564
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+56B
+330
+56A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_beg[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_beg[3]
+  1
+
+  0
+CIRCLE
+  5
+56D
+330
+56A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+56C
+330
+56A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+571
+330
+570
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_beg[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_beg[4]
+  1
+
+  0
+CIRCLE
+  5
+573
+330
+570
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+572
+330
+570
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+577
+330
+576
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_beg[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_beg[5]
+  1
+
+  0
+CIRCLE
+  5
+579
+330
+576
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+578
+330
+576
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+57D
+330
+57C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_beg[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_beg[6]
+  1
+
+  0
+CIRCLE
+  5
+57F
+330
+57C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+57E
+330
+57C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+583
+330
+582
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_beg[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_beg[7]
+  1
+
+  0
+CIRCLE
+  5
+585
+330
+582
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+584
+330
+582
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+589
+330
+588
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[0]
+  1
+
+  0
+CIRCLE
+  5
+58B
+330
+588
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+58A
+330
+588
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+58F
+330
+58E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[1]
+  1
+
+  0
+CIRCLE
+  5
+591
+330
+58E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+590
+330
+58E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+595
+330
+594
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[2]
+  1
+
+  0
+CIRCLE
+  5
+597
+330
+594
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+596
+330
+594
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+59B
+330
+59A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[3]
+  1
+
+  0
+CIRCLE
+  5
+59D
+330
+59A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+59C
+330
+59A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5A1
+330
+5A0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[4]
+  1
+
+  0
+CIRCLE
+  5
+5A3
+330
+5A0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5A2
+330
+5A0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5A7
+330
+5A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[5]
+  1
+
+  0
+CIRCLE
+  5
+5A9
+330
+5A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5A8
+330
+5A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5AD
+330
+5AC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[6]
+  1
+
+  0
+CIRCLE
+  5
+5AF
+330
+5AC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5AE
+330
+5AC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5B3
+330
+5B2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[7]
+  1
+
+  0
+CIRCLE
+  5
+5B5
+330
+5B2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5B4
+330
+5B2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5B9
+330
+5B8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[8]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[8]
+  1
+
+  0
+CIRCLE
+  5
+5BB
+330
+5B8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5BA
+330
+5B8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5BF
+330
+5BE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[9]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[9]
+  1
+
+  0
+CIRCLE
+  5
+5C1
+330
+5BE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5C0
+330
+5BE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5C5
+330
+5C4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[10]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[10]
+  1
+
+  0
+CIRCLE
+  5
+5C7
+330
+5C4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5C6
+330
+5C4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5CB
+330
+5CA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[11]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[11]
+  1
+
+  0
+CIRCLE
+  5
+5CD
+330
+5CA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5CC
+330
+5CA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5D1
+330
+5D0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[12]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[12]
+  1
+
+  0
+CIRCLE
+  5
+5D3
+330
+5D0
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5D2
+330
+5D0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5D7
+330
+5D6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[13]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[13]
+  1
+
+  0
+CIRCLE
+  5
+5D9
+330
+5D6
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5D8
+330
+5D6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5DD
+330
+5DC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[14]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[14]
+  1
+
+  0
+CIRCLE
+  5
+5DF
+330
+5DC
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5DE
+330
+5DC
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5E3
+330
+5E2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss1_end[15]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss1_end[15]
+  1
+
+  0
+CIRCLE
+  5
+5E5
+330
+5E2
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5E4
+330
+5E2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5E9
+330
+5E8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_end[0]
+  1
+
+  0
+CIRCLE
+  5
+5EB
+330
+5E8
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5EA
+330
+5E8
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5EF
+330
+5EE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_end[1]
+  1
+
+  0
+CIRCLE
+  5
+5F1
+330
+5EE
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5F0
+330
+5EE
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5F5
+330
+5F4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_end[2]
+  1
+
+  0
+CIRCLE
+  5
+5F7
+330
+5F4
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5F6
+330
+5F4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5FB
+330
+5FA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_end[3]
+  1
+
+  0
+CIRCLE
+  5
+5FD
+330
+5FA
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+5FC
+330
+5FA
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+601
+330
+600
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_end[4]
+  1
+
+  0
+CIRCLE
+  5
+603
+330
+600
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+602
+330
+600
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+607
+330
+606
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_end[5]
+  1
+
+  0
+CIRCLE
+  5
+609
+330
+606
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+608
+330
+606
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+60D
+330
+60C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_end[6]
+  1
+
+  0
+CIRCLE
+  5
+60F
+330
+60C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+60E
+330
+60C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+613
+330
+612
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss2_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss2_end[7]
+  1
+
+  0
+CIRCLE
+  5
+615
+330
+612
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+614
+330
+612
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+619
+330
+618
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_end[0]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_end[0]
+  1
+
+  0
+CIRCLE
+  5
+61B
+330
+618
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+61A
+330
+618
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+61F
+330
+61E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_end[1]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_end[1]
+  1
+
+  0
+CIRCLE
+  5
+621
+330
+61E
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+620
+330
+61E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+625
+330
+624
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_end[2]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_end[2]
+  1
+
+  0
+CIRCLE
+  5
+627
+330
+624
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+626
+330
+624
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+62B
+330
+62A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_end[3]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_end[3]
+  1
+
+  0
+CIRCLE
+  5
+62D
+330
+62A
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+62C
+330
+62A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+631
+330
+630
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_end[4]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_end[4]
+  1
+
+  0
+CIRCLE
+  5
+633
+330
+630
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+632
+330
+630
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+637
+330
+636
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_end[5]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_end[5]
+  1
+
+  0
+CIRCLE
+  5
+639
+330
+636
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+638
+330
+636
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+63D
+330
+63C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_end[6]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_end[6]
+  1
+
+  0
+CIRCLE
+  5
+63F
+330
+63C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+63E
+330
+63C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+643
+330
+642
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ss4_end[7]
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ss4_end[7]
+  1
+
+  0
+CIRCLE
+  5
+645
+330
+642
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.0
+  0
+ENDBLK
+  5
+644
+330
+642
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+679
+330
+678
 100
 AcDbEntity
   8
@@ -3435,9 +28067,9 @@ CLCL
   0
 LWPOLYLINE
   5
-B4
+67B
 330
-B1
+678
 100
 AcDbEntity
   8
@@ -3467,9 +28099,9 @@ AcDbPolyline
   0
 INSERT
   5
-B5
+6AE
 330
-B1
+678
 100
 AcDbEntity
   8
@@ -3487,9 +28119,629 @@ SLABL
   0
 ENDBLK
   5
-B3
+67A
 330
-B1
+678
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+67D
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+SLABL
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+SLABL
+  1
+
+  0
+LWPOLYLINE
+  5
+67F
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+0.0
+ 20
+0.0
+ 10
+150.0
+ 20
+0.0
+ 10
+150.0
+ 20
+150.0
+ 10
+0.0
+ 20
+150.0
+  0
+INSERT
+  5
+684
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+LUT
+ 10
+10.0
+ 20
+15.0
+ 30
+0.0
+  0
+INSERT
+  5
+686
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+LUT
+ 10
+10.0
+ 20
+30.0
+ 30
+0.0
+  0
+INSERT
+  5
+688
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+LUT
+ 10
+10.0
+ 20
+45.0
+ 30
+0.0
+  0
+INSERT
+  5
+68A
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+LUT
+ 10
+10.0
+ 20
+60.0
+ 30
+0.0
+  0
+INSERT
+  5
+68C
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+LUT
+ 10
+10.0
+ 20
+80.0
+ 30
+0.0
+  0
+INSERT
+  5
+68E
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+LUT
+ 10
+10.0
+ 20
+95.0
+ 30
+0.0
+  0
+INSERT
+  5
+690
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+LUT
+ 10
+10.0
+ 20
+110.0
+ 30
+0.0
+  0
+INSERT
+  5
+692
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+LUT
+ 10
+10.0
+ 20
+125.0
+ 30
+0.0
+  0
+INSERT
+  5
+698
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MUX2
+ 10
+30.0
+ 20
+25.0
+ 30
+0.0
+  0
+INSERT
+  5
+69A
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MUX2
+ 10
+30.0
+ 20
+60.0
+ 30
+0.0
+  0
+INSERT
+  5
+69C
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MUX2
+ 10
+30.0
+ 20
+95.0
+ 30
+0.0
+  0
+INSERT
+  5
+69E
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MUX2
+ 10
+30.0
+ 20
+130.0
+ 30
+0.0
+  0
+INSERT
+  5
+6A0
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MUX2
+ 10
+45.0
+ 20
+40.0
+ 30
+0.0
+  0
+INSERT
+  5
+6A2
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MUX2
+ 10
+45.0
+ 20
+110.0
+ 30
+0.0
+  0
+INSERT
+  5
+6A4
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+MUX2
+ 10
+60.0
+ 20
+73.0
+ 30
+0.0
+  0
+INSERT
+  5
+6AA
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+CLA
+ 10
+80.0
+ 20
+25.0
+ 30
+0.0
+  0
+INSERT
+  5
+6AC
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockReference
+  2
+CLA
+ 10
+80.0
+ 20
+97.0
+ 30
+0.0
+  0
+ENDBLK
+  5
+67E
+330
+67C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+681
+330
+680
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+LUT
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+LUT
+  1
+
+  0
+LWPOLYLINE
+  5
+683
+330
+680
+100
+AcDbEntity
+  8
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+0.0
+ 20
+0.0
+ 10
+6.0
+ 20
+0.0
+ 10
+6.0
+ 20
+10.0
+ 10
+0.0
+ 20
+10.0
+  0
+ENDBLK
+  5
+682
+330
+680
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+695
+330
+694
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+MUX2
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+MUX2
+  1
+
+  0
+LWPOLYLINE
+  5
+697
+330
+694
+100
+AcDbEntity
+  8
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+0.0
+ 20
+0.0
+ 10
+4.0
+ 20
+1.0
+ 10
+4.0
+ 20
+4.0
+ 10
+0.0
+ 20
+5.0
+  0
+ENDBLK
+  5
+696
+330
+694
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+6A7
+330
+6A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+CLA
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CLA
+  1
+
+  0
+LWPOLYLINE
+  5
+6A9
+330
+6A6
+100
+AcDbEntity
+  8
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+0.0
+ 20
+0.0
+ 10
+10.0
+ 20
+0.0
+ 10
+10.0
+ 20
+32.0
+ 10
+0.0
+ 20
+32.0
+  0
+ENDBLK
+  5
+6A8
+330
+6A6
 100
 AcDbEntity
   8
@@ -3505,7 +28757,7 @@ ENTITIES
   0
 INSERT
   5
-81
+648
 330
 17
 100
@@ -3525,7 +28777,7 @@ SWHL
   0
 INSERT
   5
-83
+64A
 330
 17
 100
@@ -3545,7 +28797,7 @@ SWHL
   0
 INSERT
   5
-85
+64C
 330
 17
 100
@@ -3565,7 +28817,7 @@ SWHL
   0
 INSERT
   5
-87
+64E
 330
 17
 100
@@ -3585,7 +28837,7 @@ SWHL
   0
 INSERT
   5
-89
+650
 330
 17
 100
@@ -3605,7 +28857,7 @@ SWHL
   0
 INSERT
   5
-8B
+652
 330
 17
 100
@@ -3625,7 +28877,7 @@ SWHL
   0
 INSERT
   5
-8D
+654
 330
 17
 100
@@ -3645,7 +28897,7 @@ SWHL
   0
 INSERT
   5
-8F
+656
 330
 17
 100
@@ -3665,7 +28917,7 @@ SWHL
   0
 INSERT
   5
-91
+658
 330
 17
 100
@@ -3685,7 +28937,7 @@ SWHL
   0
 INSERT
   5
-93
+65A
 330
 17
 100
@@ -3705,7 +28957,7 @@ SWHL
   0
 INSERT
   5
-95
+65C
 330
 17
 100
@@ -3725,7 +28977,7 @@ SWHL
   0
 INSERT
   5
-97
+65E
 330
 17
 100
@@ -3745,7 +28997,7 @@ SWHL
   0
 INSERT
   5
-99
+660
 330
 17
 100
@@ -3765,7 +29017,7 @@ SWHL
   0
 INSERT
   5
-9B
+662
 330
 17
 100
@@ -3785,7 +29037,7 @@ SWHL
   0
 INSERT
   5
-9D
+664
 330
 17
 100
@@ -3805,7 +29057,7 @@ SWHL
   0
 INSERT
   5
-9F
+666
 330
 17
 100
@@ -3825,7 +29077,7 @@ SWHL
   0
 INSERT
   5
-A1
+668
 330
 17
 100
@@ -3845,7 +29097,7 @@ SWHL
   0
 INSERT
   5
-A3
+66A
 330
 17
 100
@@ -3865,7 +29117,7 @@ SWHL
   0
 INSERT
   5
-A5
+66C
 330
 17
 100
@@ -3885,7 +29137,7 @@ SWHL
   0
 INSERT
   5
-A7
+66E
 330
 17
 100
@@ -3905,7 +29157,7 @@ SWHL
   0
 INSERT
   5
-A9
+670
 330
 17
 100
@@ -3925,7 +29177,7 @@ SWHL
   0
 INSERT
   5
-AB
+672
 330
 17
 100
@@ -3945,7 +29197,7 @@ SWHL
   0
 INSERT
   5
-AD
+674
 330
 17
 100
@@ -3965,7 +29217,7 @@ SWHL
   0
 INSERT
   5
-AF
+676
 330
 17
 100
@@ -3985,7 +29237,7 @@ SWHL
   0
 INSERT
   5
-B7
+6B0
 330
 17
 100
@@ -4005,7 +29257,7 @@ CLCL
   0
 INSERT
   5
-B9
+6B2
 330
 17
 100
@@ -4025,7 +29277,7 @@ CLCL
   0
 INSERT
   5
-BB
+6B4
 330
 17
 100
@@ -4045,7 +29297,7 @@ CLCL
   0
 INSERT
   5
-BD
+6B6
 330
 17
 100
@@ -4065,7 +29317,7 @@ CLCL
   0
 INSERT
   5
-BF
+6B8
 330
 17
 100
@@ -4085,7 +29337,7 @@ CLCL
   0
 INSERT
   5
-C1
+6BA
 330
 17
 100
@@ -4105,7 +29357,7 @@ CLCL
   0
 INSERT
   5
-C3
+6BC
 330
 17
 100
@@ -4125,7 +29377,7 @@ CLCL
   0
 INSERT
   5
-C5
+6BE
 330
 17
 100
@@ -4145,7 +29397,7 @@ CLCL
   0
 INSERT
   5
-C7
+6C0
 330
 17
 100
@@ -4165,7 +29417,7 @@ CLCL
   0
 INSERT
   5
-C9
+6C2
 330
 17
 100
@@ -4185,7 +29437,7 @@ CLCL
   0
 INSERT
   5
-CB
+6C4
 330
 17
 100
@@ -4205,7 +29457,7 @@ CLCL
   0
 INSERT
   5
-CD
+6C6
 330
 17
 100
@@ -5239,7 +30491,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-D1
+6CA
   0
 DICTIONARYVAR
   5
@@ -5251,11 +30503,11 @@ DictionaryVariables
 280
 0
   1
-1.3.0 @ 2024-06-21T02:44:22.705863+00:00
+1.3.0 @ 2024-07-03T09:17:21.138858+00:00
   0
 DICTIONARYVAR
   5
-D1
+6CA
 330
 2D
 100
@@ -5263,7 +30515,7 @@ DictionaryVariables
 280
 0
   1
-1.3.0 @ 2024-06-21T02:44:22.716830+00:00
+1.3.0 @ 2024-07-03T09:17:21.296147+00:00
   0
 ENDSEC
   0
