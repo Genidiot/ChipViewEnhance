@@ -41,19 +41,22 @@ class DxfChipView:
                         )
                     )
 
-    def add_segment(self, pins, line_list):
+    def add_segment(self, pins, line_r_list, line_l_list):
         for entity in self.msp:
             if entity.dxftype() == 'INSERT':
                 block_ref = cast("Insert", entity)
                 if block_ref.dxf.name == "SWHL":
-                    logic_column = block_ref.dxf.insert[0]/200
-                    logic_row = block_ref.dxf.insert[1]/200
-                    for segment in line_list:
+                    for segment in line_l_list:
                         terms = segment.split("-")
                         start_term = terms[0]
                         pinpoint = pins[start_term]
                         line_ref = self.msp.add_blockref(segment, block_ref.dxf.insert + pinpoint)
-
+                elif block_ref.dxf.name == "SWHR":
+                    for segment in line_r_list:
+                        terms = segment.split("-")
+                        start_term = terms[0]
+                        pinpoint = pins[start_term]
+                        line_ref = self.msp.add_blockref(segment, block_ref.dxf.insert + pinpoint)
 
     def save_sa(self, filename: str):
         self.dwg.saveas(filename=filename)
