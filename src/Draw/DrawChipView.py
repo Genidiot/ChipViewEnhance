@@ -19,9 +19,9 @@ class DxfChipView:
     def get_dwg(self):
         return self.dwg
 
-    def add_tile_refs(self):
-        region_width = 500
-        region_height = 500
+    def add_tile_refs(self, width, height):
+        region_width = width
+        region_height = height
         for item_regions in self.config.get_items_region():
             for region in item_regions.get_regions():
                 for point in region.get_logic_points():

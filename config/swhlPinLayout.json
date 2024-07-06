@@ -4,7 +4,7 @@
 	"height":200,
     "partNum":10,
 	"muxWidth":2,
-	"edgeSpace":20,
+	"edgeSpace":0,
     "downLayout":[
 		{
             "partIndex":0,

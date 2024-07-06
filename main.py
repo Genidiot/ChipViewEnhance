@@ -5,6 +5,10 @@ from src.Parser import ParserSWH
 from src.Draw import DrawSWH
 from src.Draw import DrawLine
 
+width = 1000
+height = 1000
+space = 800
+
 
 def create_tc():
     config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
@@ -23,13 +27,12 @@ def create_tc():
     swh_r_config = ParserSWH.SwhConfig(f"./config/swhrPinLayout.json")
     swh_r = DrawSWH.SwhCreate(swh_r_config, dwg_chip_view)
 
-    normal_line = DrawLine.NormalLineCreate(swh_l_config, swh_l, dwg_chip_view)
+    normal_line = DrawLine.NormalLineCreate(swh_l_config, swh_l, dwg_chip_view, space)
     normal_line.create_line()
     line_l = normal_line.get_line_l_list()
     line_r = normal_line.get_line_r_list()
-    print(line_r)
 
-    chip_view.add_tile_refs()
+    chip_view.add_tile_refs(width, height)
     chip_view.add_segment(pins, line_r, line_l)
     chip_view.save_sa(f"./result_dxf/test2.dxf")
 

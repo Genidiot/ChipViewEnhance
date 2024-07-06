@@ -32,7 +32,7 @@ def extract_number(input_string):
 
 
 class NormalLineCreate:
-    def __init__(self, config: ParserSWH.SwhConfig, swh: DrawSWH.SwhCreate, dwg):
+    def __init__(self, config: ParserSWH.SwhConfig, swh: DrawSWH.SwhCreate, dwg, space):
         self.dwg = dwg
         self.msp = self.dwg.modelspace()
         self.config = config
@@ -45,7 +45,8 @@ class NormalLineCreate:
         self.max_y = 49
         self.min_x = -49
         self.max_x = 49
-        self.space = 300
+        self.space = space
+        self.multi = 1
         self.line_r_list = list()
         self.line_l_list = list()
 
@@ -138,10 +139,10 @@ class NormalLineCreate:
                                 else:
                                     if i % 2 == 0:
                                         x = int(beg_to_edge + (2 * i + 2) * (width + self.space) + self.space
-                                                + width / 2 - 4 * line_num * i - 4 * pin_index)
+                                                + width / 2 - self.multi * line_num * i - self.multi * pin_index)
                                     else:
                                         x = int(beg_to_edge + (2 * i + 1) * (width + self.space) + self.space
-                                                + width / 2 - 4 * line_num * i - 4 * pin_index)
+                                                + width / 2 - self.multi * line_num * i - self.multi * pin_index)
                                 y = y
                                 point_list.append((x, y))
                             block_name = pin_name + "-" + end_name + "-" + tile_type[3]
@@ -165,10 +166,10 @@ class NormalLineCreate:
                                 else:
                                     if i % 2 == 0:
                                         x = int(beg_to_edge + (2 * i) * (width + self.space) + self.space
-                                                + width / 2 - 4 * line_num * i - 4 * pin_index)
+                                                + width / 2 - self.multi * line_num * i - self.multi * pin_index)
                                     else:
                                         x = int(beg_to_edge + (2 * i + 1) * (width + self.space) + self.space
-                                                + width / 2 - 4 * line_num * i - 4 * pin_index)
+                                                + width / 2 - self.multi * line_num * i - self.multi * pin_index)
                                 y = y
                                 point_list.append((x, y))
                             block_name = pin_name + "-" + end_name + "-" + tile_type[3]
@@ -220,10 +221,10 @@ class NormalLineCreate:
                                 else:
                                     if i % 2 == 0:
                                         x = 0 - int(beg_to_edge + (2 * i) * (width + self.space) + self.space
-                                                    + width / 2 - 4 * line_num * i - 4 * pin_index)
+                                                    + width / 2 - self.multi * line_num * i - self.multi * pin_index)
                                     else:
                                         x = 0 - int(beg_to_edge + (2 * i + 1) * (width + self.space) + self.space
-                                                    + width / 2 - 4 * line_num * i - 4 * pin_index)
+                                                    + width / 2 - self.multi * line_num * i - self.multi * pin_index)
                                 y = y
                                 point_list.append((x, y))
                             block_name = pin_name + "-" + end_name + "-" + tile_type[3]
@@ -247,10 +248,10 @@ class NormalLineCreate:
                                 else:
                                     if i % 2 == 0:
                                         x = 0 - int(beg_to_edge + (2 * i + 2) * (width + self.space) + self.space
-                                                    + width / 2 - 4 * line_num * i - 4 * pin_index)
+                                                    + width / 2 - self.multi * line_num * i - self.multi * pin_index)
                                     else:
                                         x = 0 - int(beg_to_edge + (2 * i + 1) * (width + self.space) + self.space
-                                                    + width / 2 - 4 * line_num * i - 4 * pin_index)
+                                                    + width / 2 - self.multi * line_num * i - self.multi * pin_index)
                                 y = y
                                 point_list.append((x, y))
                             block_name = pin_name + "-" + end_name + "-" + tile_type[3]
@@ -300,7 +301,7 @@ class NormalLineCreate:
                                     + self.space + edge_to_end
                             else:
                                 y = int(beg_to_edge + i * (height + self.space) + self.space
-                                        + height / 2 - 4 * line_num * i - 4 * pin_index)
+                                        + height / 2 - self.multi * line_num * i - self.multi * pin_index)
                             point_list.append((x, y))
                         block_name = pin_name + "-" + end_name
                         self.line_r_list.append(block_name)
@@ -349,7 +350,7 @@ class NormalLineCreate:
                                          + self.space + edge_to_end)
                             else:
                                 y = 0 - int(beg_to_edge + i * (height + self.space) + self.space
-                                            + height / 2 - 4 * line_num * i - 4 * pin_index)
+                                            + height / 2 - self.multi * line_num * i - self.multi * pin_index)
                             point_list.append((x, y))
                             block_name = pin_name + "-" + end_name
                             self.line_r_list.append(block_name)
