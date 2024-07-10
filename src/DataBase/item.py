@@ -3,6 +3,7 @@ from typing import List
 from src.DataBase.point import PointF
 
 from src.Enums.item_type import ItemType
+from src.Enums.text_direction import TextDirection
 
 
 class Item:
@@ -65,8 +66,14 @@ class PolygonItem(Item):
         super().__init__()
         self.vecPoints: List[PointF] = []
 
+    def get_points_list(self):
+        return self.vecPoints
+
     def add_point(self, point: PointF):
         self.vecPoints.append(point)
+
+    def get_item_type(self):
+        return ItemType.ITEM_TYPE_POLYGON
 
 
 class PolygonLineItem(Item):
@@ -74,8 +81,46 @@ class PolygonLineItem(Item):
         super().__init__()
         self.vecPoints: List[PointF] = []
 
+    def get_points_list(self):
+        return self.vecPoints
 
-class EntityInst:
+    def add_point(self, point: PointF):
+        self.vecPoints.append(point)
+
+    def get_item_type(self):
+        return ItemType.ITEM_TYPE_POLYGON_LINE
+
+
+class TextItem(Item):
+    def __init__(self, text: str, position: PointF, direction: TextDirection):
+        super().__init__()
+        self.text = text
+        self.position = position
+        self.direction = direction
+
+    def set_text(self, text: str):
+        self.text = text
+
+    def get_text(self):
+        return self.text
+
+    def set_position(self, position: PointF):
+        self.position = position
+
+    def get_position(self):
+        return self.position
+
+    def set_direction(self, direction: TextDirection):
+        self.direction = direction
+
+    def get_direction(self):
+        return self.direction
+
+    def get_item_type(self):
+        return ItemType.ITEM_TYPE_TEXT
+
+
+class EntityInst(Item):
     def __init__(self, ref_entity_name, position_):
         super().__init__()
         self.refEntityName = ref_entity_name
@@ -83,3 +128,36 @@ class EntityInst:
         self.logic_x = 0
         self.logic_y = 0
         self.position: PointF = position_
+
+    def set_reference_name(self, ref_entity_name: str):
+        self.refEntityName = ref_entity_name
+
+    def get_reference_name(self):
+        return self.refEntityName
+
+    def set_reference_id(self, id_):
+        self.id = id_
+
+    def get_reference_id(self):
+        return self.id
+
+    def set_logic_x(self, logic_x):
+        self.logic_x = logic_x
+
+    def get_logic_x(self):
+        return self.logic_x
+
+    def set_logic_y(self, logic_y):
+        self.logic_y = logic_y
+
+    def get_logic_y(self):
+        return self.logic_y
+
+    def set_position(self, position: PointF):
+        self.position = position
+
+    def get_position(self):
+        return self.position
+
+    def get_item_type(self):
+        return ItemType.ITEM_TYPE_ENTITY_INST

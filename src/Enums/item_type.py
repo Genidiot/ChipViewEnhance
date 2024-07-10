@@ -29,5 +29,5 @@ def item_type_str_to_enum(item_type_str: str):
     return str_to_item_type.get(item_type_str, ItemType.ITEM_TYPE_UNKNOWN)
 
 
-def item_type_enum_to(item_type_enum: ItemType):
+def item_type_enum_to_str(item_type_enum: ItemType):
     return item_type_to_str.get(item_type_enum, "Unknown")
