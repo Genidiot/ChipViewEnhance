@@ -41,12 +41,12 @@ class NormalLineCreate:
         # self.drop_height = 0
         # self.drop_num = 0
         self.gap = 1
-        self.min_y = -49
-        self.max_y = 49
-        self.min_x = -49
-        self.max_x = 49
+        self.min_y = -99
+        self.max_y = 99
+        self.min_x = -99
+        self.max_x = 99
         self.space = space
-        self.multi = 1
+        self.multi = 4
         self.line_r_list = list()
         self.line_l_list = list()
 
@@ -95,8 +95,8 @@ class NormalLineCreate:
 
     # Line in config must from small to large
     def create_line_points(self, tile_type):
-        self.min_y = -49
-        self.max_y = 49
+        self.min_y = -99
+        self.max_y = 99
         for section in self.config.down_layout:
             section: Layout
             if section.get_index() != 9:

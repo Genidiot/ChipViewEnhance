@@ -66,11 +66,11 @@ class PolygonItem(Item):
         super().__init__()
         self.vecPoints: List[PointF] = []
 
-    def get_points_list(self):
-        return self.vecPoints
-
     def add_point(self, point: PointF):
         self.vecPoints.append(point)
+
+    def get_points_list(self):
+        return self.vecPoints
 
     def get_item_type(self):
         return ItemType.ITEM_TYPE_POLYGON
@@ -81,11 +81,11 @@ class PolygonLineItem(Item):
         super().__init__()
         self.vecPoints: List[PointF] = []
 
-    def get_points_list(self):
-        return self.vecPoints
-
     def add_point(self, point: PointF):
         self.vecPoints.append(point)
+
+    def get_points_list(self):
+        return self.vecPoints
 
     def get_item_type(self):
         return ItemType.ITEM_TYPE_POLYGON_LINE

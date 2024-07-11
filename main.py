@@ -5,9 +5,11 @@ from src.Parser import ParserSWH
 from src.Draw import DrawSWH
 from src.Draw import DrawLine
 
-width = 1000
-height = 1000
-space = 800
+from src.dxf import dxfblocks
+
+width = 3000
+height = 3000
+space = 1000
 
 
 def create_tc():
@@ -26,6 +28,10 @@ def create_tc():
     pins = swh_l.get_sub_block_dict()
     swh_r_config = ParserSWH.SwhConfig(f"./config/swhrPinLayout.json")
     swh_r = DrawSWH.SwhCreate(swh_r_config, dwg_chip_view)
+
+    segments = dxfblocks.DxfBlocks(f"./import_dxf")
+    segment_dwg = segments.get_dwgs()
+    chip_view.import_block(segment_dwg)
 
     normal_line = DrawLine.NormalLineCreate(swh_l_config, swh_l, dwg_chip_view, space)
     normal_line.create_line()

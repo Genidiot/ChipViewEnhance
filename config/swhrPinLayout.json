@@ -1,10 +1,10 @@
 {
 	"tileType":"SWHR",
-    "width":200,
-	"height":200,
+    "width":2000,
+	"height":2000,
     "partNum":10,
-	"muxWidth":2,
-	"edgeSpace":0,
+	"muxWidth":4,
+	"edgeSpace":20,
     "downLayout":[
 		{
             "partIndex":0,

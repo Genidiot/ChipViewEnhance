@@ -1,4 +1,5 @@
 import ezdxf
+from ezdxf.addons import Importer
 
 from src.Parser.ParserLayout import LogicRegion
 from src.Parser.ParserLayout import ItemRegions
@@ -9,15 +10,57 @@ import src.Draw.DrawEntity as Draw_entity
 from typing import cast
 
 
+def get_segment_length(segment_name: str):
+    if segment_name[2:4] == "12":
+        return 12
+    elif segment_name[2:3] == "1":
+        return 1
+    elif segment_name[2:3] == "2":
+        return 2
+    elif segment_name[2:3] == "4":
+        return 4
+    elif segment_name[2:3] == "6":
+        return 6
+    elif segment_name.find("L14") != -1:
+        return 14
+    elif segment_name.find("L1") != -1:
+        return 1
+    elif segment_name.find("L2") != -1:
+        return 2
+    elif segment_name.find("L3") != -1:
+        return 3
+    elif segment_name.find("L4") != -1:
+        return 4
+    elif segment_name.find("L6") != -1:
+        return 6
+    else:
+        return -1
+
+
 class DxfChipView:
     def __init__(self, config: ChipViewLayout):
         self.dwg = ezdxf.new(dxfversion='AC1021')
         ezdxf.setup_linetypes(self.dwg)
         self.msp = self.dwg.modelspace()
         self.config = config
+        self.insert_x = {}
+        self.insert_y = {}
 
     def get_dwg(self):
         return self.dwg
+
+    def get_blocks_name(self, dwg) -> list:
+        block_name_list = []
+        for e in dwg.blocks:
+            if e.name != "*Model_Space" and e.name != "*Paper_Space":
+                block_name_list.append(e.name)
+        return block_name_list
+
+    def import_block(self, sourcedwgs: list):
+        for dwg in sourcedwgs:
+            importer = Importer(dwg, self.dwg)
+            importer.import_blocks(self.get_blocks_name(dwg))
+            importer.finalize()
 
     def add_tile_refs(self, width, height):
         region_width = width
@@ -29,6 +72,8 @@ class DxfChipView:
                     row = int(point.get_row())
                     insert_x = column * region_width
                     insert_y = row * region_height
+                    self.insert_x[insert_x] = column
+                    self.insert_y[insert_y] = row
                     tile_type = item_regions.get_item_type()
                     if self.dwg.blocks.get(tile_type) is None:
                         Draw_entity.draw_entity(self.dwg, tile_type)
@@ -46,17 +91,54 @@ class DxfChipView:
             if entity.dxftype() == 'INSERT':
                 block_ref = cast("Insert", entity)
                 if block_ref.dxf.name == "SWHL":
+                    logic_column = self.insert_x.get(block_ref.dxf.insert[0])
+                    logic_row = self.insert_y.get(block_ref.dxf.insert[1])
                     for segment in line_l_list:
                         terms = segment.split("-")
                         start_term = terms[0]
                         pinpoint = pins[start_term]
-                        line_ref = self.msp.add_blockref(segment, block_ref.dxf.insert + pinpoint)
+                        segment_ref_name = self.edge_control(logic_column, logic_row, segment)
+                        line_ref = self.msp.add_blockref(segment_ref_name, block_ref.dxf.insert + pinpoint)
                 elif block_ref.dxf.name == "SWHR":
+                    logic_column = self.insert_x.get(block_ref.dxf.insert[0])
+                    logic_row = self.insert_y.get(block_ref.dxf.insert[1])
                     for segment in line_r_list:
                         terms = segment.split("-")
                         start_term = terms[0]
                         pinpoint = pins[start_term]
-                        line_ref = self.msp.add_blockref(segment, block_ref.dxf.insert + pinpoint)
+                        segment_ref_name = self.edge_control(logic_column, logic_row, segment)
+                        line_ref = self.msp.add_blockref(segment_ref_name, block_ref.dxf.insert + pinpoint)
+
+    def edge_control(self, start_column, start_row, segment_name: str):
+        terms = segment_name.split("-")
+        start_term: str = terms[0]
+        end_term: str = terms[1]
+        segment_length = get_segment_length(start_term)
+        if segment_length == -1:
+            return segment_name
+
+        if start_term.startswith("ee"):
+            end_column = start_column + segment_length * 2 - 1
+            if end_column > self.config.get_column_count() - 1:
+                index: int = int(segment_length - (end_column - self.config.get_column_count() + 1) / 2)
+                segment_name = start_term + "-" + end_term.replace("ee", "ww") + "-" + str(index)
+        elif start_term.startswith("ww"):
+            end_column = start_column - segment_length * 2 + 1
+            if end_column < 0:
+                index: int = int(segment_length - (0 - end_column) / 2)
+                segment_name = start_term + "-" + end_term.replace("ww", "ee") + "-" + str(index)
+        elif start_term.startswith("nn"):
+            end_row = start_row + segment_length
+            if end_row > self.config.get_row_count() - 1:
+                index: int = int(segment_length - (end_row - self.config.get_row_count() + 1))
+                segment_name = start_term + "-" + end_term.replace("nn", "ss") + "-" + str(index)
+        elif start_term.startswith("ss"):
+            end_row = start_row - segment_length
+            if end_row < 0:
+                index: int = int(segment_length - (0 - end_row))
+                segment_name = start_term + "-" + end_term.replace("ss", "nn") + "-" + str(index)
+
+        return segment_name
 
     def save_sa(self, filename: str):
         self.dwg.saveas(filename=filename)

@@ -6,8 +6,8 @@ from src.DataBase.graphic import Graphic
 from src.DataBase.item import EntityInst
 from src.DataBase.item import CircleItem
 
+from src.DataBase import entity_lib
 from src.DataBase.entity_lib import EntityLib
-import src.DataBase.entity_lib as EntityLib_module
 
 
 class EntityParser:
@@ -54,8 +54,8 @@ class EntityParser:
                 entity.add_item(self.item_list[-1])
 
         self.entity_list.append(entity)
-        entity_lib = EntityLib_module.entity_lib
-        entity_lib.add_entity(entity_type, entity)
+        entity_library = entity_lib.entity_lib
+        entity_library.add_entity(entity_type, entity)
 
     def create_polygon(self, polygon_nodes):
         polygon_item = PolygonItem()
