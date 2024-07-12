@@ -1,17 +1,15 @@
-from src.DataBase import entity_lib
-from src.DataBase.entity import Entity
-from ezdxf import filemanagement
-from src.DataBase.item import Item
 from src.DataBase.item import PolygonItem
 from src.DataBase.item import EntityInst
 from src.DataBase.item import CircleItem
+from src.DataBase.entity import Entity
 
-beishu = 10
+from src.DataBase.entity_lib import entity_lib
+
+scale = 10
 
 
 def draw_entity(dwg, entity_name):
-    entity_library = entity_lib.entity_lib
-    entity: Entity = entity_library.get_entity(entity_name)
+    entity: Entity = entity_lib.get_entity(entity_name)
     if entity is None:
         return
     if dwg.blocks.get(entity.entityName) is not None:
@@ -35,14 +33,14 @@ def draw_item(dwg, block, item):
 def draw_polygon(item: PolygonItem, block):
     points = []
     for point in item.vecPoints:
-        points.append((point.x * beishu, point.y * beishu))
+        points.append((point.x * scale, point.y * scale))
     block.add_lwpolyline(points, close=True)
 
 
 def draw_insert(item: EntityInst, block, dwg):
     ref_name = item.refEntityName
-    point_x = item.position.x * beishu
-    point_y = item.position.y * beishu
+    point_x = item.position.x * scale
+    point_y = item.position.y * scale
     draw_entity(dwg, ref_name)
     block.add_blockref(ref_name, (point_x, point_y))
 
