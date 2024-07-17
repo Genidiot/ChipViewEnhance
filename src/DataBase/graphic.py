@@ -4,6 +4,11 @@ from src.DataBase.item import EntityInst
 
 class Graphic:
     def __init__(self):
+        self.device_name = ""
+        self.row_count = 0
+        self.column_count = 0
+        self.max_row_index = 0
+        self.max_column_index = 0
         self.vecEntityInst: List[EntityInst] = []
 
     def add_entity_inst(self, ref_entity_name, id_, logic_x, logic_y, position_):
