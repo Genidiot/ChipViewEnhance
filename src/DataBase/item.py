@@ -121,12 +121,12 @@ class TextItem(Item):
 
 
 class EntityInst(Item):
-    def __init__(self, ref_entity_name, position_):
+    def __init__(self, ref_entity_name, position_, id_=None, logic_x=None, logic_y=None):
         super().__init__()
         self.refEntityName = ref_entity_name
-        self.id = 0
-        self.logic_x = 0
-        self.logic_y = 0
+        self.id = id_
+        self.logic_x = logic_x
+        self.logic_y = logic_y
         self.position: PointF = position_
 
     def set_reference_name(self, ref_entity_name: str):

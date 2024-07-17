@@ -1,5 +1,7 @@
 import json
+from typing import List
 from src.DataBase.point import PointF
+from src.DataBase.graphic import chip_view_graphic
 
 
 class LogicRegion:
@@ -68,7 +70,7 @@ class ItemRegions:
         self.item_type = item_type
         self.item_width = item_width
         self.item_height = item_height
-        self.regions = []
+        self.regions: List[LogicRegion] = []
 
     def add_region(self, region: LogicRegion):
         self.regions.append(region)
@@ -104,9 +106,10 @@ class ChipViewLayout:
         self.name = ""
         self.row_count = 0
         self.column_count = 0
-        self.items_region = list()
+        self.items_region: List[ItemRegions] = list()
 
         self.__read_config()
+        self.add_to_graphic()
 
     def __read_config(self):
         with open(self.filename, 'r') as configfile:
@@ -145,3 +148,30 @@ class ChipViewLayout:
             typenames.append(items_region.get_item_type())
         return typenames
 
+    def add_to_graphic(self):
+        chip_view_graphic.set_device_name(device_name=self.name)
+        chip_view_graphic.set_row_count(row_count=self.row_count)
+        chip_view_graphic.set_column_count(column_count=self.column_count)
+        chip_view_graphic.set_max_row_index(max_row_index=self.row_count - 1)
+        chip_view_graphic.set_max_column_index(max_column_index=self.column_count - 1)
+
+        row_heights = {0: 3000, 1: 3000, 2: 3000, 3: 3000, 4: 3000, 5: 3000}
+        column_widths = {0: 3000, 1: 3000, 2: 3000, 3: 3000, 4: 3000, 5: 3000}
+
+        for key, value in row_heights:
+            chip_view_graphic.set_row_height(row=key, height=value)
+        for key, value in column_widths:
+            chip_view_graphic.set_col_width(col=key, width=value)
+        chip_view_graphic.update_mappings()
+
+        for item_regions in self.items_region:
+            for region in item_regions.get_regions():
+                for point in region.get_logic_points():
+                    column = int(point.get_column())
+                    row = int(point.get_row())
+                    insert_point = chip_view_graphic.logic_to_physical[(column, row)]
+                    ref_name = item_regions.get_item_type()
+                    chip_view_graphic.add_new_entity_inst(ref_entity_name=ref_name,
+                                                          position_=insert_point,
+                                                          logic_x=column,
+                                                          logic_y=row)
