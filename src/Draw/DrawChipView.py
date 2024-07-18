@@ -93,7 +93,7 @@ class DxfChipView:
             ref_name = entity_inst.get_reference_name()
             logic_x = entity_inst.get_logic_x()
             logic_y = entity_inst.get_logic_y()
-            insert_position = chip_view_graphic.logic_to_physical.get((logic_x, logic_y))
+            insert_position = chip_view_graphic.logic_to_physical[(logic_x, logic_y)]
             if self.dwg.blocks.get(ref_name) is None:
                 Draw_entity.draw_entity(self.dwg, ref_name)
             block_ref = self.msp.add_blockref(ref_name, insert_position)

@@ -91,7 +91,7 @@ class Graphic:
             if entity_inst.logic_y >= index:
                 entity_inst.logic_y += 1
 
-    def insert_column(self, index: int, width: int):
+    def insert_column(self, index: int, width: int, entity_inst_type: type = None):
         for col in sorted(self.column_widths, reverse=True):
             if col >= index:
                 self.column_widths[col + 1] = self.column_widths.pop(col)
@@ -100,6 +100,13 @@ class Graphic:
             if entity_inst.logic_x >= index:
                 entity_inst.logic_x += 1
 
+        if entity_inst_type:
+            for row in range(len(self.row_heights)):
+                new_entity_inst = EntityInst(ref_entity_name=entity_inst_type,
+                                             logic_x=index, logic_y=row,
+                                             position_=None, id_=None)
+                self.add_entity_inst(new_entity_inst)
+
     def delete_row(self, index: int):
         self.row_heights.pop(index, None)
         for entity_inst in self.vecEntityInst:
@@ -107,6 +114,7 @@ class Graphic:
                 self.remove_entity_inst(entity_inst)
             elif entity_inst.logic_y > index:
                 entity_inst.logic_y -= 1
+        self.row_heights = {row if row < index else row - 1: height for row, height in self.row_heights.items()}
 
     def delete_column(self, index: int):
         self.column_widths.pop(index, None)
@@ -115,6 +123,7 @@ class Graphic:
                 self.remove_entity_inst(entity_inst)
             elif entity_inst.logic_x > index:
                 entity_inst.logic_x -= 1
+        self.column_widths = {col if col < index else col - 1: width for col, width in self.column_widths.items()}
 
     def get_entity_inst_at(self, logical_x: int, logical_y: int):
         for entity_inst in self.vecEntityInst:
