@@ -13,6 +13,9 @@ class Item:
     def __del__(self):
         pass
 
+    def render(self):
+        pass
+
     def get_item_type(self):
         return ItemType.ITEM_TYPE_UNKNOWN
 
@@ -121,7 +124,7 @@ class TextItem(Item):
 
 
 class EntityInst(Item):
-    def __init__(self, ref_entity_name, position_, id_=None, logic_x=None, logic_y=None):
+    def __init__(self, ref_entity_name, position_, logic_x=None, logic_y=None, id_=None):
         super().__init__()
         self.refEntityName = ref_entity_name
         self.id = id_
@@ -161,3 +164,6 @@ class EntityInst(Item):
 
     def get_item_type(self):
         return ItemType.ITEM_TYPE_ENTITY_INST
+
+    def render(self):
+        return f"Rendering {self.refEntityName} at logical ({self.logic_x}, {self.logic_y}, position{self.position})"

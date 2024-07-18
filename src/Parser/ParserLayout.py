@@ -106,6 +106,8 @@ class ChipViewLayout:
         self.name = ""
         self.row_count = 0
         self.column_count = 0
+        self.row_heights = {}
+        self.column_widths = {}
         self.items_region: List[ItemRegions] = list()
 
         self.__read_config()
@@ -120,6 +122,8 @@ class ChipViewLayout:
         self.name = configuration["deviceName"]
         self.row_count = configuration["rowNum"]
         self.column_count = configuration["colNum"]
+        self.row_heights = {int(key) if key.isdigit() else key: value for key, value in configuration["rowHeights"].items()}
+        self.column_widths = {int(key) if key.isdigit() else key: value for key, value in configuration["columnWidths"].items()}
 
         for item_region in configuration["itemRegion"]:
             temp_item_region = ItemRegions(item_region["type"], item_region["width"], item_region["height"])
@@ -155,12 +159,12 @@ class ChipViewLayout:
         chip_view_graphic.set_max_row_index(max_row_index=self.row_count - 1)
         chip_view_graphic.set_max_column_index(max_column_index=self.column_count - 1)
 
-        row_heights = {0: 3000, 1: 3000, 2: 3000, 3: 3000, 4: 3000, 5: 3000}
-        column_widths = {0: 3000, 1: 3000, 2: 3000, 3: 3000, 4: 3000, 5: 3000}
+        row_heights = {0: 3000, 1: 5000, 2: 3000, 3: 3000, 4: 7000, 5: 3000}
+        column_widths = {0: 2000, 1: 3000, 2: 6000, 3: 3000, 4: 3000, 5: 3000}
 
-        for key, value in row_heights:
+        for key, value in self.row_heights.items():
             chip_view_graphic.set_row_height(row=key, height=value)
-        for key, value in column_widths:
+        for key, value in self.column_widths.items():
             chip_view_graphic.set_col_width(col=key, width=value)
         chip_view_graphic.update_mappings()
 
@@ -174,4 +178,8 @@ class ChipViewLayout:
                     chip_view_graphic.add_new_entity_inst(ref_entity_name=ref_name,
                                                           position_=insert_point,
                                                           logic_x=column,
-                                                          logic_y=row)
+                                                          logic_y=row,
+                                                          id_=None)
+        print(chip_view_graphic.row_heights)
+        print(chip_view_graphic.column_widths)
+        print(chip_view_graphic.render_layout())

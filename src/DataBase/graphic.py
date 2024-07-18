@@ -46,8 +46,8 @@ class Graphic:
     def get_max_column_index(self):
         return self.max_column_index
 
-    def add_new_entity_inst(self, ref_entity_name, id_, logic_x, logic_y, position_):
-        entity_inst = EntityInst(ref_entity_name, position_, id_, logic_x, logic_y)
+    def add_new_entity_inst(self, ref_entity_name, position_, logic_x, logic_y, id_):
+        entity_inst = EntityInst(ref_entity_name, position_, logic_x, logic_y, id_)
         self.vecEntityInst.append(entity_inst)
 
     def get_entity_inst_list(self):
@@ -121,6 +121,12 @@ class Graphic:
             if entity_inst.logic_x == logical_x and entity_inst.logic_y == logical_y:
                 return entity_inst
         return None
+
+    def render_layout(self):
+        layout = ""
+        for entity_inst in self.vecEntityInst:
+            layout += entity_inst.render() + "\n"
+        return layout
 
 
 chip_view_graphic = Graphic()

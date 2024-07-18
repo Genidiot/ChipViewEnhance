@@ -6,6 +6,7 @@ from src.Draw import DrawSWH
 from src.Draw import DrawLine
 
 from src.dxf import dxfblocks
+from src.Draw import modify_graphic
 
 width = 3000
 height = 3000
@@ -21,6 +22,7 @@ def create_tc():
     ParserEntity.EntityParser(f"./config/mux2_def.json")
     ParserEntity.EntityParser(f"./config/cla_def.json")
     ParserEntity.EntityParser(f"./config/swh_mux_def.json")
+
     chip_view = DrawChipView.DxfChipView(config_chip_view)
     dwg_chip_view = chip_view.get_dwg()
     swh_l_config = ParserSWH.SwhConfig(f"./config/swhlPinLayout.json")
@@ -28,6 +30,8 @@ def create_tc():
     pins = swh_l.get_sub_block_dict()
     swh_r_config = ParserSWH.SwhConfig(f"./config/swhrPinLayout.json")
     swh_r = DrawSWH.SwhCreate(swh_r_config, dwg_chip_view)
+
+    modify_graphic.modify_graphic()
 
     segments = dxfblocks.DxfBlocks(f"./import_dxf")
     segment_dwg = segments.get_dwgs()
@@ -38,9 +42,11 @@ def create_tc():
     line_l = normal_line.get_line_l_list()
     line_r = normal_line.get_line_r_list()
 
-    chip_view.add_tile_refs(width, height)
-    chip_view.add_segment(pins, line_r, line_l)
-    chip_view.save_sa(f"./result_dxf/test2.dxf")
+    # chip_view.add_tile_refs(width, height)
+    chip_view.add_tile_ref_from_graphic()
+    # chip_view.add_segment(pins, line_r, line_l)
+    chip_view.add_segment_from_graphic(pins, line_r, line_l)
+    chip_view.save_sa(f"./result_dxf/test3.dxf")
 
 
 if __name__ == '__main__':

@@ -4,6 +4,7 @@ from ezdxf.addons import Importer
 from src.Parser.ParserLayout import LogicRegion
 from src.Parser.ParserLayout import ItemRegions
 from src.Parser.ParserLayout import ChipViewLayout
+from src.DataBase.graphic import chip_view_graphic
 
 import src.Draw.DrawEntity as Draw_entity
 
@@ -86,6 +87,17 @@ class DxfChipView:
                         )
                     )
 
+    def add_tile_ref_from_graphic(self):
+        entity_inst_list = chip_view_graphic.get_entity_inst_list()
+        for entity_inst in entity_inst_list:
+            ref_name = entity_inst.get_reference_name()
+            logic_x = entity_inst.get_logic_x()
+            logic_y = entity_inst.get_logic_y()
+            insert_position = chip_view_graphic.logic_to_physical.get((logic_x, logic_y))
+            if self.dwg.blocks.get(ref_name) is None:
+                Draw_entity.draw_entity(self.dwg, ref_name)
+            block_ref = self.msp.add_blockref(ref_name, insert_position)
+
     def add_segment(self, pins, line_r_list, line_l_list):
         for entity in self.msp:
             if entity.dxftype() == 'INSERT':
@@ -102,6 +114,32 @@ class DxfChipView:
                 elif block_ref.dxf.name == "SWHR":
                     logic_column = self.insert_x.get(block_ref.dxf.insert[0])
                     logic_row = self.insert_y.get(block_ref.dxf.insert[1])
+                    for segment in line_r_list:
+                        terms = segment.split("-")
+                        start_term = terms[0]
+                        pinpoint = pins[start_term]
+                        segment_ref_name = self.edge_control(logic_column, logic_row, segment)
+                        line_ref = self.msp.add_blockref(segment_ref_name, block_ref.dxf.insert + pinpoint)
+
+    def add_segment_from_graphic(self, pins, line_r_list, line_l_list):
+        for entity in self.msp:
+            if entity.dxftype() == 'INSERT':
+                block_ref = cast("Insert", entity)
+                if block_ref.dxf.name == "SWHL":
+                    insert_position = chip_view_graphic.physical_to_logic.get((block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
+                    logic_column = insert_position[0]
+                    logic_row = insert_position[1]
+                    for segment in line_l_list:
+                        terms = segment.split("-")
+                        start_term = terms[0]
+                        pinpoint = pins[start_term]
+                        segment_ref_name = self.edge_control(logic_column, logic_row, segment)
+                        line_ref = self.msp.add_blockref(segment_ref_name, block_ref.dxf.insert + pinpoint)
+                elif block_ref.dxf.name == "SWHR":
+                    insert_position = chip_view_graphic.physical_to_logic.get(
+                        (block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
+                    logic_column = insert_position[0]
+                    logic_row = insert_position[1]
                     for segment in line_r_list:
                         terms = segment.split("-")
                         start_term = terms[0]
