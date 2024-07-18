@@ -8,13 +8,16 @@ from src.Draw import DrawLine
 from src.dxf import dxfblocks
 from src.Draw import modify_graphic
 
+from src.DataBase.graphic import chip_view_graphic
+from src.Write import write_json
+
 width = 3000
 height = 3000
 space = 1000
 
 
 def create_tc():
-    config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
+    config_chip_view = ParserLayout.ChipViewLayout(f"output.json")
     # ParserEntity.EntityParser(f"./config/SWHL.json")
     ParserEntity.EntityParser(f"./config/CLCL.json")
     ParserEntity.EntityParser(f"./config/SLABL_def.json")
@@ -31,7 +34,7 @@ def create_tc():
     swh_r_config = ParserSWH.SwhConfig(f"./config/swhrPinLayout.json")
     swh_r = DrawSWH.SwhCreate(swh_r_config, dwg_chip_view)
 
-    modify_graphic.modify_graphic()
+    # modify_graphic.modify_graphic()
 
     segments = dxfblocks.DxfBlocks(f"./import_dxf")
     segment_dwg = segments.get_dwgs()
@@ -46,7 +49,10 @@ def create_tc():
     chip_view.add_tile_ref_from_graphic()
     # chip_view.add_segment(pins, line_r, line_l)
     chip_view.add_segment_from_graphic(pins, line_r, line_l)
-    chip_view.save_sa(f"./result_dxf/test3.dxf")
+    chip_view.save_sa(f"./result_dxf/test5.dxf")
+
+    # json_output = write_json.graphic_to_json(chip_view_graphic)
+    # write_json.save_json_to_file(json_output, 'output.json')
 
 
 if __name__ == '__main__':

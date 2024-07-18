@@ -157,8 +157,8 @@ class DxfChipView:
 
         if start_term.startswith("ee"):
             end_column = start_column + segment_length * 2 - 1
-            if end_column > self.config.get_column_count() - 1:
-                index: int = int(segment_length - (end_column - self.config.get_column_count() + 1) / 2)
+            if end_column > chip_view_graphic.get_max_column_index():
+                index: int = int(segment_length - (end_column - chip_view_graphic.get_column_count() + 1) / 2)
                 segment_name = start_term + "-" + end_term.replace("ee", "ww") + "-" + str(index)
         elif start_term.startswith("ww"):
             end_column = start_column - segment_length * 2 + 1
@@ -167,8 +167,8 @@ class DxfChipView:
                 segment_name = start_term + "-" + end_term.replace("ww", "ee") + "-" + str(index)
         elif start_term.startswith("nn"):
             end_row = start_row + segment_length
-            if end_row > self.config.get_row_count() - 1:
-                index: int = int(segment_length - (end_row - self.config.get_row_count() + 1))
+            if end_row > chip_view_graphic.get_max_row_index():
+                index: int = int(segment_length - (end_row - chip_view_graphic.get_row_count() + 1))
                 segment_name = start_term + "-" + end_term.replace("nn", "ss") + "-" + str(index)
         elif start_term.startswith("ss"):
             end_row = start_row - segment_length

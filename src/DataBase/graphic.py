@@ -90,6 +90,8 @@ class Graphic:
         for entity_inst in self.vecEntityInst:
             if entity_inst.logic_y >= index:
                 entity_inst.logic_y += 1
+        self.row_count += 1
+        self.max_row_index += 1
 
     def insert_column(self, index: int, width: int, entity_inst_type: type = None):
         for col in sorted(self.column_widths, reverse=True):
@@ -99,6 +101,8 @@ class Graphic:
         for entity_inst in self.vecEntityInst:
             if entity_inst.logic_x >= index:
                 entity_inst.logic_x += 1
+        self.column_count += 1
+        self.max_column_index += 1
 
         if entity_inst_type:
             for row in range(len(self.row_heights)):
@@ -115,6 +119,8 @@ class Graphic:
             elif entity_inst.logic_y > index:
                 entity_inst.logic_y -= 1
         self.row_heights = {row if row < index else row - 1: height for row, height in self.row_heights.items()}
+        self.row_count -= 1
+        self.max_row_index -= 1
 
     def delete_column(self, index: int):
         self.column_widths.pop(index, None)
@@ -124,6 +130,8 @@ class Graphic:
             elif entity_inst.logic_x > index:
                 entity_inst.logic_x -= 1
         self.column_widths = {col if col < index else col - 1: width for col, width in self.column_widths.items()}
+        self.column_count -= 1
+        self.max_column_index -= 1
 
     def get_entity_inst_at(self, logical_x: int, logical_y: int):
         for entity_inst in self.vecEntityInst:
