@@ -21,8 +21,8 @@ def graphic_to_json(graphic: Graphic) -> str:
         if entity_type not in type_to_regions:
             type_to_regions[entity_type] = {
                 "type": entity_type,
-                "width": 1,  # 假设EntityInst有width属性
-                "height": 1,  # 假设EntityInst有height属性
+                "width": 1,
+                "height": 1,
                 "regions": []
             }
         type_to_regions[entity_type]["regions"].append({
@@ -34,7 +34,6 @@ def graphic_to_json(graphic: Graphic) -> str:
 
     data["itemRegion"] = list(type_to_regions.values())
 
-    # 将字典转换为JSON字符串
     json_str = json.dumps(data, indent=4)
     return json_str
 

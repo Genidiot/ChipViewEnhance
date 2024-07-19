@@ -329,6 +329,78 @@
                     "startY": 5,
                     "endX": 3,
                     "endY": 5
+                },
+                {
+                    "startX": 6,
+                    "startY": 0,
+                    "endX": 6,
+                    "endY": 0
+                },
+                {
+                    "startX": 6,
+                    "startY": 1,
+                    "endX": 6,
+                    "endY": 1
+                },
+                {
+                    "startX": 6,
+                    "startY": 2,
+                    "endX": 6,
+                    "endY": 2
+                },
+                {
+                    "startX": 6,
+                    "startY": 3,
+                    "endX": 6,
+                    "endY": 3
+                },
+                {
+                    "startX": 6,
+                    "startY": 4,
+                    "endX": 6,
+                    "endY": 4
+                },
+                {
+                    "startX": 6,
+                    "startY": 5,
+                    "endX": 6,
+                    "endY": 5
+                },
+                {
+                    "startX": 7,
+                    "startY": 0,
+                    "endX": 7,
+                    "endY": 0
+                },
+                {
+                    "startX": 7,
+                    "startY": 1,
+                    "endX": 7,
+                    "endY": 1
+                },
+                {
+                    "startX": 7,
+                    "startY": 2,
+                    "endX": 7,
+                    "endY": 2
+                },
+                {
+                    "startX": 7,
+                    "startY": 3,
+                    "endX": 7,
+                    "endY": 3
+                },
+                {
+                    "startX": 7,
+                    "startY": 4,
+                    "endX": 7,
+                    "endY": 4
+                },
+                {
+                    "startX": 7,
+                    "startY": 5,
+                    "endX": 7,
+                    "endY": 5
                 }
             ]
         }

@@ -133,6 +133,23 @@ class Graphic:
         self.column_count -= 1
         self.max_column_index -= 1
 
+    def clear_row(self, index: int):
+        for entity_inst in self.vecEntityInst:
+            if entity_inst.logic_y == index:
+                self.remove_entity_inst(entity_inst)
+
+    def clear_column(self, index: int):
+        for entity_inst in self.vecEntityInst:
+            if entity_inst.logic_x == index:
+                self.remove_entity_inst(entity_inst)
+
+    def set_column_inst(self, index: int, entity_inst_type: type):
+        for row in range(len(self.row_heights)):
+            new_entity_inst = EntityInst(ref_entity_name=entity_inst_type,
+                                         logic_x=index, logic_y=row,
+                                         position_=None, id_=None)
+            self.add_entity_inst(new_entity_inst)
+
     def get_entity_inst_at(self, logical_x: int, logical_y: int):
         for entity_inst in self.vecEntityInst:
             if entity_inst.logic_x == logical_x and entity_inst.logic_y == logical_y:
