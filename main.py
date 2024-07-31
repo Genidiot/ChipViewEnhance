@@ -1,9 +1,9 @@
-from src.Parser import ParserEntity
 from src.Parser import ParserLayout
-from src.Draw import DrawChipView
+from src.Parser import ParserEntity
 from src.Parser import ParserSWH
 from src.Draw import DrawSWH
 from src.Draw import DrawLine
+from src.Draw import DrawChipView
 
 from src.dxf import dxfblocks
 from src.Draw import modify_graphic
@@ -74,6 +74,7 @@ class DXFGenerator(cmd.Cmd):
 
     def generate_effect(self):
         self.chip_view.save_sa(f"./result_dxf/test3.dxf")
+
 
 def create_tc():
     # config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
