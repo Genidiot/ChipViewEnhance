@@ -1,6 +1,6 @@
 {
-    "tileType":"MUX2",
-    "graphic":"POLYGON",
+    "Type":"MUX2",
+    "graphic":"Polygon",
     "height":5,
     "width":4,
     "basicPoint":{

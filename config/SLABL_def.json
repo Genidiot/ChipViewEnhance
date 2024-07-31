@@ -1,263 +1,193 @@
- {
-    "tileType":"SLABL",
-    "graphic":"POLYGON",
-    "width":150,
-    "height":150,
-    "basicPoint":{
-        "x":0,
-        "y":0
+{
+    "Type": "SLABL",
+    "graphic": "Polygon",
+    "width": 150,
+    "height": 150,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
     },
-    "polygonNodes":[
+    "polygonNodes": [
         {
-            "x":0,
-            "y":0
+            "x": 0,
+            "y": 0
         },
         {
-            "x":150,
-            "y":0
+            "x": 150,
+            "y": 0
         },
         {
-            "x":150,
-            "y":150
+            "x": 150,
+            "y": 150
         },
         {
-            "x":0,
-            "y":150
+            "x": 0,
+            "y": 150
         }
     ],
-    "sitePinLayout":{
-        "block":"pin_def.json",
-        "position":[
+    "PinLayout": {
+        "block": "pin_def.json",
+        "position": [
             {
-                "pinName":"A",
-                "pinType":"leftPin",
-                "direction":1,
-                "num":8,
-                "space":2,
-                "startPos":{
-                    "x":0,
-                    "y":75
+                "pinName": "A",
+                "pinType": "leftPin",
+                "direction": 1,
+                "num": 8,
+                "space": 2,
+                "startPos": {
+                    "x": 0,
+                    "y": 75
                 }
             },
             {
-                "pinName":"OA",
-                "pinType":"rightPin",
-                "direction":1,
-                "num":8,
-                "space":2,
-                "startPos":{
-                    "x":150,
-                    "y":75
+                "pinName": "OA",
+                "pinType": "rightPin",
+                "direction": 1,
+                "num": 8,
+                "space": 2,
+                "startPos": {
+                    "x": 150,
+                    "y": 75
                 }
             }
         ]
     },
-    "insideLayout":{
-        "Layout":[
-            {
-                "siteBlock":"LUT",
-                "direction":1,
-                "num":4,
-                "space":5,
-                "pos":
-                    {
-                        "x":10,
-                        "y":15
-                    }
-
-            },
-            {
-                "siteBlock":"LUT",
-                "direction":1,
-                "num":4,
-                "space":5,
-                "pos":
-                    {
-                        "x":10,
-                        "y":30
-                    }
-
-            },
-            {
-                "siteBlock":"LUT",
-                "direction":1,
-                "num":4,
-                "space":5,
-                "pos":
-                    {
-                        "x":10,
-                        "y":45
-                    }
-
-            },
-            {
-                "siteBlock":"LUT",
-                "direction":1,
-                "num":4,
-                "space":5,
-                "pos":
-                    {
-                        "x":10,
-                        "y":60
-                    }
-
-            },
-            {
-                "siteBlock":"LUT",
-                "direction":1,
-                "num":4,
-                "space":5,
-                "pos":
-                    {
-                        "x":10,
-                        "y":80
-                    }
-
-            },
-            {
-                "siteBlock":"LUT",
-                "direction":1,
-                "num":4,
-                "space":5,
-                "pos":
-                    {
-                        "x":10,
-                        "y":95
-                    }
-
-            },
-            {
-                "siteBlock":"LUT",
-                "direction":1,
-                "num":4,
-                "space":5,
-                "pos":
-                    {
-                        "x":10,
-                        "y":110
-                    }
-
-            },
-            {
-                "siteBlock":"LUT",
-                "direction":1,
-                "num":4,
-                "space":5,
-                "pos":
-                    {
-                        "x":10,
-                        "y":125
-                    }
-
-            },
-            {
-                "siteBlock":"MUX2",
-                "direction":1,
-                "num":4,
-                "space":30,
-                "pos":
-                    {
-                        "x":30,
-                        "y":25
-                    }
-
-            },
-            {
-                "siteBlock":"MUX2",
-                "direction":1,
-                "num":4,
-                "space":30,
-                "pos":
-                    {
-                        "x":30,
-                        "y":60
-                    }
-
-            },
-            {
-                "siteBlock":"MUX2",
-                "direction":1,
-                "num":4,
-                "space":30,
-                "pos":
-                    {
-                        "x":30,
-                        "y":95
-                    }
-
-            },
-            {
-                "siteBlock":"MUX2",
-                "direction":1,
-                "num":4,
-                "space":30,
-                "pos":
-                    {
-                        "x":30,
-                        "y":130
-                    }
-
-            },
-            {
-                "siteBlock":"MUX2",
-                "direction":1,
-                "num":2,
-                "space":65,
-                "pos":
-                    {
-                        "x":45,
-                        "y":40
-                    }
-
-            },
-            {
-                "siteBlock":"MUX2",
-                "direction":1,
-                "num":4,
-                "space":30,
-                "pos":
-                    {
-                        "x":45,
-                        "y":110
-                    }
-
-            },
-            {
-                "siteBlock":"MUX2",
-                "direction":1,
-                "num":1,
-                "space":0,
-                "pos":
-                    {
-                        "x":60,
-                        "y":73
-                    }
-
-            },
-            {
-                "siteBlock":"CLA",
-                "direction":1,
-                "num":2,
-                "space":40,
-                "pos":
-                    {
-                        "x":80,
-                        "y":25
-                    }
-
-            },
-            {
-                "siteBlock":"CLA",
-                "direction":1,
-                "num":2,
-                "space":40,
-                "pos":
-                    {
-                        "x":80,
-                        "y":97
-                    }
-
+    "insideLayout": [
+        {
+            "Type": "LUT",
+            "Name": "LUTA",
+            "pos": {
+                "x": 10,
+                "y": 15
             }
-        ]
-    }
- }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTB",
+            "pos": {
+                "x": 10,
+                "y": 30
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTC",
+            "pos": {
+                "x": 10,
+                "y": 45
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTD",
+            "pos": {
+                "x": 10,
+                "y": 60
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTE",
+            "pos": {
+                "x": 10,
+                "y": 80
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTF",
+            "pos": {
+                "x": 10,
+                "y": 95
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTG",
+            "pos": {
+                "x": 10,
+                "y": 110
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTH",
+            "pos": {
+                "x": 10,
+                "y": 125
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 25
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 60
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 95
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 130
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 45,
+                "y": 40
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 45,
+                "y": 110
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 60,
+                "y": 73
+            }
+        },
+        {
+            "Type": "CLA",
+            "Name": "CLA0",
+            "pos": {
+                "x": 80,
+                "y": 25
+            }
+        },
+        {
+            "Type": "CLA",
+            "Name": "CLA1",
+            "pos": {
+                "x": 80,
+                "y": 97
+            }
+        }
+    ]
+}

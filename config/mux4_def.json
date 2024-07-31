@@ -1,6 +1,6 @@
 {
-    "elemType":"MUX4",
-    "graphic":"polygon",
+    "Type":"MUX4",
+    "graphic":"Polygon",
     "height":4,
     "width":3,
     "basicPoint":{

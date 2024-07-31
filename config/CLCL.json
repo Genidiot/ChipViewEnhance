@@ -1,67 +1,56 @@
- {
-    "tileType":"CLCL",
-    "graphic":"POLYGON",
-    "width":200,
-    "height":200,
-    "basicPoint":{
-        "x":0,
-        "y":0
+{
+    "Type": "CLCL",
+    "graphic": "Polygon",
+    "width": 200,
+    "height": 200,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
     },
-    "polygonNodes":[
+    "polygonNodes": [
         {
-            "x":0,
-            "y":0
+            "x": 0,
+            "y": 0
         },
         {
-            "x":200,
-            "y":0
+            "x": 200,
+            "y": 0
         },
         {
-            "x":200,
-            "y":200
+            "x": 200,
+            "y": 200
         },
         {
-            "x":0,
-            "y":200
+            "x": 0,
+            "y": 200
         }
     ],
-    "tilePinLayout":{
-        "block":"pin_def.json",
-        "position":[
-            {
-                "pinName":"A",
-                "pinType":"leftPin",
-                "direction":1,
-                "num":8,
-                "space":2,
-                "startPos":{
-                    "x":0,
-                    "y":100
-                }
-            },
-            {
-                "pinName":"OA",
-                "pinType":"rightPin",
-                "direction":1,
-                "num":8,
-                "space":2,
-                "startPos":{
-                    "x":200,
-                    "y":100
-                }
+    "PinLayout": [
+        {
+            "Type": "Circle_Pin",
+            "Name": "A",
+            "pos": {
+                "x": 0,
+                "y": 100
             }
-        ]
-    },
-    "insideLayout":{
-        "Layout":[
-            {
-                "siteBlock":"SLABL",
-                "pos":{
-                        "x":25,
-                        "y":25
-                    }
-
+        },
+        {
+            "Type": "Circle_Pin",
+            "Name": "OA",
+            "pos": {
+                "x": 200,
+                "y": 100
             }
-        ]
-    }
- }
+        }
+    ],
+    "insideLayout": [
+        {
+            "Type": "SLAB",
+            "Name": "SLABL",
+            "pos": {
+                "x": 25,
+                "y": 25
+            }
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 {
-    "graphic":"polygon",
+    "Type":"MUXF",
+    "graphic":"Polygon",
     "height":5,
     "width":4,
     "basicPoint":{

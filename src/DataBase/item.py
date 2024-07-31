@@ -124,19 +124,32 @@ class TextItem(Item):
 
 
 class EntityInst(Item):
-    def __init__(self, ref_entity_name, position_, logic_x=None, logic_y=None, id_=None):
+    def __init__(self, entity_type, ref_entity_name, position_, logic_x=None, logic_y=None, id_=None):
         super().__init__()
+        self.entity_type = entity_type
         self.refEntityName = ref_entity_name
-        self.id = id_
+        self.position: PointF = position_
         self.logic_x = logic_x
         self.logic_y = logic_y
-        self.position: PointF = position_
+        self.id = id_
+
+    def set_entity_type(self, entity_type: str):
+        self.entity_type = entity_type
+
+    def get_entity_type(self):
+        return self.entity_type
 
     def set_reference_name(self, ref_entity_name: str):
         self.refEntityName = ref_entity_name
 
     def get_reference_name(self):
         return self.refEntityName
+
+    def set_position(self, position: PointF):
+        self.position = position
+
+    def get_position(self):
+        return self.position
 
     def set_reference_id(self, id_):
         self.id = id_
@@ -155,12 +168,6 @@ class EntityInst(Item):
 
     def get_logic_y(self):
         return self.logic_y
-
-    def set_position(self, position: PointF):
-        self.position = position
-
-    def get_position(self):
-        return self.position
 
     def get_item_type(self):
         return ItemType.ITEM_TYPE_ENTITY_INST

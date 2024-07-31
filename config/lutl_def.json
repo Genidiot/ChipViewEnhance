@@ -1,6 +1,6 @@
 {
-    "tileType": "LUT",
-    "graphic":"POLYGON",
+    "Type":"LUT",
+    "graphic":"Polygon",
     "height":10,
     "width":6,
     "basicPoint":{
