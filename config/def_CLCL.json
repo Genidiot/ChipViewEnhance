@@ -27,7 +27,7 @@
     ],
     "PinLayout": [
         {
-            "Type": "Circle_Pin",
+            "Type": "circle_pin",
             "Name": "A",
             "pos": {
                 "x": 0,
@@ -35,7 +35,7 @@
             }
         },
         {
-            "Type": "Circle_Pin",
+            "Type": "circle_pin",
             "Name": "OA",
             "pos": {
                 "x": 200,
@@ -45,7 +45,7 @@
     ],
     "insideLayout": [
         {
-            "Type": "SLAB",
+            "Type": "SLABL",
             "Name": "SLABL",
             "pos": {
                 "x": 25,

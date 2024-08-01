@@ -1,0 +1,333 @@
+{
+    "Type": "SLABL",
+    "width": 150,
+    "height": 150,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "item": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 150,
+                    "y": 0
+                },
+                {
+                    "x": 150,
+                    "y": 150
+                },
+                {
+                    "x": 0,
+                    "y": 150
+                }
+            ]
+        }
+    ],
+    "PinLayout": [
+        {
+            "Type": "circle_pin",
+            "Name": "B",
+            "pos": {
+                "x": 0,
+                "y": 25
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "C",
+            "pos": {
+                "x": 150,
+                "y": 50
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "D",
+            "pos": {
+                "x": 0,
+                "y": 100
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "E",
+            "pos": {
+                "x": 150,
+                "y": 75
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "F",
+            "pos": {
+                "x": 0,
+                "y": 125
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "G",
+            "pos": {
+                "x": 150,
+                "y": 25
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "H",
+            "pos": {
+                "x": 0,
+                "y": 50
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "I",
+            "pos": {
+                "x": 150,
+                "y": 100
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "J",
+            "pos": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "K",
+            "pos": {
+                "x": 150,
+                "y": 150
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "L",
+            "pos": {
+                "x": 0,
+                "y": 150
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "M",
+            "pos": {
+                "x": 150,
+                "y": 0
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "N",
+            "pos": {
+                "x": 0,
+                "y": 25
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "O",
+            "pos": {
+                "x": 150,
+                "y": 50
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "P",
+            "pos": {
+                "x": 0,
+                "y": 75
+            }
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "Q",
+            "pos": {
+                "x": 150,
+                "y": 125
+            }
+        }
+    ],
+    "insideLayout": [
+        {
+            "Type": "LUT",
+            "Name": "LUTA",
+            "pos": {
+                "x": 10,
+                "y": 15
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTB",
+            "pos": {
+                "x": 10,
+                "y": 30
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTC",
+            "pos": {
+                "x": 10,
+                "y": 45
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTD",
+            "pos": {
+                "x": 10,
+                "y": 60
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTE",
+            "pos": {
+                "x": 10,
+                "y": 80
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTF",
+            "pos": {
+                "x": 10,
+                "y": 95
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTG",
+            "pos": {
+                "x": 10,
+                "y": 110
+            }
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTH",
+            "pos": {
+                "x": 10,
+                "y": 125
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 25
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 60
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 95
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 130
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 45,
+                "y": 40
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 45,
+                "y": 110
+            }
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 60,
+                "y": 73
+            }
+        },
+        {
+            "Type": "CLA",
+            "Name": "CLA0",
+            "pos": {
+                "x": 80,
+                "y": 25
+            },
+            "rotation": 90
+        },
+        {
+            "Type": "CLA",
+            "Name": "CLA1",
+            "pos": {
+                "x": 80,
+                "y": 97
+            }
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 100
+            }
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 104
+            }
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 108
+            }
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 112
+            }
+        }
+    ]
+}

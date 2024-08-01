@@ -90,13 +90,16 @@ class DxfChipView:
     def add_tile_ref_from_graphic(self):
         entity_inst_list = chip_view_graphic.get_entity_inst_list()
         for entity_inst in entity_inst_list:
+            ref_type = entity_inst.get_ref_entity_type()
             ref_name = entity_inst.get_reference_name()
             logic_x = entity_inst.get_logic_x()
             logic_y = entity_inst.get_logic_y()
             insert_position = chip_view_graphic.logic_to_physical[(logic_x, logic_y)]
-            if self.dwg.blocks.get(ref_name) is None:
-                Draw_entity.draw_entity(self.dwg, ref_name)
-            block_ref = self.msp.add_blockref(ref_name, insert_position)
+            if self.dwg.blocks.get(ref_type) is None:
+                Draw_entity.draw_entity(self.dwg, ref_type)
+            # If there is no entity in entity_lib, a null value is returned,
+            # and add_blockref will add a null value, but no error will be reported.
+            block_ref = self.msp.add_blockref(ref_type, insert_position)
 
     def add_segment(self, pins, line_r_list, line_l_list):
         for entity in self.msp:

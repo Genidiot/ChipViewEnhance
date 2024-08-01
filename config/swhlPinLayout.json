@@ -1,40 +1,40 @@
 {
-	"tileType":"SWHL",
-    "width":2000,
-	"height":2000,
-    "partNum":10,
-	"muxWidth":4,
-	"edgeSpace":20,
-    "downLayout":[
-		{
-            "partIndex":0,
-			"groupSpace":4,
-            "direction":1,
-			"muxGroupList":[
+    "tileType": "SWHL",
+    "width": 2000,
+    "height": 2000,
+    "partNum": 10,
+    "muxWidth": 4,
+    "edgeSpace": 20,
+    "downLayout": [
+        {
+            "partIndex": 0,
+            "groupSpace": 4,
+            "direction": 1,
+            "muxGroupList": [
                 {
-                    "muxGroupName":"L1End",
-                    "muxName":[
+                    "muxGroupName": "L1End",
+                    "muxName": [
                         "ee1_end[0]",
-				        "ee1_end[1]",
-				        "ee1_end[2]",
+                        "ee1_end[1]",
+                        "ee1_end[2]",
                         "ee1_end[3]",
-				        "ee1_end[4]",
-				        "ee1_end[5]",
+                        "ee1_end[4]",
+                        "ee1_end[5]",
                         "ee1_end[6]",
-				        "ee1_end[7]",
-				        "ee1_end[8]",
-				        "ee1_end[9]",
+                        "ee1_end[7]",
+                        "ee1_end[8]",
+                        "ee1_end[9]",
                         "ee1_end[10]",
-				        "ee1_end[11]",
-				        "ee1_end[12]",
-				        "ee1_end[13]",
+                        "ee1_end[11]",
+                        "ee1_end[12]",
+                        "ee1_end[13]",
                         "ee1_end[14]",
-				        "ee1_end[15]"
+                        "ee1_end[15]"
                     ]
                 },
                 {
-                    "muxGroupName":"L2End",
-                    "muxName":[
+                    "muxGroupName": "L2End",
+                    "muxName": [
                         "ee2_end[0]",
                         "ee2_end[1]",
                         "ee2_end[2]",
@@ -46,8 +46,8 @@
                     ]
                 },
                 {
-                    "muxGroupName":"L4End",
-                    "muxName":[
+                    "muxGroupName": "L4End",
+                    "muxName": [
                         "ee4_end[0]",
                         "ee4_end[1]",
                         "ee4_end[2]",
@@ -61,34 +61,34 @@
             ]
         },
         {
-            "partIndex":9,
-			"groupSpace":4,
-            "direction":-1,
-			"muxGroupList":[
+            "partIndex": 9,
+            "groupSpace": 4,
+            "direction": -1,
+            "muxGroupList": [
                 {
-                    "muxGroupName":"L1Beg",
-                    "muxName":[
+                    "muxGroupName": "L1Beg",
+                    "muxName": [
                         "ee1_beg[0]",
-				        "ee1_beg[1]",
-				        "ee1_beg[2]",
+                        "ee1_beg[1]",
+                        "ee1_beg[2]",
                         "ee1_beg[3]",
-				        "ee1_beg[4]",
-				        "ee1_beg[5]",
+                        "ee1_beg[4]",
+                        "ee1_beg[5]",
                         "ee1_beg[6]",
-				        "ee1_beg[7]",
-				        "ee1_beg[8]",
-				        "ee1_beg[9]",
+                        "ee1_beg[7]",
+                        "ee1_beg[8]",
+                        "ee1_beg[9]",
                         "ee1_beg[10]",
-				        "ee1_beg[11]",
-				        "ee1_beg[12]",
-				        "ee1_beg[13]",
+                        "ee1_beg[11]",
+                        "ee1_beg[12]",
+                        "ee1_beg[13]",
                         "ee1_beg[14]",
-				        "ee1_beg[15]"
+                        "ee1_beg[15]"
                     ]
                 },
                 {
-                    "muxGroupName":"L2Beg",
-                    "muxName":[
+                    "muxGroupName": "L2Beg",
+                    "muxName": [
                         "ee2_beg[0]",
                         "ee2_beg[1]",
                         "ee2_beg[2]",
@@ -100,8 +100,8 @@
                     ]
                 },
                 {
-                    "muxGroupName":"L4Beg",
-                    "muxName":[
+                    "muxGroupName": "L4Beg",
+                    "muxName": [
                         "ee4_beg[0]",
                         "ee4_beg[1]",
                         "ee4_beg[2]",
@@ -115,36 +115,36 @@
             ]
         }
     ],
-    "leftLayout":[
-		{
-            "partIndex":0,
-			"groupSpace":4,
-            "direction":1,
-			"muxGroupList":[
+    "leftLayout": [
+        {
+            "partIndex": 0,
+            "groupSpace": 4,
+            "direction": 1,
+            "muxGroupList": [
                 {
-                    "muxGroupName":"L1End",
-                    "muxName":[
+                    "muxGroupName": "L1End",
+                    "muxName": [
                         "nn1_end[0]",
-				        "nn1_end[1]",
-				        "nn1_end[2]",
+                        "nn1_end[1]",
+                        "nn1_end[2]",
                         "nn1_end[3]",
-				        "nn1_end[4]",
-				        "nn1_end[5]",
+                        "nn1_end[4]",
+                        "nn1_end[5]",
                         "nn1_end[6]",
-				        "nn1_end[7]",
-				        "nn1_end[8]",
-				        "nn1_end[9]",
+                        "nn1_end[7]",
+                        "nn1_end[8]",
+                        "nn1_end[9]",
                         "nn1_end[10]",
-				        "nn1_end[11]",
-				        "nn1_end[12]",
-				        "nn1_end[13]",
+                        "nn1_end[11]",
+                        "nn1_end[12]",
+                        "nn1_end[13]",
                         "nn1_end[14]",
-				        "nn1_end[15]"
+                        "nn1_end[15]"
                     ]
                 },
                 {
-                    "muxGroupName":"L2End",
-                    "muxName":[
+                    "muxGroupName": "L2End",
+                    "muxName": [
                         "nn2_end[0]",
                         "nn2_end[1]",
                         "nn2_end[2]",
@@ -156,8 +156,8 @@
                     ]
                 },
                 {
-                    "muxGroupName":"L4End",
-                    "muxName":[
+                    "muxGroupName": "L4End",
+                    "muxName": [
                         "nn4_end[0]",
                         "nn4_end[1]",
                         "nn4_end[2]",
@@ -171,34 +171,34 @@
             ]
         },
         {
-            "partIndex":9,
-			"groupSpace":4,
-            "direction":-1,
-			"muxGroupList":[
+            "partIndex": 9,
+            "groupSpace": 4,
+            "direction": -1,
+            "muxGroupList": [
                 {
-                    "muxGroupName":"L1Beg",
-                    "muxName":[
+                    "muxGroupName": "L1Beg",
+                    "muxName": [
                         "nn1_beg[0]",
-				        "nn1_beg[1]",
-				        "nn1_beg[2]",
+                        "nn1_beg[1]",
+                        "nn1_beg[2]",
                         "nn1_beg[3]",
-				        "nn1_beg[4]",
-				        "nn1_beg[5]",
+                        "nn1_beg[4]",
+                        "nn1_beg[5]",
                         "nn1_beg[6]",
-				        "nn1_beg[7]",
-				        "nn1_beg[8]",
-				        "nn1_beg[9]",
+                        "nn1_beg[7]",
+                        "nn1_beg[8]",
+                        "nn1_beg[9]",
                         "nn1_beg[10]",
-				        "nn1_beg[11]",
-				        "nn1_beg[12]",
-				        "nn1_beg[13]",
+                        "nn1_beg[11]",
+                        "nn1_beg[12]",
+                        "nn1_beg[13]",
                         "nn1_beg[14]",
-				        "nn1_beg[15]"
+                        "nn1_beg[15]"
                     ]
                 },
                 {
-                    "muxGroupName":"L2Beg",
-                    "muxName":[
+                    "muxGroupName": "L2Beg",
+                    "muxName": [
                         "nn2_beg[0]",
                         "nn2_beg[1]",
                         "nn2_beg[2]",
@@ -210,8 +210,8 @@
                     ]
                 },
                 {
-                    "muxGroupName":"L4Beg",
-                    "muxName":[
+                    "muxGroupName": "L4Beg",
+                    "muxName": [
                         "nn4_beg[0]",
                         "nn4_beg[1]",
                         "nn4_beg[2]",
@@ -225,36 +225,36 @@
             ]
         }
     ],
-    "upLayout":[
-		{
-            "partIndex":0,
-			"groupSpace":4,
-            "direction":1,
-			"muxGroupList":[
+    "upLayout": [
+        {
+            "partIndex": 0,
+            "groupSpace": 4,
+            "direction": 1,
+            "muxGroupList": [
                 {
-                    "muxGroupName":"L1Beg",
-                    "muxName":[
+                    "muxGroupName": "L1Beg",
+                    "muxName": [
                         "ww1_beg[0]",
-				        "ww1_beg[1]",
-				        "ww1_beg[2]",
+                        "ww1_beg[1]",
+                        "ww1_beg[2]",
                         "ww1_beg[3]",
-				        "ww1_beg[4]",
-				        "ww1_beg[5]",
+                        "ww1_beg[4]",
+                        "ww1_beg[5]",
                         "ww1_beg[6]",
-				        "ww1_beg[7]",
-				        "ww1_beg[8]",
-				        "ww1_beg[9]",
+                        "ww1_beg[7]",
+                        "ww1_beg[8]",
+                        "ww1_beg[9]",
                         "ww1_beg[10]",
-				        "ww1_beg[11]",
-				        "ww1_beg[12]",
-				        "ww1_beg[13]",
+                        "ww1_beg[11]",
+                        "ww1_beg[12]",
+                        "ww1_beg[13]",
                         "ww1_beg[14]",
-				        "ww1_beg[15]"
+                        "ww1_beg[15]"
                     ]
                 },
                 {
-                    "muxGroupName":"L2Beg",
-                    "muxName":[
+                    "muxGroupName": "L2Beg",
+                    "muxName": [
                         "ww2_beg[0]",
                         "ww2_beg[1]",
                         "ww2_beg[2]",
@@ -266,8 +266,8 @@
                     ]
                 },
                 {
-                    "muxGroupName":"L4Beg",
-                    "muxName":[
+                    "muxGroupName": "L4Beg",
+                    "muxName": [
                         "ww4_beg[0]",
                         "ww4_beg[1]",
                         "ww4_beg[2]",
@@ -281,34 +281,34 @@
             ]
         },
         {
-            "partIndex":9,
-			"groupSpace":4,
-            "direction":-1,
-			"muxGroupList":[
+            "partIndex": 9,
+            "groupSpace": 4,
+            "direction": -1,
+            "muxGroupList": [
                 {
-                    "muxGroupName":"L1End",
-                    "muxName":[
+                    "muxGroupName": "L1End",
+                    "muxName": [
                         "ww1_end[0]",
-				        "ww1_end[1]",
-				        "ww1_end[2]",
+                        "ww1_end[1]",
+                        "ww1_end[2]",
                         "ww1_end[3]",
-				        "ww1_end[4]",
-				        "ww1_end[5]",
+                        "ww1_end[4]",
+                        "ww1_end[5]",
                         "ww1_end[6]",
-				        "ww1_end[7]",
-				        "ww1_end[8]",
-				        "ww1_end[9]",
+                        "ww1_end[7]",
+                        "ww1_end[8]",
+                        "ww1_end[9]",
                         "ww1_end[10]",
-				        "ww1_end[11]",
-				        "ww1_end[12]",
-				        "ww1_end[13]",
+                        "ww1_end[11]",
+                        "ww1_end[12]",
+                        "ww1_end[13]",
                         "ww1_end[14]",
-				        "ww1_end[15]"
+                        "ww1_end[15]"
                     ]
                 },
                 {
-                    "muxGroupName":"L2End",
-                    "muxName":[
+                    "muxGroupName": "L2End",
+                    "muxName": [
                         "ww2_end[0]",
                         "ww2_end[1]",
                         "ww2_end[2]",
@@ -320,8 +320,8 @@
                     ]
                 },
                 {
-                    "muxGroupName":"L4End",
-                    "muxName":[
+                    "muxGroupName": "L4End",
+                    "muxName": [
                         "ww4_end[0]",
                         "ww4_end[1]",
                         "ww4_end[2]",
@@ -335,36 +335,36 @@
             ]
         }
     ],
-    "rightLayout":[
-		{
-            "partIndex":0,
-			"groupSpace":4,
-            "direction":1,
-			"muxGroupList":[
+    "rightLayout": [
+        {
+            "partIndex": 0,
+            "groupSpace": 4,
+            "direction": 1,
+            "muxGroupList": [
                 {
-                    "muxGroupName":"L1Beg",
-                    "muxName":[
+                    "muxGroupName": "L1Beg",
+                    "muxName": [
                         "ss1_beg[0]",
-				        "ss1_beg[1]",
-				        "ss1_beg[2]",
+                        "ss1_beg[1]",
+                        "ss1_beg[2]",
                         "ss1_beg[3]",
-				        "ss1_beg[4]",
-				        "ss1_beg[5]",
+                        "ss1_beg[4]",
+                        "ss1_beg[5]",
                         "ss1_beg[6]",
-				        "ss1_beg[7]",
-				        "ss1_beg[8]",
-				        "ss1_beg[9]",
+                        "ss1_beg[7]",
+                        "ss1_beg[8]",
+                        "ss1_beg[9]",
                         "ss1_beg[10]",
-				        "ss1_beg[11]",
-				        "ss1_beg[12]",
-				        "ss1_beg[13]",
+                        "ss1_beg[11]",
+                        "ss1_beg[12]",
+                        "ss1_beg[13]",
                         "ss1_beg[14]",
-				        "ss1_beg[15]"
+                        "ss1_beg[15]"
                     ]
                 },
                 {
-                    "muxGroupName":"L2Beg",
-                    "muxName":[
+                    "muxGroupName": "L2Beg",
+                    "muxName": [
                         "ss2_beg[0]",
                         "ss2_beg[1]",
                         "ss2_beg[2]",
@@ -376,8 +376,8 @@
                     ]
                 },
                 {
-                    "muxGroupName":"L4Beg",
-                    "muxName":[
+                    "muxGroupName": "L4Beg",
+                    "muxName": [
                         "ss4_beg[0]",
                         "ss4_beg[1]",
                         "ss4_beg[2]",
@@ -391,34 +391,34 @@
             ]
         },
         {
-            "partIndex":9,
-			"groupSpace":4,
-            "direction":-1,
-			"muxGroupList":[
+            "partIndex": 9,
+            "groupSpace": 4,
+            "direction": -1,
+            "muxGroupList": [
                 {
-                    "muxGroupName":"L1End",
-                    "muxName":[
+                    "muxGroupName": "L1End",
+                    "muxName": [
                         "ss1_end[0]",
-				        "ss1_end[1]",
-				        "ss1_end[2]",
+                        "ss1_end[1]",
+                        "ss1_end[2]",
                         "ss1_end[3]",
-				        "ss1_end[4]",
-				        "ss1_end[5]",
+                        "ss1_end[4]",
+                        "ss1_end[5]",
                         "ss1_end[6]",
-				        "ss1_end[7]",
-				        "ss1_end[8]",
-				        "ss1_end[9]",
+                        "ss1_end[7]",
+                        "ss1_end[8]",
+                        "ss1_end[9]",
                         "ss1_end[10]",
-				        "ss1_end[11]",
-				        "ss1_end[12]",
-				        "ss1_end[13]",
+                        "ss1_end[11]",
+                        "ss1_end[12]",
+                        "ss1_end[13]",
                         "ss1_end[14]",
-				        "ss1_end[15]"
+                        "ss1_end[15]"
                     ]
                 },
                 {
-                    "muxGroupName":"L2End",
-                    "muxName":[
+                    "muxGroupName": "L2End",
+                    "muxName": [
                         "ss2_end[0]",
                         "ss2_end[1]",
                         "ss2_end[2]",
@@ -430,8 +430,8 @@
                     ]
                 },
                 {
-                    "muxGroupName":"L4End",
-                    "muxName":[
+                    "muxGroupName": "L4End",
+                    "muxName": [
                         "ss4_end[0]",
                         "ss4_end[1]",
                         "ss4_end[2]",

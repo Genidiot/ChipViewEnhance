@@ -46,8 +46,8 @@ class Graphic:
     def get_max_column_index(self):
         return self.max_column_index
 
-    def add_new_entity_inst(self, ref_entity_name, position_, logic_x, logic_y, id_):
-        entity_inst = EntityInst(ref_entity_name, position_, logic_x, logic_y, id_)
+    def add_new_entity_inst(self, entity_type, ref_entity_name, position_, logic_x, logic_y, id_):
+        entity_inst = EntityInst(entity_type, ref_entity_name, position_, logic_x, logic_y, id_)
         self.vecEntityInst.append(entity_inst)
 
     def get_entity_inst_list(self):
@@ -106,7 +106,8 @@ class Graphic:
 
         if entity_inst_type:
             for row in range(len(self.row_heights)):
-                new_entity_inst = EntityInst(ref_entity_name=entity_inst_type,
+                new_entity_inst = EntityInst(entity_type=entity_inst_type,
+                                             ref_entity_name=entity_inst_type,
                                              logic_x=index, logic_y=row,
                                              position_=None, id_=None)
                 self.add_entity_inst(new_entity_inst)
@@ -145,7 +146,8 @@ class Graphic:
 
     def set_column_inst(self, index: int, entity_inst_type: type):
         for row in range(len(self.row_heights)):
-            new_entity_inst = EntityInst(ref_entity_name=entity_inst_type,
+            new_entity_inst = EntityInst(entity_type=entity_inst_type,
+                                         ref_entity_name=entity_inst_type,
                                          logic_x=index, logic_y=row,
                                          position_=None, id_=None)
             self.add_entity_inst(new_entity_inst)

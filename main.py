@@ -77,16 +77,21 @@ class DXFGenerator(cmd.Cmd):
 
 
 def create_tc():
-    # config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
-    config_chip_view = ParserLayout.ChipViewLayout(f"output.json")
-    # ParserEntity.EntityParser(f"./config/SWHL.json")
-    ParserEntity.EntityParser(f"./config/CLCL.json")
-    ParserEntity.EntityParser(f"./config/SLABL_def.json")
-    ParserEntity.EntityParser(f"./config/lutl_def.json")
-    ParserEntity.EntityParser(f"./config/mux2_def.json")
-    ParserEntity.EntityParser(f"./config/cla_def.json")
-    ParserEntity.EntityParser(f"./config/swh_mux_def.json")
+    ParserEntity.EntityParser(f"./config/def_CLCL.json")
+    ParserEntity.EntityParser(f"./config/def_SLAB.json")
+    ParserEntity.EntityParser(f"./config/def_cla.json")
+    ParserEntity.EntityParser(f"./config/def_lutl.json")
+    ParserEntity.EntityParser(f"./config/def_mux2.json")
+    ParserEntity.EntityParser(f"./config/def_mux4.json")
+    ParserEntity.EntityParser(f"./config/def_muxf.json")
+    ParserEntity.EntityParser(f"./config/def_pin_up.json")
+    ParserEntity.EntityParser(f"./config/def_pin_down.json")
+    ParserEntity.EntityParser(f"./config/def_pin_left.json")
+    ParserEntity.EntityParser(f"./config/def_pin_right.json")
+    ParserEntity.EntityParser(f"./config/def_pin_circle.json")
 
+    config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
+    # config_chip_view = ParserLayout.ChipViewLayout(f"output.json")
     chip_view = DrawChipView.DxfChipView(config_chip_view)
     dwg_chip_view = chip_view.get_dwg()
     swh_l_config = ParserSWH.SwhConfig(f"./config/swhlPinLayout.json")
@@ -95,7 +100,7 @@ def create_tc():
     swh_r_config = ParserSWH.SwhConfig(f"./config/swhrPinLayout.json")
     swh_r = DrawSWH.SwhCreate(swh_r_config, dwg_chip_view)
 
-    modify_graphic.modify_graphic()
+    # modify_graphic.modify_graphic()
 
     segments = dxfblocks.DxfBlocks(f"./import_dxf")
     segment_dwg = segments.get_dwgs()
@@ -117,7 +122,8 @@ def create_tc():
 
 
 if __name__ == '__main__':
-    DXFGenerator().cmdloop()
+    # DXFGenerator().cmdloop()
+    create_tc()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 

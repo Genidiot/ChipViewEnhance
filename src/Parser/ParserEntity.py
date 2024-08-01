@@ -1,6 +1,7 @@
 import json
 from src.DataBase.point import PointF
 from src.DataBase.item import CircleItem
+from src.DataBase.item import LineItem
 from src.DataBase.item import PolygonItem
 from src.DataBase.item import EntityInst
 from src.DataBase.entity import Entity
@@ -39,7 +40,8 @@ class EntityParser:
             self.item_list.append(self.create_circle(configuration["basicPoint"], configuration["radius"]))
             entity.add_item(self.item_list[-1])
         elif graphic_type == ItemType.ITEM_TYPE_LINE:
-            pass
+            self.item_list.append(self.create_line(configuration["polygonNodes"]))
+            entity.add_item(self.item_list[-1])
         elif graphic_type == ItemType.ITEM_TYPE_POLYGON:
             self.item_list.append(self.create_polygon(configuration["polygonNodes"]))
             entity.add_item(self.item_list[-1])
@@ -50,7 +52,10 @@ class EntityParser:
 
         if configuration.get("insideLayout"):
             for insert_item in configuration["insideLayout"]:
-                self.item_list.append(self.create_insert(insert_item["Type"], insert_item["Name"], insert_item["pos"]))
+                item = self.create_insert(insert_item["Type"], insert_item["Name"], insert_item["pos"])
+                if insert_item.get("rotation"):
+                    item.set_rotation(insert_item["rotation"])
+                self.item_list.append(item)
                 entity.add_item(self.item_list[-1])
         if configuration.get("PinLayout"):
             for insert_item in configuration["PinLayout"]:
@@ -60,6 +65,13 @@ class EntityParser:
         self.entity_list.append(entity)
         entity_library = entity_lib.entity_lib
         entity_library.add_entity(entity_type, entity)
+
+    @staticmethod
+    def create_line(line_nodes):
+        point_start = PointF(line_nodes[0]["x"], line_nodes[0]["y"])
+        point_end = PointF(line_nodes[1]["x"], line_nodes[1]["y"])
+        line_item = LineItem(point_start, point_end)
+        return line_item
 
     @staticmethod
     def create_polygon(polygon_nodes):

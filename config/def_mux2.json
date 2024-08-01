@@ -1,0 +1,46 @@
+{
+    "Type": "MUX2",
+    "graphic": "Polygon",
+    "height": 5,
+    "width": 4,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "polygonNodes": [
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 4,
+            "y": 1
+        },
+        {
+            "x": 4,
+            "y": 4
+        },
+        {
+            "x": 0,
+            "y": 5
+        }
+    ],
+    "PinLayout": [
+        {
+            "Type": "left_pin",
+            "Name": "I",
+            "pos": {
+                "x": 0,
+                "y": 1
+            }
+        },
+        {
+            "Type": "right_pin",
+            "Name": "O",
+            "pos": {
+                "x": 4,
+                "y": 2.5
+            }
+        }
+    ]
+}

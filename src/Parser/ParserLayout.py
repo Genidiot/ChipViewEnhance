@@ -159,9 +159,6 @@ class ChipViewLayout:
         chip_view_graphic.set_max_row_index(max_row_index=self.row_count - 1)
         chip_view_graphic.set_max_column_index(max_column_index=self.column_count - 1)
 
-        row_heights = {0: 3000, 1: 5000, 2: 3000, 3: 3000, 4: 7000, 5: 3000}
-        column_widths = {0: 2000, 1: 3000, 2: 6000, 3: 3000, 4: 3000, 5: 3000}
-
         for key, value in self.row_heights.items():
             chip_view_graphic.set_row_height(row=key, height=value)
         for key, value in self.column_widths.items():
@@ -175,7 +172,8 @@ class ChipViewLayout:
                     row = int(point.get_row())
                     insert_point = chip_view_graphic.logic_to_physical[(column, row)]
                     ref_name = item_regions.get_item_type()
-                    chip_view_graphic.add_new_entity_inst(ref_entity_name=ref_name,
+                    chip_view_graphic.add_new_entity_inst(entity_type=ref_name,
+                                                          ref_entity_name=ref_name,
                                                           position_=insert_point,
                                                           logic_x=column,
                                                           logic_y=row,
@@ -183,3 +181,10 @@ class ChipViewLayout:
         print(chip_view_graphic.row_heights)
         print(chip_view_graphic.column_widths)
         print(chip_view_graphic.render_layout())
+
+    def extract_swh(self):
+        for item_regions in self.items_region:
+            for region in item_regions.get_regions():
+                for point in region.get_logic_points():
+                    column = int(point.get_column())
+                    row = int(point.get_row())

@@ -1,0 +1,20 @@
+{
+    "Type":"right_pin",
+    "graphic":"Line",
+    "width":1,
+    "height":0,
+    "basicPoint":{
+        "x":0,
+        "y":0
+    },
+    "polygonNodes": [
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 1,
+            "y": 0
+        }
+    ]
+}

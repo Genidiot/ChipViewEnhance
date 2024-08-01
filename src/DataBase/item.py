@@ -132,11 +132,12 @@ class EntityInst(Item):
         self.logic_x = logic_x
         self.logic_y = logic_y
         self.id = id_
+        self.rotation = None
 
-    def set_entity_type(self, entity_type: str):
+    def set_ref_entity_type(self, entity_type: str):
         self.entity_type = entity_type
 
-    def get_entity_type(self):
+    def get_ref_entity_type(self):
         return self.entity_type
 
     def set_reference_name(self, ref_entity_name: str):
@@ -151,12 +152,6 @@ class EntityInst(Item):
     def get_position(self):
         return self.position
 
-    def set_reference_id(self, id_):
-        self.id = id_
-
-    def get_reference_id(self):
-        return self.id
-
     def set_logic_x(self, logic_x):
         self.logic_x = logic_x
 
@@ -168,6 +163,18 @@ class EntityInst(Item):
 
     def get_logic_y(self):
         return self.logic_y
+
+    def set_reference_id(self, id_):
+        self.id = id_
+
+    def get_reference_id(self):
+        return self.id
+
+    def set_rotation(self, rotation):
+        self.rotation = rotation
+
+    def get_rotation(self):
+        return self.rotation
 
     def get_item_type(self):
         return ItemType.ITEM_TYPE_ENTITY_INST

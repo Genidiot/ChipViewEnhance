@@ -25,33 +25,24 @@
             "y": 150
         }
     ],
-    "PinLayout": {
-        "block": "pin_def.json",
-        "position": [
-            {
-                "pinName": "A",
-                "pinType": "leftPin",
-                "direction": 1,
-                "num": 8,
-                "space": 2,
-                "startPos": {
-                    "x": 0,
-                    "y": 75
-                }
-            },
-            {
-                "pinName": "OA",
-                "pinType": "rightPin",
-                "direction": 1,
-                "num": 8,
-                "space": 2,
-                "startPos": {
-                    "x": 150,
-                    "y": 75
-                }
+    "PinLayout": [
+        {
+            "Type": "circle_pin",
+            "Name": "A",
+            "pos": {
+                "x": 0,
+                "y": 75
             }
-        ]
-    },
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "OA",
+            "pos": {
+                "x": 150,
+                "y": 75
+            }
+        }
+    ],
     "insideLayout": [
         {
             "Type": "LUT",
@@ -179,7 +170,8 @@
             "pos": {
                 "x": 80,
                 "y": 25
-            }
+            },
+            "rotation": 90
         },
         {
             "Type": "CLA",
@@ -187,6 +179,38 @@
             "pos": {
                 "x": 80,
                 "y": 97
+            }
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 100
+            }
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 104
+            }
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 108
+            }
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 112
             }
         }
     ]

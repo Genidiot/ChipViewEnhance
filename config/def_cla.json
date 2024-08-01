@@ -1,0 +1,78 @@
+{
+    "Type": "CLA",
+    "graphic": "Polygon",
+    "width": 10,
+    "height": 32,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "polygonNodes": [
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 10,
+            "y": 0
+        },
+        {
+            "x": 10,
+            "y": 32
+        },
+        {
+            "x": 0,
+            "y": 32
+        }
+    ],
+    "PinLayout": [
+        {
+            "Name": "P",
+            "Type": "left_pin",
+            "pos": {
+                "x": 0,
+                "y": 2
+            }
+        },
+        {
+            "Name": "G",
+            "Type": "left_pin",
+            "pos": {
+                "x": 0,
+                "y": 6
+            }
+        },
+        {
+            "Name": "CO",
+            "Type": "right_pin",
+            "pos": {
+                "x": 10,
+                "y": 2
+            }
+        },
+        {
+            "Name": "SUM",
+            "Type": "right_pin",
+            "pos": {
+                "x": 10,
+                "y": 6
+            }
+        },
+        {
+            "Name": "I[7]",
+            "Type": "up_pin",
+            "pos": {
+                "x": 5,
+                "y": 32
+            }
+        },
+        {
+            "Name": "CAS_IN",
+            "Type": "down_pin",
+            "pos": {
+                "x": 5,
+                "y": 0
+            }
+        }
+    ]
+}
