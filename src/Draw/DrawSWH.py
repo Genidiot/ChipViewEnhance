@@ -1,6 +1,6 @@
 import ezdxf
-from src.Parser import ParserSWH
-from src.Parser.ParserSWH import Layout
+from src.ParserJson import ParserSWH
+from src.ParserJson.ParserSWH import Layout
 from typing import cast
 
 

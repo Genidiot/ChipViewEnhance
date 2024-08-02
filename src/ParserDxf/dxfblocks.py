@@ -1,6 +1,6 @@
 import os
-from src.dxf import dxfblock
-from src.dxf import dxfreader
+from src.ParserDxf import dxfblock
+from src.ParserDxf import dxfreader
 
 
 class DxfBlocks:

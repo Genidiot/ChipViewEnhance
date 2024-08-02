@@ -1,11 +1,11 @@
-from src.Parser import ParserLayout
-from src.Parser import ParserEntity
-from src.Parser import ParserSWH
+from src.ParserJson import ParserLayout
+from src.ParserJson import ParserEntity
+from src.ParserJson import ParserSWH
 from src.Draw import DrawSWH
 from src.Draw import DrawLine
 from src.Draw import DrawChipView
 
-from src.dxf import dxfblocks
+from src.ParserDxf import dxfblocks
 from src.Draw import modify_graphic
 
 from src.DataBase.graphic import chip_view_graphic

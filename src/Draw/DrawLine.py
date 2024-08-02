@@ -1,7 +1,7 @@
 import ezdxf
-from src.Parser import ParserSWH
-from src.Parser.ParserSWH import Layout
-from src.Parser.ParserSWH import MuxNames
+from src.ParserJson import ParserSWH
+from src.ParserJson.ParserSWH import Layout
+from src.ParserJson.ParserSWH import MuxNames
 from src.Draw import DrawSWH
 from typing import cast
 import re

@@ -1,9 +1,9 @@
 import ezdxf
 from ezdxf.addons import Importer
 
-from src.Parser.ParserLayout import LogicRegion
-from src.Parser.ParserLayout import ItemRegions
-from src.Parser.ParserLayout import ChipViewLayout
+from src.ParserJson.ParserLayout import LogicRegion
+from src.ParserJson.ParserLayout import ItemRegions
+from src.ParserJson.ParserLayout import ChipViewLayout
 from src.DataBase.graphic import chip_view_graphic
 
 import src.Draw.DrawEntity as Draw_entity
