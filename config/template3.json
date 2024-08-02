@@ -1,0 +1,209 @@
+{
+    "Type": "SLABL",
+    "width": 150,
+    "height": 150,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "items": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 150,
+                    "y": 0
+                },
+                {
+                    "x": 150,
+                    "y": 150
+                },
+                {
+                    "x": 0,
+                    "y": 150
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "circle_pin",
+            "Name": "A",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "B",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "C",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "D",
+            "id": 0,
+            "rotation": 0
+        }
+    ],
+    "PinLayout": [
+        {
+            "Name": "A",
+            "pos": {
+                "x": 0,
+                "y": 25
+            }
+        },
+        {
+            "Name": "B",
+            "pos": {
+                "x": 0,
+                "y": 50
+            }
+        },
+        {
+            "Name": "C",
+            "pos": {
+                "x": 0,
+                "y": 75
+            }
+        },
+        {
+            "Name": "D",
+            "pos": {
+                "x": 0,
+                "y": 100
+            }
+        }
+    ],
+    "insideObject": [
+        {
+            "Type": "LUT",
+            "Name": "LUTA",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTB",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTC",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff",
+            "id": 0,
+            "rotation": 0
+        }
+    ],
+    "insideLayout": [
+        {
+            "Name": "LUTA",
+            "pos": {
+                "x": 10,
+                "y": 15
+            }
+        },
+        {
+            "Name": "LUTB",
+            "pos": {
+                "x": 10,
+                "y": 30
+            }
+        },
+        {
+            "Name": "LUTC",
+            "pos": {
+                "x": 10,
+                "y": 45
+            }
+        },
+        {
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 25
+            }
+        },
+        {
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 60
+            }
+        },
+        {
+            "Name": "MUX2FF",
+            "pos": {
+                "x": 30,
+                "y": 95
+            }
+        },
+        {
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 104
+            }
+        },
+        {
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 108
+            }
+        },
+        {
+            "Name": "MUX4ff",
+            "pos": {
+                "x": 100,
+                "y": 112
+            }
+        }
+    ]
+}
