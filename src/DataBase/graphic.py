@@ -10,6 +10,7 @@ class Graphic:
         self.max_row_index = 0
         self.max_column_index = 0
         self.vecEntityInst: List[EntityInst] = []
+        self.swh_point_map = []
 
         self.row_heights = {}
         self.column_widths = {}
@@ -52,6 +53,12 @@ class Graphic:
 
     def get_entity_inst_list(self):
         return self.vecEntityInst
+
+    def add_swh_point(self, swh_point):
+        self.swh_point_map.append(swh_point)
+
+    def get_swh_point_list(self):
+        return self.swh_point_map
 
     def update_mappings(self):
         self.logic_to_physical.clear()

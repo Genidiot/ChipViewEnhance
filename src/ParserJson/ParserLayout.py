@@ -172,6 +172,7 @@ class ChipViewLayout:
                     row = int(point.get_row())
                     insert_point = chip_view_graphic.logic_to_physical[(column, row)]
                     ref_name = item_regions.get_item_type()
+                    self.extract_swh(ref_name, column, row)
                     chip_view_graphic.add_new_entity_inst(entity_type=ref_name,
                                                           ref_entity_name=ref_name,
                                                           position_=insert_point,
@@ -181,10 +182,10 @@ class ChipViewLayout:
         print(chip_view_graphic.row_heights)
         print(chip_view_graphic.column_widths)
         print(chip_view_graphic.render_layout())
+        print(chip_view_graphic.swh_point_map)
 
-    def extract_swh(self):
-        for item_regions in self.items_region:
-            for region in item_regions.get_regions():
-                for point in region.get_logic_points():
-                    column = int(point.get_column())
-                    row = int(point.get_row())
+    @staticmethod
+    def extract_swh(ref_name, column, row):
+        if ref_name != "SWHL" and ref_name != "SWHR":
+            return
+        chip_view_graphic.add_swh_point((column, row))

@@ -15,7 +15,7 @@ import os
 import cmd
 import subprocess
 
-space = 1000
+space = 2000
 
 
 class DXFGenerator(cmd.Cmd):
@@ -102,9 +102,9 @@ def create_tc():
 
     # modify_graphic.modify_graphic()
 
-    segments = dxfblocks.DxfBlocks(f"./import_dxf")
-    segment_dwg = segments.get_dwgs()
-    chip_view.import_block(segment_dwg)
+    # segments = dxfblocks.DxfBlocks(f"./import_dxf")
+    # segment_dwg = segments.get_dwgs()
+    # chip_view.import_block(segment_dwg)
 
     normal_line = DrawLine.NormalLineCreate(swh_l_config, swh_l, dwg_chip_view, space)
     normal_line.create_line()
