@@ -3,6 +3,7 @@ from src.ParserJson import ParserEntity
 from src.ParserJson import ParserSWH
 from src.Draw import DrawSWH
 from src.Draw import DrawLine
+from src.Draw import DrawLine2
 from src.Draw import DrawChipView
 
 from src.ParserDxf import dxfblocks
@@ -106,15 +107,15 @@ def create_tc():
     # segment_dwg = segments.get_dwgs()
     # chip_view.import_block(segment_dwg)
 
-    normal_line = DrawLine.NormalLineCreate(swh_l_config, swh_l, dwg_chip_view, space)
+    normal_line = DrawLine2.NormalLineCreate(swh_l_config, swh_l, dwg_chip_view, space)
     normal_line.create_line()
     line_l = normal_line.get_line_l_list()
     line_r = normal_line.get_line_r_list()
 
     # chip_view.add_tile_refs(width, height)
     chip_view.add_tile_ref_from_graphic()
-    # chip_view.add_segment(pins, line_r, line_l)
-    chip_view.add_segment_from_graphic(pins, line_r, line_l)
+    chip_view.add_segment(pins, line_r, line_l)
+    # chip_view.add_segment_from_graphic(pins, line_r, line_l)
     chip_view.save_sa(f"./result_dxf/test3.dxf")
 
     # json_output = write_json.graphic_to_json(chip_view_graphic)

@@ -3,52 +3,8 @@ from src.ParserJson.ParserSWH import Layout
 from src.ParserJson.ParserSWH import MuxNames
 from src.Draw import DrawSWH
 from src.DataBase.graphic import chip_view_graphic
+from src.Draw import calculate_line
 import re
-
-
-def sort_by_row_and_column(units):
-    rows = {}
-    cols = {}
-    for x, y in units:
-        if y not in rows:
-            rows[y] = []
-        rows[y].append((x, y))
-
-        if x not in cols:
-            cols[x] = []
-        cols[x].append((x, y))
-
-    for key in rows:
-        rows[key].sort()  # 按x排序
-    for key in cols:
-        cols[key].sort(key=lambda pos: pos[1])  # 按y排序
-
-    return rows, cols
-
-
-def calculate_physical_distances(units, direction='x'):
-    distances = []
-    for i in range(len(units) - 1):
-        if direction == 'x':
-            distances.append(units[i+1][0] - units[i][0])
-        elif direction == 'y':
-            distances.append(units[i+1][1] - units[i][1])
-    return distances
-
-def calculate_logical_distances(units, max_logical_distance, direction='x'):
-    all_distances = []
-    for logical_distance in range(1, max_logical_distance + 1):
-        distance_combinations = set()
-        for i in range(len(units) - logical_distance):
-            combination = []
-            for j in range(logical_distance):
-                if direction == 'x':
-                    combination.append(units[i+j+1][0] - units[i+j][0])
-                elif direction == 'y':
-                    combination.append(units[i+j+1][1] - units[i+j][1])
-            distance_combinations.add(tuple(combination))
-        all_distances.append(list(distance_combinations))
-    return all_distances
 
 
 def get_group(group_name: str):
@@ -134,17 +90,20 @@ class NormalLineCreate:
 
     def create_line(self):
 
-        rows, cols = sort_by_row_and_column(chip_view_graphic.get_swh_point_list())
-        self.create_line_points("SWHL")
-        self.create_line_points("SWHR")
-        self.create_ns_line()
+        units, grid = calculate_line.process_units()
+        row_distances, col_distances = calculate_line.calculate_distances(grid)
+
+        unique_row_logical_distances = calculate_line.unique_distances(row_distances)
+        unique_col_logical_distances = calculate_line.unique_distances(col_distances)
+
+        self.create_line_points(unique_row_logical_distances)
+        # self.create_line_points("SWHR")
+        # self.create_ns_line()
 
     # Line in config must from small to large
-    def create_line_points(self, tile_type):
+    def create_line_points(self, logical_distances):
         self.min_y = -99
         self.max_y = 99
-        logical_distances = {1: [(1,), (3,)], 2: [(3, 1), (1, 3)], 3: [(3, 1, 3), (1, 3, 1)],
-                             4: [(1, 3, 1, 3), (3, 1, 3, 1)], 5: [(1, 3, 1, 3, 1)]}
         for section in self.config.down_layout:
             section: Layout
             if section.get_index() != 9:
@@ -154,7 +113,9 @@ class NormalLineCreate:
                 line_length = get_group(Mux.group_name)
                 if line_length == -1:
                     continue
-                situations_of_line_length = logical_distances[line_length]
+                situations_of_line_length = logical_distances.get(line_length)
+                if situations_of_line_length is None:
+                    continue
                 line_num = len(Mux.mux_name)
                 drop_height = line_num
                 stair_num = line_length
@@ -163,20 +124,22 @@ class NormalLineCreate:
                 start_y = self.min_y - self.gap
                 width = self.config.get_width()
 
-                for situation in situations_of_line_length:
+                for index, situation in enumerate(situations_of_line_length):
+                    chip_view_graphic.tuple_to_entity[situation] = []
+                    group_y = start_y
                     for pin_name in Mux.mux_name:
                         pin_index = extract_number(pin_name)
                         count = 1
                         point_list = [(0, 0)]
 
                         x = 0
-                        y = start_y
+                        y = group_y
                         beg_to_edge, edge_to_end, end_name = self.get_ee_pin_to_edge(pin_name, width)
 
                         for i in range(stair_num):
                             count = count + 1
                             x = x
-                            y = start_y - drop_height * i
+                            y = group_y - drop_height * i
                             point_list.append((x, y))
 
                             count = count + 1
@@ -184,19 +147,20 @@ class NormalLineCreate:
                                 x = beg_to_edge + (sum(situation) - 1) * (width + self.space) \
                                     + self.space + edge_to_end
                             else:
-                                x = beg_to_edge + (sum(situation[:i+1]) - 1) * (width + self.space) + self.space
-                                + width / 2 - self.multi * line_num * i - self.multi * pin_index
+                                x = beg_to_edge + (sum(situation[:i+1]) - 1) * (width + self.space) + self.space\
+                                    + width / 2 - self.multi * line_num * i - self.multi * pin_index
 
                             y = y
                             point_list.append((x, y))
-                        block_name = pin_name + "-" + end_name + "-" + tile_type[3]
+                        block_name = pin_name + "-" + end_name + "-" + str(index)
                         self.line_r_list.append(block_name)
 
                         point_list.append((x, 0))
-                        start_y = start_y - self.gap
+                        group_y = group_y - self.gap
                         self.min_y = y
                         normal_line_block = self.dwg.blocks.new(name=block_name)
                         normal_line_block.add_lwpolyline(point_list)
+                        chip_view_graphic.tuple_to_entity[situation].append(block_name)
 
         # for section in self.config.up_layout:
         #     if section.get_index() != 0:

@@ -10,7 +10,9 @@ class Graphic:
         self.max_row_index = 0
         self.max_column_index = 0
         self.vecEntityInst: List[EntityInst] = []
+
         self.swh_point_map = []
+        self.tuple_to_entity = {}
 
         self.row_heights = {}
         self.column_widths = {}

@@ -7,6 +7,7 @@ from src.ParserJson.ParserLayout import ChipViewLayout
 from src.DataBase.graphic import chip_view_graphic
 
 import src.Draw.DrawEntity as Draw_entity
+from src.Draw import calculate_line
 
 from typing import cast
 
@@ -102,27 +103,32 @@ class DxfChipView:
             block_ref = self.msp.add_blockref(ref_type, insert_position)
 
     def add_segment(self, pins, line_r_list, line_l_list):
+        grid = calculate_line.initialize_grid(chip_view_graphic.swh_point_map)
+        grid = calculate_line.fill_grid(grid, chip_view_graphic.swh_point_map)
         for entity in self.msp:
             if entity.dxftype() == 'INSERT':
                 block_ref = cast("Insert", entity)
-                if block_ref.dxf.name == "SWHL":
-                    logic_column = self.insert_x.get(block_ref.dxf.insert[0])
-                    logic_row = self.insert_y.get(block_ref.dxf.insert[1])
-                    for segment in line_l_list:
-                        terms = segment.split("-")
-                        start_term = terms[0]
-                        pinpoint = pins[start_term]
-                        segment_ref_name = self.edge_control(logic_column, logic_row, segment)
-                        line_ref = self.msp.add_blockref(segment_ref_name, block_ref.dxf.insert + pinpoint)
-                elif block_ref.dxf.name == "SWHR":
-                    logic_column = self.insert_x.get(block_ref.dxf.insert[0])
-                    logic_row = self.insert_y.get(block_ref.dxf.insert[1])
-                    for segment in line_r_list:
-                        terms = segment.split("-")
-                        start_term = terms[0]
-                        pinpoint = pins[start_term]
-                        segment_ref_name = self.edge_control(logic_column, logic_row, segment)
-                        line_ref = self.msp.add_blockref(segment_ref_name, block_ref.dxf.insert + pinpoint)
+                if block_ref.dxf.name == "SWHL" or block_ref.dxf.name == "SWHR":
+                    insert_position = chip_view_graphic.physical_to_logic.get(
+                        (block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
+                    logical_distances_from_unit_x = calculate_line.calculate_logical_distances_from_unit(grid, insert_position, 'x')
+                    print(insert_position)
+                    print(logical_distances_from_unit_x)
+                    a_list = [1, 2, 4, 6, 12]
+                    for line_length in a_list:
+                        situ = logical_distances_from_unit_x.get(line_length)
+                        if situ is None:
+                            continue
+                        tuple_x = situ[0]
+                        block_names = chip_view_graphic.tuple_to_entity.get(tuple_x)
+                        if block_names is None:
+                            continue
+                        for segment in block_names:
+                            terms = segment.split("-")
+                            start_term = terms[0]
+                            pinpoint = pins[start_term]
+                            line_ref = self.msp.add_blockref(segment, block_ref.dxf.insert + pinpoint)
+
 
     def add_segment_from_graphic(self, pins, line_r_list, line_l_list):
         for entity in self.msp:
