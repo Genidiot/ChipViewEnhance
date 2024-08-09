@@ -12,7 +12,10 @@ class Graphic:
         self.vecEntityInst: List[EntityInst] = []
 
         self.swh_point_map = []
-        self.tuple_to_entity = {}
+        self.normalLine_e_map = {}
+        self.normalLine_w_map = {}
+        self.normalLine_n_map = {}
+        self.normalLine_s_map = {}
 
         self.row_heights = {}
         self.column_widths = {}

@@ -110,12 +110,12 @@ def calculate_certain_logical_distances(units, direction='x'):
     max_logical_distance = min(len(units)-1, 15)
     dict_distance = {}
     for logical_distance in range(1, max_logical_distance + 1):
-        dict_distance[logical_distance] = []
+        dict_distance[logical_distance] = None
         combination = []
         for i in range(logical_distance):
             if direction == 'x':
                 combination.append(units[i+1][0] - units[i][0])
             elif direction == 'y':
                 combination.append(units[i+1][1] - units[i][1])
-        dict_distance[logical_distance].append(tuple(combination))
+        dict_distance[logical_distance] = tuple(combination)
     return dict_distance

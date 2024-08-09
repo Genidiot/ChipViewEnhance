@@ -111,23 +111,36 @@ class DxfChipView:
                 if block_ref.dxf.name == "SWHL" or block_ref.dxf.name == "SWHR":
                     insert_position = chip_view_graphic.physical_to_logic.get(
                         (block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
-                    logical_distances_from_unit_x = calculate_line.calculate_logical_distances_from_unit(grid, insert_position, 'x')
+                    distances_from_unit_x = calculate_line.calculate_logical_distances_from_unit(grid,
+                                                                                                 insert_position,
+                                                                                                 'x')
+                    distances_from_unit_y = calculate_line.calculate_logical_distances_from_unit(grid,
+                                                                                                 insert_position,
+                                                                                                 'y')
                     print(insert_position)
-                    print(logical_distances_from_unit_x)
+                    print(distances_from_unit_x)
+                    print(distances_from_unit_y)
                     a_list = [1, 2, 4, 6, 12]
                     for line_length in a_list:
-                        situ = logical_distances_from_unit_x.get(line_length)
-                        if situ is None:
+                        combination1 = distances_from_unit_x.get(line_length)
+                        if combination1 is None:
                             continue
-                        tuple_x = situ[0]
-                        block_names = chip_view_graphic.tuple_to_entity.get(tuple_x)
-                        if block_names is None:
-                            continue
-                        for segment in block_names:
-                            terms = segment.split("-")
+                        block_names = chip_view_graphic.normalLine_e_map[combination1]
+                        for line_name in block_names:
+                            terms = line_name.split("-")
                             start_term = terms[0]
                             pinpoint = pins[start_term]
-                            line_ref = self.msp.add_blockref(segment, block_ref.dxf.insert + pinpoint)
+                            line_ref = self.msp.add_blockref(line_name, block_ref.dxf.insert + pinpoint)
+
+                        combination2 = distances_from_unit_y.get(line_length)
+                        if combination2 is None:
+                            continue
+                        block_names = chip_view_graphic.normalLine_n_map[combination2]
+                        for line_name in block_names:
+                            terms = line_name.split("-")
+                            start_term = terms[0]
+                            pinpoint = pins[start_term]
+                            line_ref = self.msp.add_blockref(line_name, block_ref.dxf.insert + pinpoint)
 
 
     def add_segment_from_graphic(self, pins, line_r_list, line_l_list):
