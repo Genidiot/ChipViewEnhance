@@ -8,15 +8,15 @@ import re
 
 
 def get_group(group_name: str):
-    if group_name.find("L1Beg") != -1:
+    if group_name.find("L1BEG") != -1:
         return 1
-    elif group_name.find("L2Beg") != -1:
+    elif group_name.find("L2BEG") != -1:
         return 2
-    elif group_name.find("L4Beg") != -1:
+    elif group_name.find("L4BEG") != -1:
         return 4
-    elif group_name.find("L6Beg") != -1:
+    elif group_name.find("L6BEG") != -1:
         return 6
-    elif group_name.find("L12Beg") != -1:
+    elif group_name.find("L12BEG") != -1:
         return 12
     else:
         return -1
@@ -59,7 +59,7 @@ class NormalLineCreate:
     def get_ee_pin_to_edge(self, pin_name, edge):
         beg_insert_point = self.swh.get_pin_point(pin_name)
         beg_pin_distance = int(edge - beg_insert_point[0])
-        end_name = pin_name.replace("beg", "end")
+        end_name = pin_name.replace("beg", "end").replace("BEG", "END")
         end_insert_point = self.swh.get_pin_point(end_name)
         end_pin_distance = int(end_insert_point[0])
         return beg_pin_distance, end_pin_distance, end_name
@@ -67,7 +67,7 @@ class NormalLineCreate:
     def get_ww_pin_to_edge(self, pin_name, edge):
         beg_insert_point = self.swh.get_pin_point(pin_name)
         beg_pin_distance = int(beg_insert_point[0])
-        end_name = pin_name.replace("beg", "end")
+        end_name = pin_name.replace("beg", "end").replace("BEG", "END")
         end_insert_point = self.swh.get_pin_point(end_name)
         end_pin_distance = int(edge - end_insert_point[0])
         return beg_pin_distance, end_pin_distance, end_name
@@ -75,7 +75,7 @@ class NormalLineCreate:
     def get_nn_pin_to_edge(self, pin_name, edge):
         beg_insert_point = self.swh.get_pin_point(pin_name)
         beg_pin_distance = int(edge - beg_insert_point[1])
-        end_name = pin_name.replace("beg", "end")
+        end_name = pin_name.replace("beg", "end").replace("BEG", "END")
         end_insert_point = self.swh.get_pin_point(end_name)
         end_pin_distance = int(end_insert_point[1])
         return beg_pin_distance, end_pin_distance, end_name
@@ -83,7 +83,7 @@ class NormalLineCreate:
     def get_ss_pin_to_edge(self, pin_name, edge):
         beg_insert_point = self.swh.get_pin_point(pin_name)
         beg_pin_distance = int(beg_insert_point[1])
-        end_name = pin_name.replace("beg", "end")
+        end_name = pin_name.replace("beg", "end").replace("BEG", "END")
         end_insert_point = self.swh.get_pin_point(end_name)
         end_pin_distance = int(edge - end_insert_point[1])
         return beg_pin_distance, end_pin_distance, end_name

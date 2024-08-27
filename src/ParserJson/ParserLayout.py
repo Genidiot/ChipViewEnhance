@@ -186,6 +186,5 @@ class ChipViewLayout:
 
     @staticmethod
     def extract_swh(ref_name, column, row):
-        if ref_name != "SWHL" and ref_name != "SWHR":
-            return
-        chip_view_graphic.add_swh_point((column, row))
+        if ref_name.startswith("SWH"):
+            chip_view_graphic.add_swh_point((column, row))

@@ -16,7 +16,7 @@ import os
 import cmd
 import subprocess
 
-space = 2000
+space = 1000
 
 
 class DXFGenerator(cmd.Cmd):
@@ -95,10 +95,10 @@ def create_tc():
     # config_chip_view = ParserLayout.ChipViewLayout(f"output.json")
     chip_view = DrawChipView.DxfChipView(config_chip_view)
     dwg_chip_view = chip_view.get_dwg()
-    swh_l_config = ParserSWH.SwhConfig(f"./config/swhlPinLayout.json")
+    swh_l_config = ParserSWH.SwhConfig(f"./config/SWH_W.json")
     swh_l = DrawSWH.SwhCreate(swh_l_config, dwg_chip_view)
     pins = swh_l.get_sub_block_dict()
-    swh_r_config = ParserSWH.SwhConfig(f"./config/swhrPinLayout.json")
+    swh_r_config = ParserSWH.SwhConfig(f"./config/SWH_E.json")
     swh_r = DrawSWH.SwhCreate(swh_r_config, dwg_chip_view)
 
     # modify_graphic.modify_graphic()

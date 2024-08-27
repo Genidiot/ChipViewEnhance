@@ -108,7 +108,7 @@ class DxfChipView:
         for entity in self.msp:
             if entity.dxftype() == 'INSERT':
                 block_ref = cast("Insert", entity)
-                if block_ref.dxf.name == "SWHL" or block_ref.dxf.name == "SWHR":
+                if block_ref.dxf.name == "SWH_W" or block_ref.dxf.name == "SWH_E":
                     insert_position = chip_view_graphic.physical_to_logic.get(
                         (block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
                     distances_from_unit_x = calculate_line.calculate_logical_distances_from_unit(grid,
@@ -147,7 +147,7 @@ class DxfChipView:
         for entity in self.msp:
             if entity.dxftype() == 'INSERT':
                 block_ref = cast("Insert", entity)
-                if block_ref.dxf.name == "SWHL":
+                if block_ref.dxf.name == "SWH_E":
                     insert_position = chip_view_graphic.physical_to_logic.get((block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
                     logic_column = insert_position[0]
                     logic_row = insert_position[1]
@@ -157,7 +157,7 @@ class DxfChipView:
                         pinpoint = pins[start_term]
                         segment_ref_name = self.edge_control(logic_column, logic_row, segment)
                         line_ref = self.msp.add_blockref(segment_ref_name, block_ref.dxf.insert + pinpoint)
-                elif block_ref.dxf.name == "SWHR":
+                elif block_ref.dxf.name == "SWH_W":
                     insert_position = chip_view_graphic.physical_to_logic.get(
                         (block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
                     logic_column = insert_position[0]

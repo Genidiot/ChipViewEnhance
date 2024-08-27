@@ -6,7 +6,7 @@
     "columnWidths": {"0": 3000, "1": 3000, "2": 3000, "3": 3000, "4": 3000, "5": 3000, "6": 3000, "7": 3000, "8": 3000, "9": 3000, "10": 3000, "11": 3000},
     "itemRegion":[
         {
-            "type":"SWHL",
+            "type":"SWH_W",
             "width":1,
             "height":1,
             "regions":[
@@ -43,7 +43,7 @@
             ]
         },
         {
-            "type":"SWHR",
+            "type":"SWH_E",
             "width":1,
             "height":1,
             "regions":[
