@@ -160,87 +160,61 @@ class NormalLineCreate:
                         normal_line_block.add_lwpolyline(point_list)
                         chip_view_graphic.normalLine_e_map[combination].append(block_name)
 
-        # for section in self.config.up_layout:
-        #     if section.get_index() != 0:
-        #         continue
-        #     for Mux in section.mux_group_list:
-        #         line_length = get_group(Mux.group_name)
-        #         if line_length != -1:
-        #             line_num = len(Mux.mux_name)
-        #             rise_height = line_num
-        #             rise_num = line_length - 1
-        #             point_num = line_length * 2 + 2
-        #             start_y = self.max_y + self.gap
-        #             width = self.config.get_width()
-        #
-        #             for pin_name in Mux.mux_name:
-        #                 pin_index = extract_number(pin_name)
-        #                 count = 1
-        #                 point_list = [(0, 0)]
-        #                 x = 0
-        #                 y = start_y
-        #
-        #                 beg_to_edge, edge_to_end, end_name = self.get_ww_pin_to_edge(pin_name, width)
-        #
-        #                 if tile_type[3] == "R":
-        #                     for i in range(rise_num + 1):
-        #                         count = count + 1
-        #                         x = x
-        #                         y = start_y + rise_height * i
-        #                         point_list.append((x, y))
-        #
-        #                         count = count + 1
-        #                         if count == point_num - 1:
-        #                             if line_length % 2 == 0:
-        #                                 x = 0 - (beg_to_edge + (line_length * 2 - 1) * (width + self.space)
-        #                                          + self.space + edge_to_end)
-        #                             else:
-        #                                 x = 0 - (beg_to_edge + (line_length * 2 - 2) * (width + self.space)
-        #                                          + self.space + edge_to_end)
-        #                         else:
-        #                             if i % 2 == 0:
-        #                                 x = 0 - int(beg_to_edge + (2 * i) * (width + self.space) + self.space
-        #                                             + width / 2 - self.multi * line_num * i - self.multi * pin_index)
-        #                             else:
-        #                                 x = 0 - int(beg_to_edge + (2 * i + 1) * (width + self.space) + self.space
-        #                                             + width / 2 - self.multi * line_num * i - self.multi * pin_index)
-        #                         y = y
-        #                         point_list.append((x, y))
-        #                     block_name = pin_name + "-" + end_name + "-" + tile_type[3]
-        #                     self.line_r_list.append(block_name)
-        #
-        #                 elif tile_type[3] == "L":
-        #                     for i in range(rise_num + 1):
-        #                         count = count + 1
-        #                         x = x
-        #                         y = start_y + rise_height * i
-        #                         point_list.append((x, y))
-        #
-        #                         count = count + 1
-        #                         if count == point_num - 1:
-        #                             if line_length % 2 == 0:
-        #                                 x = 0 - (beg_to_edge + (line_length * 2 - 1) * (width + self.space)
-        #                                          + self.space + edge_to_end)
-        #                             else:
-        #                                 x = 0 - (beg_to_edge + (line_length * 2) * (width + self.space)
-        #                                          + self.space + edge_to_end)
-        #                         else:
-        #                             if i % 2 == 0:
-        #                                 x = 0 - int(beg_to_edge + (2 * i + 2) * (width + self.space) + self.space
-        #                                             + width / 2 - self.multi * line_num * i - self.multi * pin_index)
-        #                             else:
-        #                                 x = 0 - int(beg_to_edge + (2 * i + 1) * (width + self.space) + self.space
-        #                                             + width / 2 - self.multi * line_num * i - self.multi * pin_index)
-        #                         y = y
-        #                         point_list.append((x, y))
-        #                     block_name = pin_name + "-" + end_name + "-" + tile_type[3]
-        #                     self.line_l_list.append(block_name)
-        #
-        #                 point_list.append((x, 0))
-        #                 start_y = start_y + self.gap
-        #                 self.max_y = y
-        #                 normal_line_block = self.dwg.blocks.new(name=block_name)
-        #                 normal_line_block.add_lwpolyline(point_list)
+        for section in self.config.up_layout:
+            if section.get_index() != 0:
+                continue
+            for Mux in section.mux_group_list:
+                line_length = get_group(Mux.group_name)
+                if line_length == -1:
+                    continue
+                length_combinations = logical_distances.get(line_length)
+                if length_combinations is None:
+                    continue
+                line_group_num = len(Mux.mux_name)
+                rise_height = line_group_num
+                stair_num = line_length
+                rise_num = line_length - 1
+                point_num = line_length * 2 + 2
+                line_group_start_y = self.max_y + self.gap
+                width = self.config.get_width()
+
+                for index, combination in enumerate(length_combinations):
+                    chip_view_graphic.normalLine_w_map[combination] = []
+                    single_line_start_y = line_group_start_y
+                    for pin_name in Mux.mux_name:
+                        pin_index = extract_number(pin_name)
+                        count = 1
+                        point_list = [(0, 0)]
+
+                        x = 0
+                        y = single_line_start_y
+                        beg_to_edge, edge_to_end, end_name = self.get_ww_pin_to_edge(pin_name, width)
+
+                        for i in range(stair_num):
+                            count = count + 1
+                            x = x
+                            y = single_line_start_y + rise_height * i
+                            point_list.append((x, y))
+
+                            count = count + 1
+                            if count == point_num - 1:
+                                x = 0 - (beg_to_edge + (sum(combination) - 1) * (width + self.space)
+                                         + self.space + edge_to_end)
+                            else:
+                                x = 0 - (beg_to_edge + (sum(combination[:i + 1]) - 1) * (width + self.space) + self.space
+                                         + width / 2 - self.multi * line_group_num * i - self.multi * pin_index)
+
+                            y = y
+                            point_list.append((x, y))
+                        block_name = pin_name + "-" + end_name + "-" + str(index)
+                        self.line_r_list.append(block_name)
+
+                        point_list.append((x, 0))
+                        single_line_start_y = single_line_start_y + self.gap
+                        self.max_y = y
+                        normal_line_block = self.dwg.blocks.new(name=block_name)
+                        normal_line_block.add_lwpolyline(point_list)
+                        chip_view_graphic.normalLine_w_map[combination].append(block_name)
 
     def create_ns_line(self, logic_distances):
         for section in self.config.left_layout:
@@ -301,51 +275,60 @@ class NormalLineCreate:
                         normal_line_block.add_lwpolyline(point_list)
                         chip_view_graphic.normalLine_n_map[combination].append(block_name)
 
-        # for section in self.config.right_layout:
-        #     section: Layout
-        #     if section.get_index() != 0:
-        #         continue
-        #     for Mux in section.mux_group_list:
-        #         Mux: MuxNames
-        #         line_length = get_group(Mux.group_name)
-        #         if line_length != -1:
-        #             line_num = len(Mux.mux_name)
-        #             ext_width = line_num
-        #             ext_num = line_length - 1
-        #             point_num = line_length * 2 + 2
-        #             start_x = self.max_x + self.gap
-        #             height = self.config.get_height()
-        #
-        #             for pin_name in Mux.mux_name:
-        #                 pin_index = extract_number(pin_name)
-        #                 count = 1
-        #                 point_list = [(0, 0)]
-        #                 x = start_x
-        #                 y = 0
-        #
-        #                 beg_to_edge, edge_to_end, end_name = self.get_ss_pin_to_edge(pin_name, height)
-        #                 block_name = ""
-        #                 for i in range(ext_num + 1):
-        #                     count = count + 1
-        #                     x = start_x + ext_width * i
-        #                     y = y
-        #                     point_list.append((x, y))
-        #
-        #                     count = count + 1
-        #                     x = x
-        #                     if count == point_num - 1:
-        #                         y = 0 - (beg_to_edge + (line_length - 1) * (height + self.space)
-        #                                  + self.space + edge_to_end)
-        #                     else:
-        #                         y = 0 - int(beg_to_edge + i * (height + self.space) + self.space
-        #                                     + height / 2 - self.multi * line_num * i - self.multi * pin_index)
-        #                     point_list.append((x, y))
-        #                     block_name = pin_name + "-" + end_name
-        #                     self.line_r_list.append(block_name)
-        #                     self.line_l_list.append(block_name)
-        #
-        #                 point_list.append((0, y))
-        #                 start_x = start_x + self.gap
-        #                 self.max_x = x
-        #                 normal_line_block = self.dwg.blocks.new(name=block_name)
-        #                 normal_line_block.add_lwpolyline(point_list)
+        for section in self.config.right_layout:
+            section: Layout
+            if section.get_index() != 0:
+                continue
+            for Mux in section.mux_group_list:
+                Mux: MuxNames
+                line_length = get_group(Mux.group_name)
+                if line_length == -1:
+                    continue
+                length_combinations = logic_distances.get(line_length)
+                if length_combinations is None:
+                    continue
+                line_group_num = len(Mux.mux_name)
+                ext_width = line_group_num
+                stair_num = line_length
+                ext_num = line_length - 1
+                point_num = line_length * 2 + 2
+                line_group_start_x = self.max_x + self.gap
+                height = self.config.get_height()
+
+                for index, combination in enumerate(length_combinations):
+                    chip_view_graphic.normalLine_s_map[combination] = []
+                    single_line_start_x = line_group_start_x
+                    for pin_name in Mux.mux_name:
+                        pin_index = extract_number(pin_name)
+                        count = 1
+                        point_list = [(0, 0)]
+
+                        x = single_line_start_x
+                        y = 0
+                        beg_to_edge, edge_to_end, end_name = self.get_ss_pin_to_edge(pin_name, height)
+
+                        for i in range(ext_num + 1):
+                            count = count + 1
+                            x = single_line_start_x + ext_width * i
+                            y = y
+                            point_list.append((x, y))
+
+                            count = count + 1
+                            if count == point_num - 1:
+                                y = 0 - (beg_to_edge + (sum(combination) - 1) * (height + self.space)
+                                         + self.space + edge_to_end)
+                            else:
+                                y = 0 - (beg_to_edge + (sum(combination[:i+1]) - 1) * (height + self.space) + self.space
+                                         + height / 2 - self.multi * line_group_num * i - self.multi * pin_index)
+
+                            x = x
+                            point_list.append((x, y))
+                        block_name = pin_name + "-" + end_name + "-" + str(index)
+                        self.line_r_list.append(block_name)
+
+                        point_list.append((0, y))
+                        single_line_start_x = single_line_start_x + self.gap
+                        self.max_x = x
+                        normal_line_block = self.dwg.blocks.new(name=block_name)
+                        normal_line_block.add_lwpolyline(point_list)
+                        chip_view_graphic.normalLine_s_map[combination].append(block_name)

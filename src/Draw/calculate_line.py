@@ -89,21 +89,39 @@ def unique_distances(distances):
     return {k: list(v) for k, v in unique_logical_distances.items()}
 
 
-def calculate_logical_distances_from_unit(grid, start_unit, direction='x'):
+def calculate_all_directions_logical_distances_form_unit(grid, start_unit):
+    directions = {'e': 'x', 'w': 'x', 'n': 'y', 's': 'y'}
+    logical_distances = {}
+
+    for direction, axis in directions.items():
+        if direction in ['e', 'n']:
+            logical_distances[direction] = calculate_logical_distances_from_unit(grid, start_unit, axis, reverse=False)
+        else:
+            logical_distances[direction] = calculate_logical_distances_from_unit(grid, start_unit, axis, reverse=True)
+
+    return logical_distances
+
+
+def calculate_logical_distances_from_unit(grid, start_unit, direction='x', reverse=False, absolute=False):
     if direction == 'x':
         y = start_unit[1]
         row_units = [grid[y][x] for x in range(grid.shape[1]) if grid[y][x] is not None]
-        row_units.sort()
+        row_units.sort(reverse=reverse)
         start_index = row_units.index(start_unit)
         subsequent_units = row_units[start_index:]
     else:
         x = start_unit[0]
         col_units = [grid[y][x] for y in range(grid.shape[0]) if grid[y][x] is not None]
-        col_units.sort(key=lambda pos: pos[1])
+        col_units.sort(key=lambda pos: pos[1], reverse=reverse)
         start_index = col_units.index(start_unit)
         subsequent_units = col_units[start_index:]
 
-    return calculate_certain_logical_distances(subsequent_units, direction)
+    distances = calculate_certain_logical_distances(subsequent_units, direction)
+
+    if absolute:
+        distances = {k: tuple(abs(value) for value in combo) for k, combo in distances.items()}
+
+    return distances
 
 
 def calculate_certain_logical_distances(units, direction='x'):
