@@ -123,11 +123,11 @@ class DxfChipView:
                     distances_from_unit_s = calculate_line.calculate_logical_distances_from_unit(grid,
                                                                                                  insert_position,
                                                                                                  'y', True, True)
-                    print(insert_position)
-                    print(distances_from_unit_e)
-                    print(distances_from_unit_n)
-                    print(distances_from_unit_w)
-                    print(distances_from_unit_s)
+                    # print(insert_position)
+                    # print(distances_from_unit_e)
+                    # print(distances_from_unit_n)
+                    # print(distances_from_unit_w)
+                    # print(distances_from_unit_s)
                     a_list = [1, 2, 4, 6, 12]
                     for line_length in a_list:
                         combination1 = distances_from_unit_e.get(line_length)

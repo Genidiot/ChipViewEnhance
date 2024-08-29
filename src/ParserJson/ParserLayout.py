@@ -159,10 +159,13 @@ class ChipViewLayout:
         chip_view_graphic.set_max_row_index(max_row_index=self.row_count - 1)
         chip_view_graphic.set_max_column_index(max_column_index=self.column_count - 1)
 
-        for key, value in self.row_heights.items():
-            chip_view_graphic.set_row_height(row=key, height=value)
-        for key, value in self.column_widths.items():
-            chip_view_graphic.set_col_width(col=key, width=value)
+        # for key, value in self.row_heights.items():
+        #     chip_view_graphic.set_row_height(row=key, height=value)
+        # for key, value in self.column_widths.items():
+        #     chip_view_graphic.set_col_width(col=key, width=value)
+
+        chip_view_graphic.set_rows_heights(self.row_heights)
+        chip_view_graphic.set_cols_widths(self.column_widths)
         chip_view_graphic.update_mappings()
 
         for item_regions in self.items_region:
@@ -179,8 +182,11 @@ class ChipViewLayout:
                                                           logic_x=column,
                                                           logic_y=row,
                                                           id_=None)
+
         print(chip_view_graphic.row_heights)
+        print(self.row_heights)
         print(chip_view_graphic.column_widths)
+        print(self.column_widths)
         print(chip_view_graphic.render_layout())
         print(chip_view_graphic.swh_point_map)
 

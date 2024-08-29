@@ -77,6 +77,12 @@ class Graphic:
                 current_x += self.column_widths[col]
             current_y += self.row_heights[row]
 
+    def set_rows_heights(self, rows_heights: dict):
+        self.row_heights = rows_heights
+
+    def set_cols_widths(self, cols_widths: dict):
+        self.column_widths = cols_widths
+
     def set_row_height(self, row: int, height: int):
         self.row_heights[row] = height
 
