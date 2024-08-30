@@ -183,12 +183,12 @@ class ChipViewLayout:
                                                           logic_y=row,
                                                           id_=None)
 
-        print(chip_view_graphic.row_heights)
-        print(self.row_heights)
-        print(chip_view_graphic.column_widths)
-        print(self.column_widths)
-        print(chip_view_graphic.render_layout())
-        print(chip_view_graphic.swh_point_map)
+        # print(chip_view_graphic.row_heights)
+        # print(self.row_heights)
+        # print(chip_view_graphic.column_widths)
+        # print(self.column_widths)
+        # print(chip_view_graphic.render_layout())
+        # print(chip_view_graphic.swh_point_map)
 
     @staticmethod
     def extract_swh(ref_name, column, row):

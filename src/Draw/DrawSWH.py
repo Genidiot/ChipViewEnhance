@@ -29,10 +29,8 @@ class SwhCreate:
         width = self.config.width
         height = self.config.height
         swh_block = self.dwg.blocks.new(name=tile_name)
-        swh_block.add_line((0, 0), (width, 0))
-        swh_block.add_line((width, 0), (width, height))
-        swh_block.add_line((width, height), (0, height))
-        swh_block.add_line((0, height), (0, 0))
+        points = [(0, 0), (width, 0), (width, height), (0, height)]
+        swh_block.add_lwpolyline(points, close=True)
 
         self.create_pins(swh_block)
 
