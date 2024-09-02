@@ -6,7 +6,7 @@ from src.DataBase.entity import Entity
 
 from src.DataBase.entity_lib import entity_lib
 
-scale = 10
+scale = 1
 
 
 def draw_entity(dwg, entity_name):

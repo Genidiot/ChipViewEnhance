@@ -5,7 +5,6 @@ from src.DataBase.item import LineItem
 from src.DataBase.item import PolygonItem
 from src.DataBase.item import EntityInst
 from src.DataBase.entity import Entity
-from src.DataBase.graphic import Graphic
 from src.Enums.item_type import ItemType, item_type_str_to_enum
 
 from src.DataBase import entity_lib
@@ -14,7 +13,6 @@ from src.DataBase import entity_lib
 class EntityParser:
     def __init__(self, filename):
         self.filename = filename
-        self.graphic = Graphic()
         self.entity_list = list()
         self.item_list = list()
         self.entity_type = dict()

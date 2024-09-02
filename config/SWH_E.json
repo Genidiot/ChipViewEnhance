@@ -5,6 +5,29 @@
     "partNum": 10,
     "muxWidth": 4,
     "edgeSpace": 20,
+    "items": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 200,
+                    "y": 0
+                },
+                {
+                    "x": 200,
+                    "y": 200
+                },
+                {
+                    "x": 0,
+                    "y": 200
+                }
+            ]
+        }
+    ],
     "downLayout": [
         {
             "partIndex": 0,

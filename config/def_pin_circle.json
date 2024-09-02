@@ -3,7 +3,7 @@
     "graphic":"Circle",
     "width":2,
     "height":2,
-    "radius":1,
+    "radius":2,
     "basicPoint":{
         "x":0,
         "y":0

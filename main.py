@@ -97,10 +97,10 @@ def create_tc():
     dwg_chip_view = chip_view.get_dwg()
 
     swh_l_config = ParserSWH.SwhConfig(f"./config/SWH_W.json")
-    swh_l = DrawSWH.SwhCreate(swh_l_config, dwg_chip_view)
-    pins = swh_l.get_sub_block_dict()
+    # swh_l = DrawSWH.SwhCreate(swh_l_config, dwg_chip_view)
+    # pins = swh_l.get_sub_block_dict()
     swh_r_config = ParserSWH.SwhConfig(f"./config/SWH_E.json")
-    swh_r = DrawSWH.SwhCreate(swh_r_config, dwg_chip_view)
+    # swh_r = DrawSWH.SwhCreate(swh_r_config, dwg_chip_view)
 
     # modify_graphic.modify_graphic()
 
@@ -108,14 +108,14 @@ def create_tc():
     # segment_dwg = segments.get_dwgs()
     # chip_view.import_block(segment_dwg)
 
-    normal_line = DrawLine2.NormalLineCreate(swh_l_config, swh_l, dwg_chip_view, space)
-    normal_line.create_line()
-    line_l = normal_line.get_line_l_list()
-    line_r = normal_line.get_line_r_list()
+    # normal_line = DrawLine2.NormalLineCreate(swh_l_config, swh_l, dwg_chip_view, space)
+    # normal_line.create_line()
+    # line_l = normal_line.get_line_l_list()
+    # line_r = normal_line.get_line_r_list()
 
     # chip_view.add_tile_refs(width, height)
     chip_view.add_tile_ref_from_graphic()
-    chip_view.add_segment(pins, line_r, line_l)
+    # chip_view.add_segment(pins, line_r, line_l)
     # chip_view.add_segment_from_graphic(pins, line_r, line_l)
     chip_view.save_sa(f"./result_dxf/test3.dxf")
 
