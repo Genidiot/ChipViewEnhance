@@ -43,6 +43,7 @@ class SwhConfig:
         self.up_layout = list()
         self.left_layout = list()
         self.right_layout = list()
+        self.sub_block_ref_dict = dict()
 
         self.__read_config()
         self.create_swh_entity()
@@ -129,6 +130,7 @@ class SwhConfig:
                     point = PointF(location, 0)
                     entity_inst = EntityInst("circle_pin", name, point)
                     swh_entity.add_item(entity_inst)
+                    self.add_sub_block_ref(name, location, 0)
                     location = location + direction * mux_width
 
         for section in self.up_layout:
@@ -152,6 +154,7 @@ class SwhConfig:
                     point = PointF(location, self.height)
                     entity_inst = EntityInst("circle_pin", name, point)
                     swh_entity.add_item(entity_inst)
+                    self.add_sub_block_ref(name, location, self.height)
                     location = location + direction * mux_width
 
         for section in self.left_layout:
@@ -175,6 +178,7 @@ class SwhConfig:
                     point = PointF(0, location)
                     entity_inst = EntityInst("circle_pin", name, point)
                     swh_entity.add_item(entity_inst)
+                    self.add_sub_block_ref(name, 0, location)
                     location = location + direction * mux_width
 
         for section in self.right_layout:
@@ -198,7 +202,18 @@ class SwhConfig:
                     point = PointF(self.width, location)
                     entity_inst = EntityInst("circle_pin", name, point)
                     swh_entity.add_item(entity_inst)
+                    self.add_sub_block_ref(name, self.width, location)
                     location = location + direction * mux_width
+
+    def add_sub_block_ref(self, pin_name, x, y):
+        insert_point = (x, y)
+        self.sub_block_ref_dict[pin_name] = insert_point
+
+    def get_sub_block_dict(self):
+        return self.sub_block_ref_dict
+
+    def get_pin_point(self, pin_name):
+        return self.sub_block_ref_dict.get(pin_name)
 
     def get_type(self):
         return self.tile_type
