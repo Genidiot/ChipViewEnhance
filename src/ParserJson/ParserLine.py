@@ -102,7 +102,7 @@ class LineConfig:
         self.max_y = configuration["max_y"]
         self.min_x = configuration["min_x"]
         self.max_x = configuration["max_x"]
-        self.space = configuration["space"]
+        self.space = configuration["tile_space"]
         self.multi = configuration["multiple"]
 
     def create_line_entity(self, swh_config):
@@ -321,7 +321,7 @@ class LineConfig:
                     for pin_name in Mux.mux_name:
                         pin_index = extract_number(pin_name)
                         count = 1
-                        point_list = [(0, 0)]
+                        point_list = [PointF(0, 0)]
 
                         x = single_line_start_x
                         y = 0
@@ -331,7 +331,7 @@ class LineConfig:
                             count = count + 1
                             x = single_line_start_x + ext_width * i
                             y = y
-                            point_list.append((x, y))
+                            point_list.append(PointF(x, y))
 
                             count = count + 1
                             if count == point_num - 1:
@@ -342,8 +342,8 @@ class LineConfig:
                                          + height / 2 - self.multi * line_group_num * i - self.multi * pin_index)
 
                             x = x
-                            point_list.append((x, y))
-                        point_list.append((0, y))
+                            point_list.append(PointF(x, y))
+                        point_list.append(PointF(0, y))
                         single_line_start_x = single_line_start_x + self.gap
                         self.max_x = x
 

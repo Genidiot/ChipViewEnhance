@@ -95,7 +95,7 @@ class PolygonLineItem(Item):
 
 
 class TextItem(Item):
-    def __init__(self, text: str, position: PointF, direction: TextDirection):
+    def __init__(self, text: str, position: PointF, direction: TextDirection = None):
         super().__init__()
         self.text = text
         self.position = position

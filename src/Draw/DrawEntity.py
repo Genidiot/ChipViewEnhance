@@ -1,6 +1,7 @@
 from src.DataBase.item import CircleItem
 from src.DataBase.item import LineItem
 from src.DataBase.item import PolygonItem
+from src.DataBase.item import PolygonLineItem
 from src.DataBase.item import EntityInst
 from src.DataBase.entity import Entity
 
@@ -27,6 +28,8 @@ def draw_item(dwg, block, item):
         draw_line(item, block)
     elif isinstance(item, PolygonItem):
         draw_polygon(item, block)
+    elif isinstance(item, PolygonLineItem):
+        draw_polygon_line(item, block)
     elif isinstance(item, EntityInst):
         draw_insert(item, block, dwg)
     else:
@@ -58,6 +61,15 @@ def draw_polygon(item: PolygonItem, block):
         point_y = point.y * scale
         points.append((point_x, point_y))
     block.add_lwpolyline(points, close=True)
+
+
+def draw_polygon_line(item: PolygonLineItem, block):
+    points = []
+    for point in item.vecPoints:
+        point_x = point.x * scale
+        point_y = point.y * scale
+        points.append((point_x, point_y))
+    block.add_lwpolyline(points)
 
 
 def draw_insert(item: EntityInst, block, dwg):

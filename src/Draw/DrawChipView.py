@@ -102,7 +102,7 @@ class DxfChipView:
             # and add_blockref will add a null value, but no error will be reported.
             block_ref = self.msp.add_blockref(ref_type, insert_position)
 
-    def add_segment(self, pins, line_r_list, line_l_list):
+    def add_segment(self, pins):
         grid = calculate_line.initialize_grid(chip_view_graphic.swh_point_map)
         grid = calculate_line.fill_grid(grid, chip_view_graphic.swh_point_map)
         for entity in self.msp:
@@ -136,6 +136,8 @@ class DxfChipView:
                         if combination1 is not None:
                             block_names = chip_view_graphic.normalLine_e_map[combination1]
                             for line_name in block_names:
+                                if self.dwg.blocks.get(line_name) is None:
+                                    Draw_entity.draw_entity(self.dwg, line_name)
                                 terms = line_name.split("-")
                                 start_term = terms[0]
                                 pinpoint = pins[start_term]
@@ -145,6 +147,8 @@ class DxfChipView:
                         if combination2 is not None:
                             block_names = chip_view_graphic.normalLine_n_map[combination2]
                             for line_name in block_names:
+                                if self.dwg.blocks.get(line_name) is None:
+                                    Draw_entity.draw_entity(self.dwg, line_name)
                                 terms = line_name.split("-")
                                 start_term = terms[0]
                                 pinpoint = pins[start_term]
@@ -154,6 +158,8 @@ class DxfChipView:
                         if combination3 is not None:
                             block_names = chip_view_graphic.normalLine_w_map[combination3]
                             for line_name in block_names:
+                                if self.dwg.blocks.get(line_name) is None:
+                                    Draw_entity.draw_entity(self.dwg, line_name)
                                 terms = line_name.split("-")
                                 start_term = terms[0]
                                 pinpoint = pins[start_term]
@@ -163,6 +169,8 @@ class DxfChipView:
                         if combination4 is not None:
                             block_names = chip_view_graphic.normalLine_s_map[combination4]
                             for line_name in block_names:
+                                if self.dwg.blocks.get(line_name) is None:
+                                    Draw_entity.draw_entity(self.dwg, line_name)
                                 terms = line_name.split("-")
                                 start_term = terms[0]
                                 pinpoint = pins[start_term]

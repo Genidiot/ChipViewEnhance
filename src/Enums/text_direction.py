@@ -13,7 +13,8 @@ str_to_text_direction = {
     "Unknown": TextDirection.TEXT_DIRECTION_UNKNOWN,
     "Top": TextDirection.TEXT_DIRECTION_TOP,
     "Bottom": TextDirection.TEXT_DIRECTION_BOTTOM,
-    "Right": TextDirection.TEXT_DIRECTION_RIGHT
+    "Right": TextDirection.TEXT_DIRECTION_RIGHT,
+    "Left": TextDirection.TEXT_DIRECTION_LEFT
 }
 
 text_direction_to_str = {v: k for k, v in str_to_text_direction.items()}
