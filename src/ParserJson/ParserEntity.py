@@ -90,5 +90,3 @@ class EntityParser:
         center_point = PointF(basic_point["x"], basic_point["y"])
         circle_item = CircleItem(center_point, radius)
         return circle_item
-
-

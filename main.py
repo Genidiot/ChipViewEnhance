@@ -11,7 +11,7 @@ from src.ParserDxf import dxfblocks
 from src.Draw import modify_graphic
 
 from src.DataBase.graphic import chip_view_graphic
-from src.Write import write_json
+from src.Write import write_graphic_to_json
 
 import os
 import cmd
