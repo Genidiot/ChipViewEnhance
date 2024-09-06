@@ -4,7 +4,7 @@ from src.DataBase.entity import Entity
 
 
 def entity_to_json(entity_lib) -> str:
-    for entity in entity_lib.values:
+    for entity_name, entity in entity_lib.values:
         entity: Entity
         data = {
             "Type": str
