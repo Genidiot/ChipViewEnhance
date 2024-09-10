@@ -31,33 +31,72 @@ class EntityParser:
 
         entity = Entity(entity_name=entity_type)
 
-        graphic_type = item_type_str_to_enum(configuration["graphic"])
-        if graphic_type == ItemType.ITEM_TYPE_ARC:
-            pass
-        elif graphic_type == ItemType.ITEM_TYPE_CIRCLE:
-            self.item_list.append(self.create_circle(configuration["basicPoint"], configuration["radius"]))
-            entity.add_item(self.item_list[-1])
-        elif graphic_type == ItemType.ITEM_TYPE_LINE:
-            self.item_list.append(self.create_line(configuration["polygonNodes"]))
-            entity.add_item(self.item_list[-1])
-        elif graphic_type == ItemType.ITEM_TYPE_POLYGON:
-            self.item_list.append(self.create_polygon(configuration["polygonNodes"]))
-            entity.add_item(self.item_list[-1])
-        elif graphic_type == ItemType.ITEM_TYPE_POLYGON_LINE:
-            pass
-        else:
-            pass
+        # graphic_type = item_type_str_to_enum(configuration["graphic"])
+        # if graphic_type == ItemType.ITEM_TYPE_ARC:
+        #     pass
+        # elif graphic_type == ItemType.ITEM_TYPE_CIRCLE:
+        #     self.item_list.append(self.create_circle(configuration["basicPoint"], configuration["radius"]))
+        #     entity.add_item(self.item_list[-1])
+        # elif graphic_type == ItemType.ITEM_TYPE_LINE:
+        #     self.item_list.append(self.create_line(configuration["polygonNodes"]))
+        #     entity.add_item(self.item_list[-1])
+        # elif graphic_type == ItemType.ITEM_TYPE_POLYGON:
+        #     self.item_list.append(self.create_polygon(configuration["polygonNodes"]))
+        #     entity.add_item(self.item_list[-1])
+        # elif graphic_type == ItemType.ITEM_TYPE_POLYGON_LINE:
+        #     pass
+        # else:
+        #     pass
 
-        if configuration.get("insideLayout"):
-            for insert_item in configuration["insideLayout"]:
-                item = self.create_insert(insert_item["Type"], insert_item["Name"], insert_item["pos"])
-                if insert_item.get("rotation"):
-                    item.set_rotation(insert_item["rotation"])
-                self.item_list.append(item)
+        for graphic_item in configuration["items"]:
+            graphic_type = item_type_str_to_enum(graphic_item["graphic"])
+            if graphic_type == ItemType.ITEM_TYPE_ARC:
+                pass
+            elif graphic_type == ItemType.ITEM_TYPE_CIRCLE:
+                self.item_list.append(self.create_circle(graphic_item["connectPoint"], graphic_item["radius"]))
                 entity.add_item(self.item_list[-1])
-        if configuration.get("PinLayout"):
+            elif graphic_type == ItemType.ITEM_TYPE_LINE:
+                self.item_list.append(self.create_line(graphic_item["polygonNodes"]))
+                entity.add_item(self.item_list[-1])
+            elif graphic_type == ItemType.ITEM_TYPE_POLYGON:
+                self.item_list.append(self.create_polygon(graphic_item["polygonNodes"]))
+                entity.add_item(self.item_list[-1])
+            elif graphic_type == ItemType.ITEM_TYPE_POLYGON_LINE:
+                pass
+            else:
+                pass
+
+        # if configuration.get("insideLayout"):
+        #     for insert_item in configuration["insideLayout"]:
+        #         item = self.create_insert(insert_item["Type"], insert_item["Name"], insert_item["pos"])
+        #         if insert_item.get("rotation"):
+        #             item.set_rotation(insert_item["rotation"])
+        #         self.item_list.append(item)
+        #         entity.add_item(self.item_list[-1])
+        # if configuration.get("PinLayout"):
+        #     for insert_item in configuration["PinLayout"]:
+        #         self.item_list.append(self.create_insert(insert_item["Type"], insert_item["Name"], insert_item["pos"]))
+        #         entity.add_item(self.item_list[-1])
+
+        if configuration.get("insideLayout") and configuration.get("insideObjects"):
+            inside_objects = {obj["Name"]: obj for obj in configuration["insideObjects"]}
+            for insert_item in configuration["insideLayout"]:
+                item_info = inside_objects.get(insert_item["Name"])
+                self.item_list.append(self.create_insert(item_info["Type"],
+                                                         item_info["Name"],
+                                                         item_info["id"],
+                                                         item_info["rotation"],
+                                                         insert_item["pos"]))
+                entity.add_item(self.item_list[-1])
+        if configuration.get("PinLayout") and configuration.get("PinObjects"):
+            pin_objects = {obj["Name"]: obj for obj in configuration["PinObjects"]}
             for insert_item in configuration["PinLayout"]:
-                self.item_list.append(self.create_insert(insert_item["Type"], insert_item["Name"], insert_item["pos"]))
+                item_info = pin_objects.get(insert_item["Name"])
+                self.item_list.append(self.create_insert(item_info["Type"],
+                                                         item_info["Name"],
+                                                         item_info["id"],
+                                                         item_info["rotation"],
+                                                         insert_item["pos"]))
                 entity.add_item(self.item_list[-1])
 
         self.entity_list.append(entity)
@@ -80,7 +119,7 @@ class EntityParser:
         return polygon_item
 
     @staticmethod
-    def create_insert(ref_type, ref_name, position):
+    def create_insert(ref_type, ref_name, ref_id, rotation,  position):
         point = PointF(position["x"], position["y"])
         entity_inst = EntityInst(ref_type, ref_name, point)
         return entity_inst

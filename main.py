@@ -16,6 +16,10 @@ from src.Write import write_graphic_to_json
 import os
 import cmd
 import subprocess
+import ezdxf
+import src.Draw.DrawEntity as Draw_entity
+from src.ParserDxf.dxf_to_data import write_blocks
+from src.Write import write_entity_to_json
 
 space = 1000
 
@@ -162,26 +166,38 @@ def create_tc_test2():
 
 
 def block_import_test():
-    ParserEntity.EntityParser(f"./config/def_CLCL.json")
-    ParserEntity.EntityParser(f"./config/def_SLAB.json")
-    ParserEntity.EntityParser(f"./config/def_cla.json")
-    ParserEntity.EntityParser(f"./config/def_lutl.json")
-    ParserEntity.EntityParser(f"./config/def_mux2.json")
-    ParserEntity.EntityParser(f"./config/def_mux4.json")
-    ParserEntity.EntityParser(f"./config/def_muxf.json")
-    ParserEntity.EntityParser(f"./config/def_pin_up.json")
-    ParserEntity.EntityParser(f"./config/def_pin_down.json")
-    ParserEntity.EntityParser(f"./config/def_pin_left.json")
-    ParserEntity.EntityParser(f"./config/def_pin_right.json")
-    ParserEntity.EntityParser(f"./config/def_pin_circle.json")
+    # ParserEntity.EntityParser(f"./config/def_CLCL.json")
+    # ParserEntity.EntityParser(f"./config/def_SLAB.json")
+    # ParserEntity.EntityParser(f"./config/def_cla.json")
+    # ParserEntity.EntityParser(f"./config/def_lutl.json")
+    # ParserEntity.EntityParser(f"./config/def_mux2.json")
+    # ParserEntity.EntityParser(f"./config/def_mux4.json")
+    # ParserEntity.EntityParser(f"./config/def_muxf.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_up.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_down.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_left.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_right.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_circle.json")
+    #
+    # dwg = ezdxf.new(dxfversion='AC1021')
+    # Draw_entity.draw_entity(dwg, "CLCL")
+    # dwg.modelspace().add_blockref("CLCL", (0, 0))
+    # dwg.saveas("./output_dxf/clc.dxf")
 
+    segments = dxfblocks.DxfBlocks(f"./output_dxf")
+    segment_dwg = segments.get_dwgs()
+    for file_dwg in segment_dwg:
+        write_blocks(file_dwg)
+
+    write_entity_to_json.entity_to_json()
 
 
 
 if __name__ == '__main__':
     # DXFGenerator().cmdloop()
     # create_tc_test1()
-    create_tc_test2()
+    # create_tc_test2()
+    block_import_test()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 

@@ -1,33 +1,62 @@
 {
     "Type": "LUT",
-    "graphic": "Polygon",
-    "height": 10,
     "width": 6,
+    "height": 10,
     "basicPoint": {
         "x": 0,
         "y": 0
     },
-    "polygonNodes": [
+    "items": [
         {
-            "x": 0,
-            "y": 0
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 10
+                },
+                {
+                    "x": 0,
+                    "y": 10
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "left_pin",
+            "Name": "I",
+            "id": 0,
+            "rotation": 0
         },
         {
-            "x": 6,
-            "y": 0
+            "Type": "right_pin",
+            "Name": "O5_1",
+            "id": 1,
+            "rotation": 0
         },
         {
-            "x": 6,
-            "y": 10
+            "Type": "right_pin",
+            "Name": "O6",
+            "id": 2,
+            "rotation": 0
         },
         {
-            "x": 0,
-            "y": 10
+            "Type": "right_pin",
+            "Name": "O5_2",
+            "id": 3,
+            "rotation": 0
         }
     ],
     "PinLayout": [
         {
-            "Type": "left_pin",
             "Name": "I",
             "pos": {
                 "x": 0,
@@ -35,7 +64,6 @@
             }
         },
         {
-            "Type": "right_pin",
             "Name": "O5_1",
             "pos": {
                 "x": 6,
@@ -43,7 +71,6 @@
             }
         },
         {
-            "Type": "right_pin",
             "Name": "O6",
             "pos": {
                 "x": 6,
@@ -51,7 +78,6 @@
             }
         },
         {
-            "Type": "right_pin",
             "Name": "O5_2",
             "pos": {
                 "x": 6,

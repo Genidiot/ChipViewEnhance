@@ -1,15 +1,19 @@
 {
-    "Type":"circle_pin",
-    "graphic":"Circle",
-    "width":2,
-    "height":2,
-    "radius":2,
-    "basicPoint":{
-        "x":0,
-        "y":0
+    "Type": "circle_pin",
+    "width": 2,
+    "height": 2,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
     },
-    "connectPoint":{
-        "x":0,
-        "y":0
-    }
+    "items": [
+        {
+            "graphic": "Circle",
+            "radius": 2,
+            "connectPoint": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ]
 }

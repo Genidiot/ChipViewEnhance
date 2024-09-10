@@ -1,33 +1,50 @@
 {
     "Type": "MUX2",
-    "graphic": "Polygon",
-    "height": 5,
     "width": 4,
+    "height": 5,
     "basicPoint": {
         "x": 0,
         "y": 0
     },
-    "polygonNodes": [
+    "items": [
         {
-            "x": 0,
-            "y": 0
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "x": 0,
+                    "y": 5
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "left_pin",
+            "Name": "I",
+            "id": 0,
+            "rotation": 0
         },
         {
-            "x": 4,
-            "y": 1
-        },
-        {
-            "x": 4,
-            "y": 4
-        },
-        {
-            "x": 0,
-            "y": 5
+            "Type": "right_pin",
+            "Name": "O",
+            "id": 1,
+            "rotation": 0
         }
     ],
     "PinLayout": [
         {
-            "Type": "left_pin",
             "Name": "I",
             "pos": {
                 "x": 0,
@@ -35,7 +52,6 @@
             }
         },
         {
-            "Type": "right_pin",
             "Name": "O",
             "pos": {
                 "x": 4,

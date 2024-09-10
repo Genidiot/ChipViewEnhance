@@ -1,34 +1,57 @@
 {
     "Type": "MUXF",
-    "graphic": "Polygon",
-    "height": 5,
     "width": 4,
+    "height": 5,
     "basicPoint": {
         "x": 0,
         "y": 0
     },
-    "polygonNodes": [
+    "items": [
         {
-            "x": 0,
-            "y": 0
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "x": 0,
+                    "y": 5
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "left_pin",
+            "Name": "X",
+            "id": 0,
+            "rotation": 0
         },
         {
-            "x": 4,
-            "y": 1
+            "Type": "right_pin",
+            "Name": "Y",
+            "id": 1,
+            "rotation": 0
         },
         {
-            "x": 4,
-            "y": 4
-        },
-        {
-            "x": 0,
-            "y": 5
+            "Type": "down_pin",
+            "Name": "S",
+            "id": 2,
+            "rotation": 0
         }
     ],
     "PinLayout": [
         {
             "Name": "X",
-            "Type": "left_pin",
             "pos": {
                 "x": 0,
                 "y": 1
@@ -36,7 +59,6 @@
         },
         {
             "Name": "Y",
-            "Type": "right_pin",
             "pos": {
                 "x": 4,
                 "y": 2.5
@@ -44,7 +66,6 @@
         },
         {
             "Name": "S",
-            "Type": "down_pin",
             "pos": {
                 "x": 2,
                 "y": 0.5

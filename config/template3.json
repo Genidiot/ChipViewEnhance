@@ -85,7 +85,7 @@
             }
         }
     ],
-    "insideObject": [
+    "insideObjects": [
         {
             "Type": "LUT",
             "Name": "LUTA",

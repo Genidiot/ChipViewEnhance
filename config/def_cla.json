@@ -1,34 +1,75 @@
 {
     "Type": "CLA",
-    "graphic": "Polygon",
     "width": 10,
     "height": 32,
     "basicPoint": {
         "x": 0,
         "y": 0
     },
-    "polygonNodes": [
+    "items": [
         {
-            "x": 0,
-            "y": 0
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 10,
+                    "y": 0
+                },
+                {
+                    "x": 10,
+                    "y": 32
+                },
+                {
+                    "x": 0,
+                    "y": 32
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "left_pin",
+            "Name": "P",
+            "id": 0,
+            "rotation": 0
         },
         {
-            "x": 10,
-            "y": 0
+            "Type": "left_pin",
+            "Name": "G",
+            "id": 0,
+            "rotation": 0
         },
         {
-            "x": 10,
-            "y": 32
+            "Type": "right_pin",
+            "Name": "CO",
+            "id": 0,
+            "rotation": 0
         },
         {
-            "x": 0,
-            "y": 32
+            "Type": "right_pin",
+            "Name": "SUM",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "up_pin",
+            "Name": "I[7]",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "down_pin",
+            "Name": "CAS_IN",
+            "id": 0,
+            "rotation": 0
         }
     ],
     "PinLayout": [
         {
             "Name": "P",
-            "Type": "left_pin",
             "pos": {
                 "x": 0,
                 "y": 2
@@ -36,7 +77,6 @@
         },
         {
             "Name": "G",
-            "Type": "left_pin",
             "pos": {
                 "x": 0,
                 "y": 6
@@ -44,7 +84,6 @@
         },
         {
             "Name": "CO",
-            "Type": "right_pin",
             "pos": {
                 "x": 10,
                 "y": 2
@@ -52,7 +91,6 @@
         },
         {
             "Name": "SUM",
-            "Type": "right_pin",
             "pos": {
                 "x": 10,
                 "y": 6
@@ -60,7 +98,6 @@
         },
         {
             "Name": "I[7]",
-            "Type": "up_pin",
             "pos": {
                 "x": 5,
                 "y": 32
@@ -68,7 +105,6 @@
         },
         {
             "Name": "CAS_IN",
-            "Type": "down_pin",
             "pos": {
                 "x": 5,
                 "y": 0
