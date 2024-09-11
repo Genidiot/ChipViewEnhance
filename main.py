@@ -192,7 +192,6 @@ def block_import_test():
     write_entity_to_json.entity_to_json()
 
 
-
 if __name__ == '__main__':
     # DXFGenerator().cmdloop()
     # create_tc_test1()

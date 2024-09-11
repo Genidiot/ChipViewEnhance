@@ -93,6 +93,7 @@ class DxfChipView:
         for entity_inst in entity_inst_list:
             ref_type = entity_inst.get_ref_entity_type()
             ref_name = entity_inst.get_reference_name()
+            ref_id = entity_inst.get_reference_id()
             logic_x = entity_inst.get_logic_x()
             logic_y = entity_inst.get_logic_y()
             insert_position = chip_view_graphic.logic_to_physical[(logic_x, logic_y)]
@@ -101,6 +102,8 @@ class DxfChipView:
             # If there is no entity in entity_lib, a null value is returned,
             # and add_blockref will add a null value, but no error will be reported.
             block_ref = self.msp.add_blockref(ref_type, insert_position)
+            block_ref.set_xdata("name", [(1000, ref_name)])
+            block_ref.set_xdata("id", [(1071, ref_id)])
 
     def add_segment(self, pins):
         grid = calculate_line.initialize_grid(chip_view_graphic.swh_point_map)

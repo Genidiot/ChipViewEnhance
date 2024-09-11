@@ -44,15 +44,24 @@ def convert_entity_to_dict(entity: Entity):
                 entity_dict["insideObjects"].append(convert_item_object_to_dict(item))
                 entity_dict["insideLayout"].append(convert_item_layout_to_dict(item))
 
+    if not entity_dict["insideObjects"]:
+        del entity_dict["insideObjects"]
+    if not entity_dict["insideLayout"]:
+        del entity_dict["insideLayout"]
+    if not entity_dict["PinObjects"]:
+        del entity_dict["PinObjects"]
+    if not entity_dict["PinLayout"]:
+        del entity_dict["PinLayout"]
+
     return entity_dict
 
 
 def convert_circle_to_dict(circle_item: CircleItem):
     return {
         "graphic": "Circle",
-        "radius": circle_item.get_radius(),
-        "connectPoint": {"x": circle_item.get_center_point().x,
-                         "y": circle_item.get_center_point().y}
+        "radius": int(circle_item.get_radius()),
+        "connectPoint": {"x": int(circle_item.get_center_point().x),
+                         "y": int(circle_item.get_center_point().y)}
     }
 
 
@@ -60,8 +69,8 @@ def convert_line_to_dict(line_item: LineItem):
     return {
         "graphic": "Line",
         "polygonNodes": [
-            {"x": line_item.get_point_start().x, "y": line_item.get_point_start().y},
-            {"x": line_item.get_point_end().x, "y": line_item.get_point_end().y}
+            {"x": int(line_item.get_point_start().x), "y": int(line_item.get_point_start().y)},
+            {"x": int(line_item.get_point_end().x), "y": int(line_item.get_point_end().y)}
         ]
     }
 
@@ -69,7 +78,7 @@ def convert_line_to_dict(line_item: LineItem):
 def convert_polygon_to_dict(polygon_item):
     return {
         "graphic": "Polygon",
-        "polygonNodes": [{"x": point.x, "y": point.y} for point in polygon_item.get_points_list()]
+        "polygonNodes": [{"x": int(point.x), "y": int(point.y)} for point in polygon_item.get_points_list()]
     }
 
 
@@ -86,8 +95,8 @@ def convert_item_layout_to_dict(insert_item):
     return {
         "Name": insert_item.get_reference_name(),
         "pos": {
-            "x": insert_item.get_position().x,
-            "y": insert_item.get_position().y
+            "x": int(insert_item.get_position().x),
+            "y": int(insert_item.get_position().y)
         }
     }
 

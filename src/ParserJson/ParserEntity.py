@@ -121,7 +121,7 @@ class EntityParser:
     @staticmethod
     def create_insert(ref_type, ref_name, ref_id, rotation,  position):
         point = PointF(position["x"], position["y"])
-        entity_inst = EntityInst(ref_type, ref_name, point)
+        entity_inst = EntityInst(ref_type, ref_name, point, id_=ref_id, rotation=rotation)
         return entity_inst
 
     @staticmethod

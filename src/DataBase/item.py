@@ -124,7 +124,7 @@ class TextItem(Item):
 
 
 class EntityInst(Item):
-    def __init__(self, entity_type, ref_entity_name, position_, logic_x=None, logic_y=None, id_=None):
+    def __init__(self, entity_type, ref_entity_name, position_, logic_x=None, logic_y=None, id_=None, rotation=None):
         super().__init__()
         self.entity_type = entity_type
         self.refEntityName = ref_entity_name
@@ -132,7 +132,7 @@ class EntityInst(Item):
         self.logic_x = logic_x
         self.logic_y = logic_y
         self.id = id_
-        self.rotation = None
+        self.rotation = rotation
 
     def set_ref_entity_type(self, entity_type: str):
         self.entity_type = entity_type

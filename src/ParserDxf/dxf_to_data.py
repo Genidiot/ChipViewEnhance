@@ -114,8 +114,14 @@ def dxf_text_to_data(dxf_text: Text):
 def dxf_insert_to_data(dxf_insert: Insert):
     if dxf_insert is None:
         return None
-    name = dxf_insert.dxf.name
+    ref_type = dxf_insert.dxf.name
+    ref_name = None
+    ref_id = 0
+    if dxf_insert.has_xdata("name"):
+        ref_name = dxf_insert.get_xdata("name")[0][1]
+    if dxf_insert.has_xdata("id"):
+        ref_id = dxf_insert.get_xdata("id")[0][1]
     position = PointF(dxf_insert.dxf.insert.x, dxf_insert.dxf.insert.y)
-    item_entity_inst = EntityInst(name, name, position)
+    item_entity_inst = EntityInst(ref_type, ref_name, position, id_=ref_id)
 
     return item_entity_inst

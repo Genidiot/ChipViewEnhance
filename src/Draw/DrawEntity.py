@@ -7,16 +7,18 @@ from src.DataBase.entity import Entity
 
 from src.DataBase.entity_lib import entity_lib
 
+from ezdxf.layouts import BlockLayout
+
 scale = 1
 
 
-def draw_entity(dwg, entity_name):
-    entity: Entity = entity_lib.get_entity(entity_name)
+def draw_entity(dwg, entity_type):
+    entity: Entity = entity_lib.get_entity(entity_type)
     if entity is None:
         return
     if dwg.blocks.get(entity.entityName) is not None:
         return
-    block = dwg.blocks.new(name=entity.entityName)
+    block: BlockLayout = dwg.blocks.new(name=entity.entityName)
     for item in entity.vecItems:
         draw_item(dwg, block, item)
 
@@ -78,8 +80,8 @@ def draw_insert(item: EntityInst, block, dwg):
     point_x = item.position.x * scale
     point_y = item.position.y * scale
     draw_entity(dwg, ref_entity_type)
+    ref_id = item.get_reference_id()
     rotation = item.get_rotation()
-    if rotation is None:
-        block.add_blockref(ref_entity_type, (point_x, point_y))
-    else:
-        block.add_blockref(ref_entity_type, (point_x, point_y), dxfattribs={'rotation': rotation})
+    block_ref = block.add_blockref(ref_entity_type, (point_x, point_y), dxfattribs={'rotation': rotation})
+    block_ref.set_xdata("name", [(1000, ref_name)])
+    block_ref.set_xdata("id", [(1071, ref_id)])
