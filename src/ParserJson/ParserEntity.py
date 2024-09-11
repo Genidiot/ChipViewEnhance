@@ -31,23 +31,6 @@ class EntityParser:
 
         entity = Entity(entity_name=entity_type)
 
-        # graphic_type = item_type_str_to_enum(configuration["graphic"])
-        # if graphic_type == ItemType.ITEM_TYPE_ARC:
-        #     pass
-        # elif graphic_type == ItemType.ITEM_TYPE_CIRCLE:
-        #     self.item_list.append(self.create_circle(configuration["basicPoint"], configuration["radius"]))
-        #     entity.add_item(self.item_list[-1])
-        # elif graphic_type == ItemType.ITEM_TYPE_LINE:
-        #     self.item_list.append(self.create_line(configuration["polygonNodes"]))
-        #     entity.add_item(self.item_list[-1])
-        # elif graphic_type == ItemType.ITEM_TYPE_POLYGON:
-        #     self.item_list.append(self.create_polygon(configuration["polygonNodes"]))
-        #     entity.add_item(self.item_list[-1])
-        # elif graphic_type == ItemType.ITEM_TYPE_POLYGON_LINE:
-        #     pass
-        # else:
-        #     pass
-
         for graphic_item in configuration["items"]:
             graphic_type = item_type_str_to_enum(graphic_item["graphic"])
             if graphic_type == ItemType.ITEM_TYPE_ARC:
@@ -65,18 +48,6 @@ class EntityParser:
                 pass
             else:
                 pass
-
-        # if configuration.get("insideLayout"):
-        #     for insert_item in configuration["insideLayout"]:
-        #         item = self.create_insert(insert_item["Type"], insert_item["Name"], insert_item["pos"])
-        #         if insert_item.get("rotation"):
-        #             item.set_rotation(insert_item["rotation"])
-        #         self.item_list.append(item)
-        #         entity.add_item(self.item_list[-1])
-        # if configuration.get("PinLayout"):
-        #     for insert_item in configuration["PinLayout"]:
-        #         self.item_list.append(self.create_insert(insert_item["Type"], insert_item["Name"], insert_item["pos"]))
-        #         entity.add_item(self.item_list[-1])
 
         if configuration.get("insideLayout") and configuration.get("insideObjects"):
             inside_objects = {obj["Name"]: obj for obj in configuration["insideObjects"]}

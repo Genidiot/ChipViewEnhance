@@ -121,7 +121,8 @@ def dxf_insert_to_data(dxf_insert: Insert):
         ref_name = dxf_insert.get_xdata("name")[0][1]
     if dxf_insert.has_xdata("id"):
         ref_id = dxf_insert.get_xdata("id")[0][1]
+    rotation = dxf_insert.get_dxf_attrib("rotation")
     position = PointF(dxf_insert.dxf.insert.x, dxf_insert.dxf.insert.y)
-    item_entity_inst = EntityInst(ref_type, ref_name, position, id_=ref_id)
+    item_entity_inst = EntityInst(ref_type, ref_name, position, id_=ref_id, rotation=rotation)
 
     return item_entity_inst

@@ -87,7 +87,7 @@ def convert_item_object_to_dict(insert_item):
         "Type": insert_item.get_ref_entity_type(),
         "Name": insert_item.get_reference_name(),
         "id": insert_item.get_reference_id() if insert_item.get_reference_id() else 0,
-        "rotation": insert_item.get_rotation() if insert_item.get_rotation() else 0
+        "rotation": int(insert_item.get_rotation()) if insert_item.get_rotation() else 0
     }
 
 
