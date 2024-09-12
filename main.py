@@ -186,12 +186,15 @@ def block_import_test():
     # block_ref.add_attrib("name", "mmm", (0, 0))
     dwg.saveas("./output_dxf/clc.dxf")
 
-    segments = dxfblocks.DxfBlocks(f"./output_dxf")
-    segment_dwg = segments.get_dwgs()
-    for file_dwg in segment_dwg:
-        write_blocks(file_dwg)
+    # segments = dxfblocks.DxfBlocks(f"./output_dxf")
+    # segment_dwg = segments.get_dwgs()
+    # for file_dwg in segment_dwg:
+    #     write_blocks(file_dwg)
+    #
+    # write_entity_to_json.entity_to_json()
 
-    write_entity_to_json.entity_to_json()
+
+def parser_directory()
 
 
 if __name__ == '__main__':
