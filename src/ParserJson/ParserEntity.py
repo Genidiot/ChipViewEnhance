@@ -1,13 +1,15 @@
-import json
-from src.DataBase.point import PointF
 from src.DataBase.item import CircleItem
 from src.DataBase.item import LineItem
 from src.DataBase.item import PolygonItem
+from src.DataBase.item import PolygonLineItem
 from src.DataBase.item import EntityInst
-from src.DataBase.entity import Entity
-from src.Enums.item_type import ItemType, item_type_str_to_enum
 
-from src.DataBase import entity_lib
+from src.DataBase.entity import Entity
+from src.DataBase.entity_lib import entity_lib
+from src.DataBase.point import PointF
+
+from src.Enums.item_type import ItemType, item_type_str_to_enum
+import json
 
 
 class EntityParser:
@@ -45,7 +47,7 @@ class EntityParser:
                 self.item_list.append(self.create_polygon(graphic_item["polygonNodes"]))
                 entity.add_item(self.item_list[-1])
             elif graphic_type == ItemType.ITEM_TYPE_POLYGON_LINE:
-                pass
+                self.item_list.append(self.create_polygon_line(graphic_item["polygonNodes"]))
             else:
                 pass
 
@@ -69,10 +71,19 @@ class EntityParser:
                                                          item_info["rotation"],
                                                          insert_item["pos"]))
                 entity.add_item(self.item_list[-1])
+        if configuration.get("LineLayout") and configuration.get("LineObjects"):
+            pin_objects = {obj["Name"]: obj for obj in configuration["LineObjects"]}
+            for insert_item in configuration["LineLayout"]:
+                item_info = pin_objects.get(insert_item["Name"])
+                self.item_list.append(self.create_insert(item_info["Type"],
+                                                         item_info["Name"],
+                                                         item_info["id"],
+                                                         item_info["rotation"],
+                                                         insert_item["pos"]))
+                entity.add_item(self.item_list[-1])
 
         self.entity_list.append(entity)
-        entity_library = entity_lib.entity_lib
-        entity_library.add_entity(entity_type, entity)
+        entity_lib.add_entity(entity_type, entity)
 
     @staticmethod
     def create_line(line_nodes):
@@ -88,6 +99,14 @@ class EntityParser:
             point = PointF(node["x"], node["y"])
             polygon_item.add_point(point)
         return polygon_item
+
+    @staticmethod
+    def create_polygon_line(polygon_line_nodes):
+        polygon_line_item = PolygonLineItem()
+        for node in polygon_line_nodes:
+            point = PointF(node["x"], node["y"])
+            polygon_line_item.add_point(point)
+        return polygon_line_item
 
     @staticmethod
     def create_insert(ref_type, ref_name, ref_id, rotation,  position):

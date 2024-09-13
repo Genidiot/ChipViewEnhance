@@ -3,8 +3,8 @@ from src.DataBase.item import LineItem
 from src.DataBase.item import PolygonItem
 from src.DataBase.item import PolygonLineItem
 from src.DataBase.item import EntityInst
-from src.DataBase.entity import Entity
 
+from src.DataBase.entity import Entity
 from src.DataBase.entity_lib import entity_lib
 
 from ezdxf.layouts import BlockLayout

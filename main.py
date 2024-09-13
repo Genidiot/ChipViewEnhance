@@ -18,9 +18,9 @@ import cmd
 import subprocess
 import ezdxf
 import src.Draw.DrawEntity as Draw_entity
-from src.ParserDxf.dxf_to_data import write_blocks
+from src.ParserDxf import dxf_to_data
 from src.Write import write_entity_to_json
-import random
+from src.ParserJson import find_files
 
 space = 1000
 
@@ -130,18 +130,20 @@ space = 1000
 
 
 def create_tc_test2():
-    ParserEntity.EntityParser(f"./config/def_CLCL.json")
-    ParserEntity.EntityParser(f"./config/def_SLAB.json")
-    ParserEntity.EntityParser(f"./config/def_cla.json")
-    ParserEntity.EntityParser(f"./config/def_lutl.json")
-    ParserEntity.EntityParser(f"./config/def_mux2.json")
-    ParserEntity.EntityParser(f"./config/def_mux4.json")
-    ParserEntity.EntityParser(f"./config/def_muxf.json")
-    ParserEntity.EntityParser(f"./config/def_pin_up.json")
-    ParserEntity.EntityParser(f"./config/def_pin_down.json")
-    ParserEntity.EntityParser(f"./config/def_pin_left.json")
-    ParserEntity.EntityParser(f"./config/def_pin_right.json")
-    ParserEntity.EntityParser(f"./config/def_pin_circle.json")
+    # ParserEntity.EntityParser(f"./config/def_CLCL.json")
+    # ParserEntity.EntityParser(f"./config/def_SLAB.json")
+    # ParserEntity.EntityParser(f"./config/def_cla.json")
+    # ParserEntity.EntityParser(f"./config/def_lutl.json")
+    # ParserEntity.EntityParser(f"./config/def_mux2.json")
+    # ParserEntity.EntityParser(f"./config/def_mux4.json")
+    # ParserEntity.EntityParser(f"./config/def_muxf.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_up.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_down.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_left.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_right.json")
+    # ParserEntity.EntityParser(f"./config/def_pin_circle.json")
+
+    find_files.read_entity_files(f"./config/config_entity")
 
     config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
     chip_view = DrawChipView.DxfChipView(config_chip_view)
@@ -167,18 +169,8 @@ def create_tc_test2():
 
 
 def block_import_test():
-    ParserEntity.EntityParser(f"./config/def_CLCL.json")
-    ParserEntity.EntityParser(f"./config/def_SLAB.json")
-    ParserEntity.EntityParser(f"./config/def_cla.json")
-    ParserEntity.EntityParser(f"./config/def_lutl.json")
-    ParserEntity.EntityParser(f"./config/def_mux2.json")
-    ParserEntity.EntityParser(f"./config/def_mux4.json")
-    ParserEntity.EntityParser(f"./config/def_muxf.json")
-    ParserEntity.EntityParser(f"./config/def_pin_up.json")
-    ParserEntity.EntityParser(f"./config/def_pin_down.json")
-    ParserEntity.EntityParser(f"./config/def_pin_left.json")
-    ParserEntity.EntityParser(f"./config/def_pin_right.json")
-    ParserEntity.EntityParser(f"./config/def_pin_circle.json")
+
+    find_files.read_entity_files(f"./config/config_entity")
 
     dwg = ezdxf.new(dxfversion='AC1021')
     Draw_entity.draw_entity(dwg, "CLCL")
@@ -186,15 +178,30 @@ def block_import_test():
     # block_ref.add_attrib("name", "mmm", (0, 0))
     dwg.saveas("./output_dxf/clc.dxf")
 
-    # segments = dxfblocks.DxfBlocks(f"./output_dxf")
-    # segment_dwg = segments.get_dwgs()
-    # for file_dwg in segment_dwg:
-    #     write_blocks(file_dwg)
+    # dxf_files = dxfblocks.DxfBlocks(f"./output_dxf")
+    # dxf_dwgs = dxf_files.get_dwgs()
+    # for dwg in dxf_dwgs:
+    #     dxf_to_data.write_blocks(dwg)
     #
     # write_entity_to_json.entity_to_json()
 
 
-def parser_directory()
+def read_prototype_entity_config(directory):
+    find_files.read_entity_files(directory)
+
+
+def output_prototype_dxf(entity_type):
+    dwg = ezdxf.new(dxfversion='AC1021')
+    Draw_entity.draw_entity(dwg, entity_type)
+    dwg.modelspace().add_blockref(entity_type, (0, 0))
+    dwg.saveas(f"./output_dxf/{entity_type}.dxf")
+
+
+def read_prototype_dxf(directory):
+    dxf_files = dxfblocks.DxfBlocks(directory)
+    dxf_dwgs = dxf_files.get_dwgs()
+    for dwg in dxf_dwgs:
+        dxf_to_data.write_blocks(dwg)
 
 
 if __name__ == '__main__':

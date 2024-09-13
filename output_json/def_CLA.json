@@ -1,0 +1,114 @@
+{
+    "Type": "CLA",
+    "width": 0,
+    "height": 0,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "items": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 10,
+                    "y": 0
+                },
+                {
+                    "x": 10,
+                    "y": 32
+                },
+                {
+                    "x": 0,
+                    "y": 32
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "left_pin",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "left_pin",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "right_pin",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "right_pin",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "up_pin",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "down_pin",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        }
+    ],
+    "PinLayout": [
+        {
+            "Name": null,
+            "pos": {
+                "x": 0,
+                "y": 2
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 0,
+                "y": 6
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 2
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 6
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 5,
+                "y": 32
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 5,
+                "y": 0
+            }
+        }
+    ]
+}

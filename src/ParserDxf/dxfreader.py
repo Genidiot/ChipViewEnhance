@@ -16,6 +16,7 @@ class DxfReader:
             doc = ezdxf.readfile(self.filename)
         except IOError:
             print(f"Not a DXF file or a generic I/O error.")
+            raise
         except ezdxf.DXFStructureError:
             doc = self.read_dxf_recover()
 
@@ -26,8 +27,10 @@ class DxfReader:
             doc, auditor = recover.readfile(self.filename)
         except IOError:
             print(f"Not a DXF file or a generic I/O error.")
+            raise
         except ezdxf.DXFStructureError:
             print(f"Invalid or corrupted DXF file: {self.filename}.")
+            raise
 
         if auditor.has_errors:
             print(f"Found unrecoverable errors in DXF file: {self.filename}.")

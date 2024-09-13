@@ -1,8 +1,15 @@
-import json
-import os
+from src.DataBase.item import CircleItem
+from src.DataBase.item import LineItem
+from src.DataBase.item import PolygonItem
+from src.DataBase.item import PolygonLineItem
+from src.DataBase.item import EntityInst
+
 from src.DataBase.entity import Entity
 from src.DataBase.entity_lib import entity_lib
-from src.DataBase.item import CircleItem, LineItem, PolygonItem, EntityInst
+
+from src.Enums.item_type import item_type_enum_to_str
+import json
+import os
 
 
 def entity_to_json():
@@ -14,14 +21,16 @@ def entity_to_json():
 def convert_entity_to_dict(entity: Entity):
     entity_dict = {
         "Type": entity.get_entity_name(),
-        "width": 150,  # Placeholder, modify as needed
-        "height": 150,  # Placeholder, modify as needed
+        "width": 0,  # Placeholder, modify as needed
+        "height": 0,  # Placeholder, modify as needed
         "basicPoint": {"x": 0, "y": 0},  # Placeholder, modify as needed
         "items": [],
         "PinObjects": [],
         "PinLayout": [],
         "insideObjects": [],
-        "insideLayout": []
+        "insideLayout": [],
+        "LineObjects": [],
+        "LineLayout": []
     }
 
     # Process the items in the entity
@@ -32,6 +41,8 @@ def convert_entity_to_dict(entity: Entity):
             entity_dict["items"].append(convert_line_to_dict(item))
         elif isinstance(item, PolygonItem):
             entity_dict["items"].append(convert_polygon_to_dict(item))
+        elif isinstance(item, PolygonLineItem):
+            entity_dict["items"].append(convert_polygon_line_to_dict(item))
         elif isinstance(item, EntityInst):
             if item.get_ref_entity_type().startswith("circle_pin") \
                     or item.get_ref_entity_type().startswith("left_pin") \
@@ -40,6 +51,9 @@ def convert_entity_to_dict(entity: Entity):
                     or item.get_ref_entity_type().startswith("down_pin"):
                 entity_dict["PinObjects"].append(convert_item_object_to_dict(item))
                 entity_dict["PinLayout"].append(convert_item_layout_to_dict(item))
+            elif item.get_ref_entity_type().startswith("line"):
+                entity_dict["LineObjects"].append(convert_item_object_to_dict(item))
+                entity_dict["LineLayout"].append(convert_item_layout_to_dict(item))
             else:
                 entity_dict["insideObjects"].append(convert_item_object_to_dict(item))
                 entity_dict["insideLayout"].append(convert_item_layout_to_dict(item))
@@ -52,13 +66,17 @@ def convert_entity_to_dict(entity: Entity):
         del entity_dict["PinObjects"]
     if not entity_dict["PinLayout"]:
         del entity_dict["PinLayout"]
+    if not entity_dict["LineObjects"]:
+        del entity_dict["LineObjects"]
+    if not entity_dict["LineLayout"]:
+        del entity_dict["LineLayout"]
 
     return entity_dict
 
 
 def convert_circle_to_dict(circle_item: CircleItem):
     return {
-        "graphic": "Circle",
+        "graphic": item_type_enum_to_str(circle_item.get_item_type()),
         "radius": int(circle_item.get_radius()),
         "connectPoint": {"x": int(circle_item.get_center_point().x),
                          "y": int(circle_item.get_center_point().y)}
@@ -67,7 +85,7 @@ def convert_circle_to_dict(circle_item: CircleItem):
 
 def convert_line_to_dict(line_item: LineItem):
     return {
-        "graphic": "Line",
+        "graphic": item_type_enum_to_str(line_item.get_item_type()),
         "polygonNodes": [
             {"x": int(line_item.get_point_start().x), "y": int(line_item.get_point_start().y)},
             {"x": int(line_item.get_point_end().x), "y": int(line_item.get_point_end().y)}
@@ -75,10 +93,17 @@ def convert_line_to_dict(line_item: LineItem):
     }
 
 
-def convert_polygon_to_dict(polygon_item):
+def convert_polygon_to_dict(polygon_item: PolygonItem):
     return {
-        "graphic": "Polygon",
+        "graphic": item_type_enum_to_str(polygon_item.get_item_type()),
         "polygonNodes": [{"x": int(point.x), "y": int(point.y)} for point in polygon_item.get_points_list()]
+    }
+
+
+def convert_polygon_line_to_dict(polygon_line_item: PolygonLineItem):
+    return {
+        "graphic": item_type_enum_to_str(polygon_line_item.get_item_type()),
+        "polygonNodes": [{"x": int(point.x), "y": int(point.y)} for point in polygon_line_item.get_points_list()]
     }
 
 
@@ -104,7 +129,7 @@ def convert_item_layout_to_dict(insert_item):
 def save_entity_to_file(entity_name, entity_dict):
     # Generate filename based on entity name
     output_directory = "./output_json"
-    filename = f"{entity_name}.json"
+    filename = f"def_{entity_name}.json"
     filepath = os.path.join(output_directory, filename)
 
     # Write JSON data to file

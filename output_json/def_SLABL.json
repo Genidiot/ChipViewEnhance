@@ -1,0 +1,339 @@
+{
+    "Type": "SLABL",
+    "width": 0,
+    "height": 0,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "items": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 150,
+                    "y": 0
+                },
+                {
+                    "x": 150,
+                    "y": 150
+                },
+                {
+                    "x": 0,
+                    "y": 150
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "circle_pin",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "circle_pin",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        }
+    ],
+    "PinLayout": [
+        {
+            "Name": null,
+            "pos": {
+                "x": 0,
+                "y": 75
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 150,
+                "y": 75
+            }
+        }
+    ],
+    "insideObjects": [
+        {
+            "Type": "LUT",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "CLA",
+            "Name": null,
+            "id": 0,
+            "rotation": 90
+        },
+        {
+            "Type": "CLA",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": null,
+            "id": 0,
+            "rotation": 0
+        }
+    ],
+    "insideLayout": [
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 15
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 30
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 45
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 60
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 80
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 95
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 110
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 10,
+                "y": 125
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 30,
+                "y": 25
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 30,
+                "y": 60
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 30,
+                "y": 95
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 30,
+                "y": 130
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 45,
+                "y": 40
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 45,
+                "y": 110
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 60,
+                "y": 73
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 80,
+                "y": 25
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 80,
+                "y": 97
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 100,
+                "y": 100
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 100,
+                "y": 104
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 100,
+                "y": 108
+            }
+        },
+        {
+            "Name": null,
+            "pos": {
+                "x": 100,
+                "y": 112
+            }
+        }
+    ]
+}
