@@ -130,19 +130,6 @@ space = 1000
 
 
 def create_tc_test2():
-    # ParserEntity.EntityParser(f"./config/def_CLCL.json")
-    # ParserEntity.EntityParser(f"./config/def_SLAB.json")
-    # ParserEntity.EntityParser(f"./config/def_cla.json")
-    # ParserEntity.EntityParser(f"./config/def_lutl.json")
-    # ParserEntity.EntityParser(f"./config/def_mux2.json")
-    # ParserEntity.EntityParser(f"./config/def_mux4.json")
-    # ParserEntity.EntityParser(f"./config/def_muxf.json")
-    # ParserEntity.EntityParser(f"./config/def_pin_up.json")
-    # ParserEntity.EntityParser(f"./config/def_pin_down.json")
-    # ParserEntity.EntityParser(f"./config/def_pin_left.json")
-    # ParserEntity.EntityParser(f"./config/def_pin_right.json")
-    # ParserEntity.EntityParser(f"./config/def_pin_circle.json")
-
     find_files.read_entity_files(f"./config/config_entity")
 
     config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
@@ -169,21 +156,13 @@ def create_tc_test2():
 
 
 def block_import_test():
+    read_prototype_entity_config(f"./config/config_entity")
+    output_prototype_dxf("CLCL")
 
-    find_files.read_entity_files(f"./config/config_entity")
 
-    dwg = ezdxf.new(dxfversion='AC1021')
-    Draw_entity.draw_entity(dwg, "CLCL")
-    block_ref = dwg.modelspace().add_blockref("CLCL", (0, 0))
-    # block_ref.add_attrib("name", "mmm", (0, 0))
-    dwg.saveas("./output_dxf/clc.dxf")
-
-    # dxf_files = dxfblocks.DxfBlocks(f"./output_dxf")
-    # dxf_dwgs = dxf_files.get_dwgs()
-    # for dwg in dxf_dwgs:
-    #     dxf_to_data.write_blocks(dwg)
-    #
-    # write_entity_to_json.entity_to_json()
+def block_output_test():
+    read_prototype_dxf(f"./output_dxf")
+    write_entity_to_json.entity_to_json()
 
 
 def read_prototype_entity_config(directory):
@@ -208,7 +187,8 @@ if __name__ == '__main__':
     # DXFGenerator().cmdloop()
     # create_tc_test1()
     # create_tc_test2()
-    block_import_test()
+    # block_import_test()
+    block_output_test()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 

@@ -48,6 +48,7 @@ class EntityParser:
                 entity.add_item(self.item_list[-1])
             elif graphic_type == ItemType.ITEM_TYPE_POLYGON_LINE:
                 self.item_list.append(self.create_polygon_line(graphic_item["polygonNodes"]))
+                entity.add_item(self.item_list[-1])
             else:
                 pass
 
