@@ -102,8 +102,8 @@ class DxfChipView:
             # If there is no entity in entity_lib, a null value is returned,
             # and add_blockref will add a null value, but no error will be reported.
             block_ref = self.msp.add_blockref(ref_type, insert_position)
-            block_ref.set_xdata("name", [(1000, ref_name)])
-            block_ref.set_xdata("id", [(1071, ref_id)])
+            # block_ref.set_xdata("name", [(1000, ref_name)])
+            # block_ref.set_xdata("id", [(1071, ref_id)])
 
     def add_segment(self, pins):
         grid = calculate_line.initialize_grid(chip_view_graphic.swh_point_map)

@@ -132,11 +132,11 @@ space = 1000
 def create_tc_test2():
     find_files.read_entity_files(f"./config/config_entity")
 
-    config_chip_view = ParserLayout.ChipViewLayout(f"./config/chipview.json")
+    config_chip_view = ParserLayout.ChipViewLayout(f"./config/config_view/chipview.json")
     chip_view = DrawChipView.DxfChipView(config_chip_view)
 
-    ParserSWH.SwhConfig(f"./config/SWH_E.json")
-    swh_l_config = ParserSWH.SwhConfig(f"./config/SWH_W.json")
+    ParserSWH.SwhConfig(f"./config/config_swh/SWH_E.json")
+    swh_l_config = ParserSWH.SwhConfig(f"./config/config_swh/SWH_W.json")
     pins = swh_l_config.get_sub_block_dict()
 
     # modify_graphic.modify_graphic()
@@ -144,7 +144,7 @@ def create_tc_test2():
     # segment_dwg = segments.get_dwgs()
     # chip_view.import_block(segment_dwg)
 
-    line_config = ParserLine.LineConfig(f"./config/template_line.json")
+    line_config = ParserLine.LineConfig(f"./config/config_swh/template_line.json")
     line_config.create_line_entity(swh_l_config)
 
     chip_view.add_tile_ref_from_graphic()
@@ -186,9 +186,9 @@ def read_prototype_dxf(directory):
 if __name__ == '__main__':
     # DXFGenerator().cmdloop()
     # create_tc_test1()
-    # create_tc_test2()
+    create_tc_test2()
     # block_import_test()
-    block_output_test()
+    # block_output_test()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
