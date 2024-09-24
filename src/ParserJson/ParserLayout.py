@@ -125,7 +125,7 @@ class ChipViewLayout:
         self.row_heights = {int(key) if key.isdigit() else key: value for key, value in configuration["rowHeights"].items()}
         self.column_widths = {int(key) if key.isdigit() else key: value for key, value in configuration["columnWidths"].items()}
 
-        for item_region in configuration["itemRegion"]:
+        for item_region in configuration["itemRegions"]:
             temp_item_region = ItemRegions(item_region["type"], item_region["width"], item_region["height"])
             for region in item_region["regions"]:
                 point_start = PointF(region["startX"], region["startY"])
