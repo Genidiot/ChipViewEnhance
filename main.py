@@ -156,8 +156,8 @@ def create_tc_test2():
 
 
 def block_import_test():
-    read_prototype_entity_config(f"./config/config_entity")
-    output_prototype_dxf("CLCL")
+    read_prototype_entity_config(f"./config/CMT")
+    output_prototype_dxf("CMT")
 
 
 def block_output_test():
@@ -173,6 +173,7 @@ def output_prototype_dxf(entity_type):
     dwg = ezdxf.new(dxfversion='AC1021')
     Draw_entity.draw_entity(dwg, entity_type)
     dwg.modelspace().add_blockref(entity_type, (0, 0))
+
     dwg.saveas(f"./output_dxf/{entity_type}.dxf")
 
 

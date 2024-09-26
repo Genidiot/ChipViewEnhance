@@ -54,7 +54,7 @@ class DxfChipView:
     def get_blocks_name(self, dwg) -> list:
         block_name_list = []
         for e in dwg.blocks:
-            if e.name != "*Model_Space" and e.name != "*Paper_Space":
+            if e.name != "*Model_Space" and e.name != "*Paper_Space" and e.name != "*Paper_Space0":
                 block_name_list.append(e.name)
         return block_name_list
 
@@ -114,6 +114,8 @@ class DxfChipView:
                 if block_ref.dxf.name == "SWH_W" or block_ref.dxf.name == "SWH_E":
                     insert_position = chip_view_graphic.physical_to_logic.get(
                         (block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
+                    if insert_position == (17, 0):
+                        pass
                     distances_from_unit_e = calculate_line.calculate_logical_distances_from_unit(grid,
                                                                                                  insert_position,
                                                                                                  'x', False)
@@ -126,14 +128,12 @@ class DxfChipView:
                     distances_from_unit_s = calculate_line.calculate_logical_distances_from_unit(grid,
                                                                                                  insert_position,
                                                                                                  'y', True, True)
-                    # print(insert_position)
-                    # print(distances_from_unit_e)
-                    # print(distances_from_unit_n)
-                    # print(distances_from_unit_w)
-                    # print(distances_from_unit_s)
+                    print(insert_position)
+                    print(distances_from_unit_e)
+                    print(distances_from_unit_n)
+                    print(distances_from_unit_w)
+                    print(distances_from_unit_s)
                     a_list = [1, 2, 4, 6, 12]
-                    if insert_position == (13, 0):
-                        pass
                     for line_length in a_list:
                         combination1 = distances_from_unit_e.get(line_length)
                         if combination1 is not None:

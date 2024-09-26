@@ -1,0 +1,114 @@
+{
+    "Type": "CLA",
+    "width": 0,
+    "height": 0,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "items": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 10,
+                    "y": 0
+                },
+                {
+                    "x": 10,
+                    "y": 32
+                },
+                {
+                    "x": 0,
+                    "y": 32
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "left_pin",
+            "Name": "P",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "left_pin",
+            "Name": "G",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "right_pin",
+            "Name": "CO",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "right_pin",
+            "Name": "SUM",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "up_pin",
+            "Name": "I[7]",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "down_pin",
+            "Name": "CAS_IN",
+            "id": 0,
+            "rotation": 0
+        }
+    ],
+    "PinLayout": [
+        {
+            "Name": "P",
+            "pos": {
+                "x": 0,
+                "y": 2
+            }
+        },
+        {
+            "Name": "G",
+            "pos": {
+                "x": 0,
+                "y": 6
+            }
+        },
+        {
+            "Name": "CO",
+            "pos": {
+                "x": 10,
+                "y": 2
+            }
+        },
+        {
+            "Name": "SUM",
+            "pos": {
+                "x": 10,
+                "y": 6
+            }
+        },
+        {
+            "Name": "I[7]",
+            "pos": {
+                "x": 5,
+                "y": 32
+            }
+        },
+        {
+            "Name": "CAS_IN",
+            "pos": {
+                "x": 5,
+                "y": 0
+            }
+        }
+    ]
+}

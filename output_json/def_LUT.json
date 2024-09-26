@@ -1,0 +1,88 @@
+{
+    "Type": "LUT",
+    "width": 0,
+    "height": 0,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "items": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 10
+                },
+                {
+                    "x": 0,
+                    "y": 10
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "left_pin",
+            "Name": "I",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "right_pin",
+            "Name": "O5_1",
+            "id": 1,
+            "rotation": 0
+        },
+        {
+            "Type": "right_pin",
+            "Name": "O6",
+            "id": 2,
+            "rotation": 0
+        },
+        {
+            "Type": "right_pin",
+            "Name": "O5_2",
+            "id": 3,
+            "rotation": 0
+        }
+    ],
+    "PinLayout": [
+        {
+            "Name": "I",
+            "pos": {
+                "x": 0,
+                "y": 1
+            }
+        },
+        {
+            "Name": "O5_1",
+            "pos": {
+                "x": 6,
+                "y": 3
+            }
+        },
+        {
+            "Name": "O6",
+            "pos": {
+                "x": 6,
+                "y": 5
+            }
+        },
+        {
+            "Name": "O5_2",
+            "pos": {
+                "x": 6,
+                "y": 7
+            }
+        }
+    ]
+}

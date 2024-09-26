@@ -1,0 +1,339 @@
+{
+    "Type": "SLABL",
+    "width": 0,
+    "height": 0,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "items": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 150,
+                    "y": 0
+                },
+                {
+                    "x": 150,
+                    "y": 150
+                },
+                {
+                    "x": 0,
+                    "y": 150
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "circle_pin",
+            "Name": "A",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "OA",
+            "id": 1,
+            "rotation": 0
+        }
+    ],
+    "PinLayout": [
+        {
+            "Name": "A",
+            "pos": {
+                "x": 0,
+                "y": 90
+            }
+        },
+        {
+            "Name": "OA",
+            "pos": {
+                "x": 150,
+                "y": 75
+            }
+        }
+    ],
+    "insideObjects": [
+        {
+            "Type": "LUT",
+            "Name": "LUTA",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTB",
+            "id": 1,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTC",
+            "id": 2,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTD",
+            "id": 3,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTE",
+            "id": 4,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTF",
+            "id": 5,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTG",
+            "id": 6,
+            "rotation": 0
+        },
+        {
+            "Type": "LUT",
+            "Name": "LUTH",
+            "id": 7,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF1",
+            "id": 8,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF2",
+            "id": 9,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF3",
+            "id": 10,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF4",
+            "id": 11,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF5",
+            "id": 12,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF6",
+            "id": 13,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX2",
+            "Name": "MUX2FF7",
+            "id": 14,
+            "rotation": 0
+        },
+        {
+            "Type": "CLA",
+            "Name": "CLA0",
+            "id": 15,
+            "rotation": 90
+        },
+        {
+            "Type": "CLA",
+            "Name": "CLA1",
+            "id": 16,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff1",
+            "id": 17,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff2",
+            "id": 18,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff3",
+            "id": 19,
+            "rotation": 0
+        },
+        {
+            "Type": "MUX4",
+            "Name": "MUX4ff4",
+            "id": 20,
+            "rotation": 0
+        }
+    ],
+    "insideLayout": [
+        {
+            "Name": "LUTA",
+            "pos": {
+                "x": 10,
+                "y": 15
+            }
+        },
+        {
+            "Name": "LUTB",
+            "pos": {
+                "x": 10,
+                "y": 30
+            }
+        },
+        {
+            "Name": "LUTC",
+            "pos": {
+                "x": 10,
+                "y": 45
+            }
+        },
+        {
+            "Name": "LUTD",
+            "pos": {
+                "x": 10,
+                "y": 60
+            }
+        },
+        {
+            "Name": "LUTE",
+            "pos": {
+                "x": 10,
+                "y": 80
+            }
+        },
+        {
+            "Name": "LUTF",
+            "pos": {
+                "x": 10,
+                "y": 95
+            }
+        },
+        {
+            "Name": "LUTG",
+            "pos": {
+                "x": 10,
+                "y": 110
+            }
+        },
+        {
+            "Name": "LUTH",
+            "pos": {
+                "x": 10,
+                "y": 125
+            }
+        },
+        {
+            "Name": "MUX2FF1",
+            "pos": {
+                "x": 30,
+                "y": 25
+            }
+        },
+        {
+            "Name": "MUX2FF2",
+            "pos": {
+                "x": 30,
+                "y": 60
+            }
+        },
+        {
+            "Name": "MUX2FF3",
+            "pos": {
+                "x": 30,
+                "y": 95
+            }
+        },
+        {
+            "Name": "MUX2FF4",
+            "pos": {
+                "x": 30,
+                "y": 130
+            }
+        },
+        {
+            "Name": "MUX2FF5",
+            "pos": {
+                "x": 45,
+                "y": 40
+            }
+        },
+        {
+            "Name": "MUX2FF6",
+            "pos": {
+                "x": 45,
+                "y": 110
+            }
+        },
+        {
+            "Name": "MUX2FF7",
+            "pos": {
+                "x": 60,
+                "y": 73
+            }
+        },
+        {
+            "Name": "CLA0",
+            "pos": {
+                "x": 80,
+                "y": 25
+            }
+        },
+        {
+            "Name": "CLA1",
+            "pos": {
+                "x": 80,
+                "y": 97
+            }
+        },
+        {
+            "Name": "MUX4ff1",
+            "pos": {
+                "x": 100,
+                "y": 100
+            }
+        },
+        {
+            "Name": "MUX4ff2",
+            "pos": {
+                "x": 100,
+                "y": 104
+            }
+        },
+        {
+            "Name": "MUX4ff3",
+            "pos": {
+                "x": 100,
+                "y": 108
+            }
+        },
+        {
+            "Name": "MUX4ff4",
+            "pos": {
+                "x": 100,
+                "y": 112
+            }
+        }
+    ]
+}

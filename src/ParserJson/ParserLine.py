@@ -107,10 +107,10 @@ class LineConfig:
 
     def create_line_entity(self, swh_config):
         units, grid = calculate_line.process_units()
-        row_distances, col_distances = calculate_line.calculate_distances(grid)
+        each_row_distances, each_col_distances = calculate_line.calculate_distances(grid)
 
-        unique_row_logical_distances = calculate_line.unique_distances(row_distances)
-        unique_col_logical_distances = calculate_line.unique_distances(col_distances)
+        unique_row_logical_distances = calculate_line.unique_distances(each_row_distances)
+        unique_col_logical_distances = calculate_line.unique_distances(each_col_distances)
 
         self.create_ew_line_points(swh_config, unique_row_logical_distances)
         self.create_ns_line_points(swh_config, unique_col_logical_distances)

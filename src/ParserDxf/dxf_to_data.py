@@ -14,13 +14,16 @@ from ezdxf.entities import Line
 from ezdxf.entities import LWPolyline
 from ezdxf.entities import Insert
 from ezdxf.entities import Text
+from ezdxf.entities import Attrib
 
 from typing import cast
+
+insert_map = {}
 
 
 def write_blocks(dwg):
     for block in dwg.blocks:
-        if block.name == "*Model_Space" or block.name == "*Paper_Space":
+        if block.name == "*Model_Space" or block.name == "*Paper_Space" or block.name == "*Paper_Space0":
             continue
         dxf_block_to_data(block)
 
@@ -57,7 +60,13 @@ def dxf_block_to_data(dxf_block: BlockLayout):
         elif dxf_entity.dxftype() == "INSERT":
             dxf_insert = cast("Insert", dxf_entity)
             item_entity_inst = dxf_insert_to_data(dxf_insert)
+            insert_map[dxf_insert.dxf.insert] = item_entity_inst
             entity.add_item(item_entity_inst)
+        elif dxf_entity.dxftype() == "ATTRIB":
+            dxf_attrib = cast("Attrib", dxf_entity)
+            attrib_position = dxf_attrib.dxf.insert
+            item_entity_inst = insert_map[attrib_position]
+            dxf_attrib_add_to_insert(dxf_attrib, item_entity_inst)
         else:
             pass
 
@@ -116,13 +125,22 @@ def dxf_insert_to_data(dxf_insert: Insert):
         return None
     ref_type = dxf_insert.dxf.name
     ref_name = None
-    ref_id = 0
-    if dxf_insert.has_xdata("name"):
-        ref_name = dxf_insert.get_xdata("name")[0][1]
-    if dxf_insert.has_xdata("id"):
-        ref_id = dxf_insert.get_xdata("id")[0][1]
+    ref_id = None
+    if dxf_insert.has_attrib("name"):
+        ref_name = dxf_insert.get_attrib("name").dxf.text
+    if dxf_insert.has_attrib("id"):
+        ref_id = int(dxf_insert.get_attrib("id").dxf.text)
     rotation = dxf_insert.get_dxf_attrib("rotation")
     position = PointF(dxf_insert.dxf.insert.x, dxf_insert.dxf.insert.y)
     item_entity_inst = EntityInst(ref_type, ref_name, position, id_=ref_id, rotation=rotation)
 
     return item_entity_inst
+
+
+def dxf_attrib_add_to_insert(dxf_attrib: Attrib, item_entity_inst: EntityInst):
+    if dxf_attrib.dxf.tag == "name":
+        ref_name = dxf_attrib.dxf.text
+        item_entity_inst.set_reference_name(ref_name)
+    elif dxf_attrib.dxf.tag == "id":
+        ref_id = int(dxf_attrib.dxf.text)
+        item_entity_inst.set_reference_id(ref_id)

@@ -17,7 +17,10 @@ class DxfBlock:
     def get_blocks_name(self) -> list:
         block_name_list = []
         for e in self.dwg.blocks:
-            if e.name != "*Model_Space" and e.name != "*Paper_Space":
+            if e.name == "*Paper_Space0":
+                print(e.name)
+                print(e)
+            if e.name != "*Model_Space" and e.name != "*Paper_Space" and e.name != "*Paper_Space0":
                 block_name_list.append(e.name)
         return block_name_list
 

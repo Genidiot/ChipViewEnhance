@@ -1,0 +1,79 @@
+{
+    "Type": "CLCL",
+    "width": 0,
+    "height": 0,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "items": [
+        {
+            "graphic": "Polygon",
+            "polygonNodes": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 200,
+                    "y": 0
+                },
+                {
+                    "x": 200,
+                    "y": 200
+                },
+                {
+                    "x": 0,
+                    "y": 200
+                }
+            ]
+        }
+    ],
+    "PinObjects": [
+        {
+            "Type": "circle_pin",
+            "Name": "A",
+            "id": 0,
+            "rotation": 0
+        },
+        {
+            "Type": "circle_pin",
+            "Name": "OA",
+            "id": 1,
+            "rotation": 0
+        }
+    ],
+    "PinLayout": [
+        {
+            "Name": "A",
+            "pos": {
+                "x": 0,
+                "y": 100
+            }
+        },
+        {
+            "Name": "OA",
+            "pos": {
+                "x": 200,
+                "y": 100
+            }
+        }
+    ],
+    "insideObjects": [
+        {
+            "Type": "SLABL",
+            "Name": "SLABL",
+            "id": 0,
+            "rotation": 0
+        }
+    ],
+    "insideLayout": [
+        {
+            "Name": "SLABL",
+            "pos": {
+                "x": 25,
+                "y": 25
+            }
+        }
+    ]
+}

@@ -40,7 +40,7 @@
         "20": 3000,
         "21": 3000
     },
-    "itemRegion": [
+    "itemRegions": [
         {
             "type": "SWH_W",
             "width": 1,

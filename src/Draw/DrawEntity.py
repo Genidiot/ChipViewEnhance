@@ -83,5 +83,6 @@ def draw_insert(item: EntityInst, block, dwg):
     ref_id = item.get_reference_id()
     rotation = item.get_rotation()
     block_ref = block.add_blockref(ref_entity_type, (point_x, point_y), dxfattribs={'rotation': rotation})
-    # block_ref.set_xdata("name", [(1000, ref_name)])
-    # block_ref.set_xdata("id", [(1071, ref_id)])
+    # block_ref.add_attrib("name", ref_name, (point_x, point_y))
+    if ref_id is not None:
+        block_ref.add_attrib("id", ref_id, (point_x, point_y))
