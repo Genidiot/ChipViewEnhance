@@ -108,6 +108,8 @@ class LineConfig:
     def create_line_entity(self, swh_config):
         units, grid = calculate_line.process_units()
         each_row_distances, each_col_distances = calculate_line.calculate_distances(grid)
+        print(units)
+        print(grid)
 
         unique_row_logical_distances = calculate_line.unique_distances(each_row_distances)
         unique_col_logical_distances = calculate_line.unique_distances(each_col_distances)
