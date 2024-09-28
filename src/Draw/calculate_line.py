@@ -31,8 +31,9 @@ def calculate_distances(grid):
     for y in range(grid.shape[0]):
         row_units = [grid[y][x] for x in range(grid.shape[1]) if grid[y][x] is not None]
         if row_units:
+            row_units_extended = row_units + list(reversed(row_units))
             physical_distances = calculate_physical_distances(row_units, 'x')
-            logical_distances = calculate_all_logical_distances(row_units, 'x')
+            logical_distances = calculate_all_logical_distances(row_units_extended, 'x')
             row_distances[y] = {
                 "physical_distances": physical_distances,
                 "logical_distances": logical_distances
@@ -41,8 +42,9 @@ def calculate_distances(grid):
     for x in range(grid.shape[1]):
         col_units = [grid[y][x] for y in range(grid.shape[0]) if grid[y][x] is not None]
         if col_units:
+            col_units_extended = col_units + list(reversed(col_units))
             physical_distances = calculate_physical_distances(col_units, 'y')
-            logical_distances = calculate_all_logical_distances(col_units, 'y')
+            logical_distances = calculate_all_logical_distances(col_units_extended, 'y')
             col_distances[x] = {
                 "physical_distances": physical_distances,
                 "logical_distances": logical_distances
@@ -62,12 +64,14 @@ def calculate_physical_distances(units, direction='x'):
 
 
 def calculate_all_logical_distances(units, direction='x'):
-    max_logical_distance = min(len(units)-1, 15)
+    max_logical_distance = min(len(units) // 2 - 1, 15)
     dict_distance = {}
+    half_length = len(units) // 2
+
     for logical_distance in range(1, max_logical_distance + 1):
         dict_distance[logical_distance] = []
         distance_combinations = set()
-        for i in range(len(units) - logical_distance):
+        for i in range(half_length):
             combination = []
             for j in range(logical_distance):
                 if direction == 'x':
@@ -109,23 +113,25 @@ def calculate_logical_distances_from_unit(grid, start_unit, direction='x', rever
         row_units.sort(reverse=reverse)
         start_index = row_units.index(start_unit)
         subsequent_units = row_units[start_index:]
+        subsequent_units_extend = subsequent_units + list(reversed(row_units))
     else:
         x = start_unit[0]
         col_units = [grid[y][x] for y in range(grid.shape[0]) if grid[y][x] is not None]
         col_units.sort(key=lambda pos: pos[1], reverse=reverse)
         start_index = col_units.index(start_unit)
         subsequent_units = col_units[start_index:]
+        subsequent_units_extend = subsequent_units + list(reversed(col_units))
 
-    distances = calculate_certain_logical_distances(subsequent_units, direction)
+    distances = calculate_certain_logical_distances(subsequent_units_extend, direction)
 
     if absolute:
-        distances = {k: tuple(abs(value) for value in combo) for k, combo in distances.items()}
+        distances = {k: tuple(value * -1 for value in combo) for k, combo in distances.items()}
 
     return distances
 
 
 def calculate_certain_logical_distances(units, direction='x'):
-    max_logical_distance = min(len(units)-1, 15)
+    max_logical_distance = 6
     dict_distance = {}
     for logical_distance in range(1, max_logical_distance + 1):
         dict_distance[logical_distance] = None

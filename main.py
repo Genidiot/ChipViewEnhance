@@ -149,7 +149,7 @@ def create_tc_test2():
 
     chip_view.add_tile_ref_from_graphic()
     chip_view.add_segment(pins)
-    chip_view.save_sa(f"./result_dxf/test3.dxf")
+    chip_view.save_sa(f"./result_dxf/test4.dxf")
 
     # json_output = write_json.graphic_to_json(chip_view_graphic)
     # write_json.save_json_to_file(json_output, 'output.json')

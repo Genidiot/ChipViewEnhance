@@ -114,7 +114,7 @@ class DxfChipView:
                 if block_ref.dxf.name == "SWH_W" or block_ref.dxf.name == "SWH_E":
                     insert_position = chip_view_graphic.physical_to_logic.get(
                         (block_ref.dxf.insert[0], block_ref.dxf.insert[1]))
-                    if insert_position == (17, 0):
+                    if insert_position == (21, 0):
                         pass
                     distances_from_unit_e = calculate_line.calculate_logical_distances_from_unit(grid,
                                                                                                  insert_position,
